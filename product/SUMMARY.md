@@ -3,7 +3,6 @@
 * [📖 Synopsis](README.md)
 * [ℹ️ Qui sommes nous ?](../presentation.md)
 * [✍Partenaires](../partenaires/README.md)
-  * [Brocloud](../partenaires/brocloud.md)
   * [Le Trèfle 2.0](../partenaires/le-trefle-2.0.md)
   * [Genepix](../partenaires/genepix.md)
 * [💕Nos soutiens](../nos-soutiens/README.md)
