@@ -2,7 +2,7 @@
 description: C'est une question de plus en plus courante !
 ---
 
-# Qu’est-ce que le rp ?
+# Qu’est-ce que le rp ?
 
 [![Eugenie Gatekin](https://miro.medium.com/fit/c/56/56/0*zPDzW_ALkNA3FNxB)](https://medium.com/@eugenie.gatekin?source=post_page-----9ffe59e0a5e8--------------------------------)
 

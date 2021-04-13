@@ -142,7 +142,7 @@
 * [Liste des APIs publique \( en cours \)](../web/liste-des-apis-publique.md)
 * [Apprendre le SEO naturel](https://www.grafikart.fr/tutoriels/seo-referencement-naturel-594)
 * [Tips pour fusionner des communautés Discord](../web/tips-pour-fusionner-des-communautes-discord.md)
-* [Qu’est-ce que le rp ?](../web/quest-ce-que-le-rp.md)
+* [Qu’est-ce que le rp ?](../web/quest-ce-que-le-rp.md)
 * [Google Admin Toolbox HAR Analyzer](../web/har-analyzer.md)
 
 ## Couche haute
@@ -175,8 +175,6 @@
 * [Introduction à tmux \(terminal multiplexer\)](../linux/introduction-a-tmux-terminal-multiplexer.md)
 
 ## Bot
-
----
 
 * [Héberger son bot Discord](https://baptiste0928.net/heberger-son-bot-discord/)
 

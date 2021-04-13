@@ -4,7 +4,7 @@ description: Un point d'écoute et d'échange tourné vers l'humain.
 
 # Le Trèfle 2.0
 
-Cette association de Loi 1901 présidé par ![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)@Anthony30![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)  
+Cette association de Loi 1901 présidé par ![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)@Anthony30![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)
 
 **OBJET:** Le Trèfle 2.0 est une plateforme numérique de communication qui a pour objet de proposer un lieu de réflexion et de discussion, et en cas de besoin une équipe de bénévoles écoutants est disponible gratuitement pour apporter un soutien moral par l’écoute.
 
@@ -16,16 +16,17 @@ Cette association de Loi 1901 présidé par ![:four\_leaf\_clover:](https://disc
 
 ![:video\_camera:](https://discord.com/assets/05a1abc6388a96e2a536650433c12fca.svg) Vidéo Youtube explicative et accessible en LSF:
 
-{% embed url="https://youtu.be/QQT5gEpPxg8" %}
+{% embed url="https://youtu.be/QQT5gEpPxg8" caption="" %}
 
 ## ![:discord\_gif\_benc:](https://cdn.discordapp.com/emojis/745264159851151471.gif?v=1) Discord :
 
-{% embed url="https://discord.gg/CTE2Dpz" %}
+{% embed url="https://discord.gg/CTE2Dpz" caption="" %}
 
 ## Déclaration associative
 
 \( S'il y a des erreurs d'affichage de certain élément, faut actualiser la page \)
 
-Déclarée en préfecture du GARD inscrit sous le numéro du répertoire national des associations : **W303005428** et le code APE : Action social sans hébergement n.c.a \(**8899B**\) 
+Déclarée en préfecture du GARD inscrit sous le numéro du répertoire national des associations : **W303005428** et le code APE : Action social sans hébergement n.c.a \(**8899B**\)
 
-{% embed url="https://www.journal-officiel.gouv.fr/document/associations\_b/202000370435" %}
+{% embed url="https://www.journal-officiel.gouv.fr/document/associations\_b/202000370435" caption="" %}
+

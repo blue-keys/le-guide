@@ -28,7 +28,7 @@ L'entreprise Européen **E-Commerce Nation** à mis en ligne plusieurs informati
 
 ## Pinterest
 
-![](../.gitbook/assets/1614240915351.jpeg)
+![](../.gitbook/assets/1614240915351%20%281%29.jpeg)
 
 ## Snapchat
 
