@@ -1,11 +1,11 @@
 ---
-description: Un point d'écoute et d'échange tourner vers l'humain.
+description: Un point d'écoute et d'échange tourné vers l'humain.
 ---
 
 # Le Trèfle 2.0
 
 Cette association de Loi 1901 présidé par ![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)@Anthony30![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)  
-  
+
 **OBJET:** Le Trèfle 2.0 est une plateforme numérique de communication qui a pour objet de proposer un lieu de réflexion et de discussion, et en cas de besoin une équipe de bénévoles écoutants est disponible gratuitement pour apporter un soutien moral par l’écoute.
 
 > « La parole et la liberté de penser sont des ressources à utiliser sans modération. Échanger, discuter, exprimer, écouter, réfléchir… c’est une manière efficace d’évoluer dans la vie. »
@@ -22,13 +22,10 @@ Cette association de Loi 1901 présidé par ![:four\_leaf\_clover:](https://disc
 
 {% embed url="https://discord.gg/CTE2Dpz" %}
 
-## Déclaration associative 
+## Déclaration associative
 
 \( S'il y a des erreurs d'affichage de certain élément, faut actualiser la page \)
 
 Déclarée en préfecture du GARD inscrit sous le numéro du répertoire national des associations : **W303005428** et le code APE : Action social sans hébergement n.c.a \(**8899B**\) 
 
 {% embed url="https://www.journal-officiel.gouv.fr/document/associations\_b/202000370435" %}
-
-
-
