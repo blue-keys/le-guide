@@ -2,7 +2,7 @@
 description: Une association qui fait de l'orientation numérique une priorité
 ---
 
-# ℹ️ Qui sommes nous ?
+# ℹ️ Qui sommes-nous ?
 
 ![](.gitbook/assets/logox200%20%281%29.png)
 
