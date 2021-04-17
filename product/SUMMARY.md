@@ -158,8 +158,6 @@
 
 ## Gaming
 
-* [Unity](../gaming/unity.md)
-* [Développer un jeu vidéo sur Unity](../gaming/developper-un-jeu-video-sur-unity.md)
 * [Installer Shadow Linux et Chrome book](../gaming/installer-shadow-linux-et-chrome-book.md)
 * [Comment choisir son alimentation d'ordi ?](../gaming/comment-choisir-son-alimentation-pc.md)
 
