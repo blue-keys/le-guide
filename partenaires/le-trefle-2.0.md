@@ -6,6 +6,8 @@ description: Un point d'écoute et d'échange tourné vers l'humain.
 
 Cette association de Loi 1901 présidé par ![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)@Anthony30![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)
 
+![](../.gitbook/assets/permanence_.png)
+
 **OBJET:** Le Trèfle 2.0 est une plateforme numérique de communication qui a pour objet de proposer un lieu de réflexion et de discussion, et en cas de besoin une équipe de bénévoles écoutants est disponible gratuitement pour apporter un soutien moral par l’écoute.
 
 > « La parole et la liberté de penser sont des ressources à utiliser sans modération. Échanger, discuter, exprimer, écouter, réfléchir… c’est une manière efficace d’évoluer dans la vie. »
@@ -17,8 +19,6 @@ Cette association de Loi 1901 présidé par ![:four\_leaf\_clover:](https://disc
 ![:video\_camera:](https://discord.com/assets/05a1abc6388a96e2a536650433c12fca.svg) Vidéo Youtube explicative et accessible en LSF:
 
 {% embed url="https://youtu.be/QQT5gEpPxg8" caption="" %}
-
-![](../.gitbook/assets/permanence_.png)
 
 ## ![:discord\_gif\_benc:](https://cdn.discordapp.com/emojis/745264159851151471.gif?v=1) Discord :
 
