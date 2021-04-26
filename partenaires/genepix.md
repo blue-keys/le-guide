@@ -21,7 +21,7 @@ Nous utilisons le Growth hacking, mais nous le revendiquons et nous en expliquon
 
 ## Discord
 
-{% embed url="https://www.tiktok.com/@genepixontiktok/video/6922018192982330625?is\_copy\_url=0&is\_from\_webapp=v2&sender\_device=pc&sender\_web\_id=6906771828481230342" %}
+{% embed url="https://discord.gg/v5MnPv4537" %}
 
 ## Genepix Launcher
 
