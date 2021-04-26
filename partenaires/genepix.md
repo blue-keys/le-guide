@@ -6,7 +6,7 @@ description: >-
 
 # Genepix
 
-![](https://cdn.discordapp.com/icons/789670704911613992/a_7af17b12b298022a12c4b400e9bbeaad.gif?size=256)
+![](../.gitbook/assets/da634044536d0ea37d01a1b4e1d265d3%20%281%29.jpeg)
 
 Nous sommes Féfé et Tom, deux passionnés d'informatique et de programmation. Nous avons décidé de monter une chaîne Tiktok afin d'abord de partager nos connaissances et du contenu créatif autour de l'informatique et du code. 
 
