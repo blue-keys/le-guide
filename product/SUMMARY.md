@@ -2,6 +2,7 @@
 
 * [📖 Synopsis](README.md)
 * [ℹ️ Qui sommes-nous ?](../presentation.md)
+* [🗣 Faire une suggestion](https://suggestion.bluekeys.org/)
 * [✍Partenaires](../partenaires/README.md)
   * [Le Trèfle 2.0](../partenaires/le-trefle-2.0.md)
   * [Genepix](../partenaires/genepix.md)
