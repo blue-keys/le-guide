@@ -14,7 +14,9 @@ Nous rejoindre : [bkjoin.fr](http://bkjoin.fr)
 
 {% embed url="https://docs.bluekeys.org/guide/dernier-article" %}
 
-{% embed url="https://bluekeys.nolt.io/" caption="suggestion.bluekeys.org" %}
+{% embed url="https://suggestion.bluekeys.org/leguide" %}
+
+
 
 ### ![:discord\_gif\_benc:](https://cdn.discordapp.com/emojis/745264159851151471.gif?v=1)Discord
 
