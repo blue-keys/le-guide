@@ -2,7 +2,6 @@
 
 * [📖 Synopsis](README.md)
 * [ℹ️ Qui sommes-nous ?](../presentation.md)
-* [🗣 Faire une suggestion](https://suggestion.bluekeys.org/)
 * [✍Partenaires](../partenaires/README.md)
   * [Le Trèfle 2.0](../partenaires/le-trefle-2.0.md)
   * [Genepix](../partenaires/genepix.md)
@@ -21,6 +20,7 @@
   * [CryptoCity](../nos-soutiens/cryptocity.md)
   * [💻 Suicide Code](../nos-soutiens/suicide-code.md)
 * [🙏 Crédits \(en cours\)](../credits-en-cours.md)
+* [🗣 Faire une suggestion](https://suggestion.bluekeys.org/)
 * [📘 Dernier article](../dernier-article.md)
 * [🔗 Nos liens](../bkjoin.md)
 
