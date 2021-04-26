@@ -10,6 +10,8 @@ Cette association de Loi 1901 présidé par ![:four\_leaf\_clover:](https://disc
 
 > « La parole et la liberté de penser sont des ressources à utiliser sans modération. Échanger, discuter, exprimer, écouter, réfléchir… c’est une manière efficace d’évoluer dans la vie. »
 
+![](../.gitbook/assets/permanence_.png)
+
 ![:valider:](https://cdn.discordapp.com/emojis/751023390428758046.png?v=1) Des bénévoles écoutants, disponibles gratuitement, afin d'apporter un soutien moral par l’écoute dans la confidentialité des échanges publiques comme privés.
 
 ![:wave:](https://discord.com/assets/df7ba0f4020ca70048a0226d1dfa73f6.svg) On a tous des moments heureux et inversement, c'est toujours bon d'avoir une écoute.
