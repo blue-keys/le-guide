@@ -1,20 +1,20 @@
 ---
-description: 'Passionné par le graphisme, il créer de superbes dessins !'
+description: >-
+  Passionné par le graphisme, il créer de superbes dessins et devient un jeune
+  entrepreneur
 ---
 
 # Toshi
 
-![](../.gitbook/assets/reines.gif)
+![](../.gitbook/assets/grapic_service.png)
 
-Hello There, à mon tour de me présenter eh eh eh donc je me nomme Toshi \(certain savent mon prénom mes chutes\) j'ai 16 ans je fais une formation dans les métiers de l'enseigne et de la signalétique en cours MES.   
-  
-J'ai deux buts dans la vie : devenir Graphiste indépendant et ouvrir ma propre boîte ET devenir numéro 1 dans mon domaine ! Être parmi les meilleurs je suis fan d'animé tel que My Hero Academia.  
-  
-L'attaque des Titans, JoJo Bizzard Adventure, Darling in the fraxx ou même One punch man \(j'ai un style bien précis\), j'adore dessiner que ce soit sur papier ou même sur informatique, je fais des photos de profile des bannières, des fonds d'écran enfin bref j'adore !   
-  
-Je compte être entrepreneur à 16 ans et obtenir une licence de graphiste ainsi que les droits d'auteur pour mes productions  voilà voilà j'aime aussi l'informatique surtout Mac et Windows, même si j'ai plus de facilité sur Mac.
+Je me présente Toshinorie, âgée de 16 ans et étudiant d'un bac professionnel métiers de l'enseigne et de la signalétique, cela fait partie du domaine des enseignes lumineuses, décoration d'intérieur comme d'extérieur avec aussi des habillages de véhicule, design de vêtements je travaille vraiment sur beaucoup de choses. 
 
-Vous pouvez me retrouver sur le Discord de Bluekeys :\)
+Grâce à Léolios, le président de Bluekeys, j'ai réussi à me lancer sur la voie du graphisme je dessinais beaucoup de base sur papier ou même sur ordinateur avec une tablette graphique avec un style assez vectoriel qui doit être mise sur beaucoup de façade ou autre. 
+
+J'offre désormais des services de graphiste abordable pour tous, aussi une façon à transmettre mon savoir ainsi que mes capacités à ceux qui en aurait réellement besoin dans le design, graphisme et plus. Il arrive que je reprennes des éléments open source d'un un stock en ligne de mes licences, bien entendu je retrace certaines images, il n'y a jamais de plagia ou pris sans consentement à des personnes ou des entreprises, c'est l'une de mes valeurs !
+
+Si une personne a besoin de moi ou autre faites-le-moi savoir envoyez-moi un message privé c'est fait pour ça. Vous pouvez me retrouver sur avec plaisir sur l'une de mes communauté et sur le Discord de Bluekeys, à bientôt !
 
 ## 📨 Email 
 
@@ -23,6 +23,10 @@ Vous pouvez me retrouver sur le Discord de Bluekeys :\)
 ## 🖼 Instagram
 
 {% embed url="https://www.instagram.com/toshi\_graph/?hl=fr" %}
+
+##  ![:discord\_gif\_benc:](https://cdn.discordapp.com/emojis/745264159851151471.gif?v=1)Discord
+
+{% embed url="https://discord.gg/7Jf8j5NByV" %}
 
 
 
