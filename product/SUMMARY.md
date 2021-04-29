@@ -18,7 +18,6 @@
   * [💻Café des devs](../nos-soutiens/cafe-des-devs.md)
   * [🛡️ TheBlackSide](../nos-soutiens/theblackside.md)
   * [CryptoCity](../nos-soutiens/cryptocity.md)
-  * [💻 Suicide Code](../nos-soutiens/suicide-code.md)
 * [🙏 Crédits \(en cours\)](../credits-en-cours.md)
 * [🗣 Faire une suggestion](https://suggestion.bluekeys.org/)
 * [📘 Dernier article](../dernier-article.md)
