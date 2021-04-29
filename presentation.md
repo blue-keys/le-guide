@@ -2,9 +2,9 @@
 description: Une association qui fait de l'orientation numérique une priorité
 ---
 
-# ℹ️ Qui sommes nous ?
+# ℹ️ Qui sommes-nous ?
 
-![](.gitbook/assets/moshed-2021-2-11-3-57-43.gif)
+![](.gitbook/assets/logox200%20%281%29.png)
 
 Qu'est-ce que **BlueKeys** ? C'est une **association** immatriculée le 23 février 2021 en Gironde
 

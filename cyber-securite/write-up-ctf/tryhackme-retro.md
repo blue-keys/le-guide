@@ -8,9 +8,9 @@ Le CTF "Retro" est disponible sur la plateforme TryHackMe et a la difficulté "h
 
 1. Enumeration ;
 2. Exploitation ;
-3. Escalation de privilège.
+3. Escalation de privilège .
 
-Nous allons devoir trouver les flags sur un serveur web basé sur Windows.
+ Nous allons devoir trouver les flags sur un serveur web basé sur Windows.
 
 {% hint style="info" %}
 MACHINE\_IP représente l'IP de la machine "Retro".

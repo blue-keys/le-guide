@@ -1,10 +1,9 @@
 # Table of contents
 
 * [📖 Synopsis](README.md)
-* [ℹ️ Qui sommes nous ?](../presentation.md)
+* [ℹ️ Qui sommes-nous ?](../presentation.md)
 * [✍Partenaires](../partenaires/README.md)
   * [Le Trèfle 2.0](../partenaires/le-trefle-2.0.md)
-  * [Brocloud](../partenaires/brocloud.md)
   * [Genepix](../partenaires/genepix.md)
 * [💕Nos soutiens](../nos-soutiens/README.md)
   * [Jonathan Boyer](../nos-soutiens/jonathan-boyer.md)
@@ -19,8 +18,8 @@
   * [💻Café des devs](../nos-soutiens/cafe-des-devs.md)
   * [🛡️ TheBlackSide](../nos-soutiens/theblackside.md)
   * [CryptoCity](../nos-soutiens/cryptocity.md)
-  * [💻 Suicide Code](../nos-soutiens/suicide-code.md)
 * [🙏 Crédits \(en cours\)](../credits-en-cours.md)
+* [🗣 Faire une suggestion](https://suggestion.bluekeys.org/)
 * [📘 Dernier article](../dernier-article.md)
 * [🔗 Nos liens](../bkjoin.md)
 
@@ -72,7 +71,7 @@
 * [On dit chiffrer plutôt que crypter](../cyber-securite/on-dit-chiffrer-plutot-que-crypter.md)
 * [Web security academy - WSA](https://sites.google.com/view/secu-hacking/labs-web-security-academy-th%C3%A8mes?authuser=0)
 * [Write-up ctf](../cyber-securite/write-up-ctf/README.md)
-  * [TryHackMe - Retro](../cyber-securite/write-up-ctf/untitled.md)
+  * [TryHackMe - Retro](../cyber-securite/write-up-ctf/tryhackme-retro.md)
 * [SANS - Formations en cybersécurité](https://www.sans.org/cyber-security-training/france)
 
 ## Développement logiciels <a id="dev"></a>
@@ -143,7 +142,7 @@
 * [Liste des APIs publique \( en cours \)](../web/liste-des-apis-publique.md)
 * [Apprendre le SEO naturel](https://www.grafikart.fr/tutoriels/seo-referencement-naturel-594)
 * [Tips pour fusionner des communautés Discord](../web/tips-pour-fusionner-des-communautes-discord.md)
-* [Qu’est-ce que le rp ?](../web/quest-ce-que-le-rp.md)
+* [Qu’est-ce que le rp ?](../web/quest-ce-que-le-rp.md)
 * [Google Admin Toolbox HAR Analyzer](../web/har-analyzer.md)
 
 ## Couche haute
@@ -159,8 +158,6 @@
 
 ## Gaming
 
-* [Unity](../gaming/unity.md)
-* [Développer un jeu vidéo sur Unity](../gaming/developper-un-jeu-video-sur-unity.md)
 * [Installer Shadow Linux et Chrome book](../gaming/installer-shadow-linux-et-chrome-book.md)
 * [Comment choisir son alimentation d'ordi ?](../gaming/comment-choisir-son-alimentation-pc.md)
 
@@ -176,8 +173,6 @@
 * [Introduction à tmux \(terminal multiplexer\)](../linux/introduction-a-tmux-terminal-multiplexer.md)
 
 ## Bot
-
----
 
 * [Héberger son bot Discord](https://baptiste0928.net/heberger-son-bot-discord/)
 
