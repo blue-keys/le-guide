@@ -6,7 +6,7 @@ description: >-
 
 # Genepix
 
-![](../.gitbook/assets/a_713f3855cb5cec33ffb68204a582c9d6%20%281%29.gif)
+![](https://cdn.discordapp.com/icons/789670704911613992/a_7af17b12b298022a12c4b400e9bbeaad.gif?size=256)
 
 Nous sommes Féfé et Tom, deux passionnés d'informatique et de programmation. Nous avons décidé de monter une chaîne Tiktok afin d'abord de partager nos connaissances et du contenu créatif autour de l'informatique et du code. 
 
@@ -21,7 +21,7 @@ Nous utilisons le Growth hacking, mais nous le revendiquons et nous en expliquon
 
 ## Discord
 
-{% embed url="https://discord.gg/v5MnPv4537" %}
+{% embed url="https://www.tiktok.com/@genepixontiktok/video/6922018192982330625?is\_copy\_url=0&is\_from\_webapp=v2&sender\_device=pc&sender\_web\_id=6906771828481230342" %}
 
 ## Genepix Launcher
 

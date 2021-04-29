@@ -20,7 +20,7 @@ Nous nous efforçons de respecter un maximum les licences de chaque article, pro
 Si tu commences à lire ce guide, c'est que tu es sur la bonne voie ! 😄
 {% endhint %}
 
-{% embed url="https://suggestion.bluekeys.org/changelog/lancement-de-loutil-de-suggestion" %}
+{% embed url="https://bluekeys.nolt.io/" caption="https://suggestion.bluekeys.org/" %}
 
 ## Un pourboire ?
 
