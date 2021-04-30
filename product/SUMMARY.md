@@ -5,7 +5,6 @@
 * [✍Partenaires](../partenaires/README.md)
   * [Le Trèfle 2.0](../partenaires/le-trefle-2.0.md)
   * [Brocloud](../partenaires/brocloud.md)
-  * [Genepix](../partenaires/genepix.md)
 * [💕Nos soutiens](../nos-soutiens/README.md)
   * [Jonathan Boyer](../nos-soutiens/jonathan-boyer.md)
   * [💻 Azales](../nos-soutiens/azales.md)
