@@ -63,7 +63,7 @@ Email : contact@bluekeys.org
 
 ### ![:discord\_gif\_benc:](https://cdn.discordapp.com/emojis/745264159851151471.gif?v=1)Discord
 
-{% embed url="https://discord.gg/fgzfqSD3tp" %}
+{% embed url="https://discord.gg/2XGRFKDWeC" %}
 
 ###  🎁 Tipeee
 
