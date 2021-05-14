@@ -52,7 +52,6 @@
 
 * [Blukeys \(en cours\)](../projets/blukeys-en-cours.md)
 * [Communautés](../projets/autour/README.md)
-  * [Orion](../projets/autour/orion.md)
   * [Quark](../projets/autour/quark.md)
 
 ## Français
