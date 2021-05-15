@@ -12,7 +12,7 @@ Depuis on a créé un Discord et on papotes, nous nous amusons tous ensemble. Je
 
 ## ![:shinto\_shrine:](https://discord.com/assets/c69e993b1de469f191315a52bfa4f1b1.svg)**Discord**
 
-{% embed url="https://discord.gg/ReWZqSA79C" %}
+{% embed url="https://discord.gg/TdEnp8s9gn" %}
 
 ## 🎶 Tiktok 
 
