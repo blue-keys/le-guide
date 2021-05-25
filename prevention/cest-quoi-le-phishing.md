@@ -68,7 +68,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
 
 ### Penser à **:**
 
-* Un bon mot de passe doit contenir au minimum 10 caractères avec des minuscules, majuscules, chiffres et caractères spéciaux ;
+* Un bon mot de passe doit contenir au minimum 12 caractères avec des minuscules, majuscules, chiffres et caractères spéciaux ;
 * Ne jamais le noter, trouver un moyen autre ;
 * Si vous avez la possibilité d'activer l'authentification à deux facteurs, faites-le cela permet d'avoir un code temporaire à chaque connexion, comme ça l'attaquant qui possède votre identifiant et mot de passe ne pourra jamais ce que connecter sans le code complémentaire ;
 * Maintenez vos programmes à jour ;
