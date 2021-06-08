@@ -47,7 +47,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
    Comme nous l'avons énoncé précédemment pour l'objet du courriel, regardez son contenu pour détecter les erreurs de syntaxes, d'orthographes ou de grammaires.
 
 {% hint style="success" %}
-### **Les bons réflexes** 
+### **Les bons réflexes**
 
 * Ne pas ouvrir les pièces jointes ;
 * Ne pas répondre ;
@@ -91,7 +91,5 @@ Temps estimé pour déchiffrer votre mot de passe en 2021 :
 Vous pouvez me retrouver sur le Discord de Bluekeys pour échanger.
 {% endhint %}
 
-{% embed url="https://pixabay.com/fr/service/license/" %}
-
-
+{% embed url="https://pixabay.com/fr/service/license/" caption="" %}
 

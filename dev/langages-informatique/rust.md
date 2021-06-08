@@ -49,7 +49,7 @@ fn main() {
 }
 ```
 
-Rédigé par _Azales_ \(disponible sur le serveur **Kecharrm ou Genepix** si besoin\)  
+Rédigé par _Azales_  
   
 Ma biographie :
 
