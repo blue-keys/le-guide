@@ -36,7 +36,7 @@ Pour ceux qui veulent des petits exercices à faire en Rust sur certaines notion
 
 {% embed url="https://github.com/rust-lang/rustlings" %}
 
-Njörd \(un contributeur sur le serveur **Kecharrm**\) m'a montré ça et c'est plutôt pas mal, c'est une fiche de révision du langage, en revanche c'est aussi en **anglais** 🇬🇧 :
+Njörd m'a montré ça et c'est plutôt pas mal, c'est une fiche de révision du langage, en revanche c'est aussi en **anglais** 🇬🇧 :
 
 {% embed url="https://cheats.rs/" %}
 
