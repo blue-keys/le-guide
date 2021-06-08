@@ -32,7 +32,7 @@ Pour ceux qui veulent exécuter du rust en ligne vite fait juste pour test :
 
 {% embed url="https://play.rust-lang.org/" %}
 
-Pour ceux qui veulent des petits exercices à faire en Rust sur certaines notions 🇬🇧 \(**c'est en anglais**\) merci à 0xTimD \(un membre du serveur **Kecharrm** et **Genepix**\) de m'avoir partagé ce lien : 
+Pour ceux qui veulent des petits exercices à faire en Rust sur certaines notions 🇬🇧 \(**c'est en anglais**\) merci à 0xTimD de m'avoir partagé ce lien : 
 
 {% embed url="https://github.com/rust-lang/rustlings" %}
 
