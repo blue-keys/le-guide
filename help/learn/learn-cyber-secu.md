@@ -7,7 +7,7 @@ description: Vous voulez débuter en sécurité informatique et ne savez pas où
 {% embed url="https://giphy.com/gifs/pbsdigitalstudios-education-xT0xeNwHemJw4fM5ag" %}
 
 {% hint style="info" %}
-Pas de panique, cette page est là pour vous orienter avec toutes les informations ! Mais avant ça, même si c'est chiant, on doit parler un peu de lois, parce-que nulle n'est censé l'ignorer.
+Pas de panique, cette page est là pour vous orienter avec toutes les informations ! Mais avant ça, même si c'est chiant, on doit parler un peu de lois, parce-que nul n'est censé l'ignorer.
 {% endhint %}
 
 | **Termes** | **Signification** |
@@ -78,7 +78,7 @@ En ce qui concerne le réseau, pensez à :
 
 Lorsque le moment est venu de mettre en pratique ce que vous avez appris dans les livres, utilisez des ressources telles que le blog sur l'analyse du trafic des logiciels malveillants et la consultation de PacketTotal pour vous faire une idée de ce qui est "normal" et de ce qui ne l'est pas. Votre objectif ici devrait être de comprendre les sources de données \(preuves réseau\) qui peuvent être utilisées pour détecter et expliquer l'activité. Pour affiner vos processus d'investigation sur le réseau, pensez à Security Onion. Installez quelques capteurs réseau, surveillez le trafic et créez des signatures Snort/Suricata pour signaler le trafic illicite. Votre objectif est d'établir un processus d'enquête de base et, comme pour les points d'accès, de comprendre les côtés attaque et défense de l'équation.
 
-## 3. Cherchez à pratique plus que la lecture
+## 3. Cherchez à pratiquer plus qu'à lire
 
 Avez-vous déjà suivi un cours et, des mois plus tard, essayé d'utiliser les connaissances que vous aviez prétendument acquises pour découvrir que vous aviez oublié tous les éléments importants ? Oui, si vous déconnectez l'apprentissage de l'utilisation des connaissances, vous allez être dans une situation difficile. C'est peut-être l'un des plus grands défis à relever lorsqu'on se lance dans un rôle de sécurité plus technique.
 
