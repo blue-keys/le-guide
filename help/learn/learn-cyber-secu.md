@@ -7,7 +7,7 @@ description: Vous voulez débuter en sécurité informatique et ne savez pas où
 {% embed url="https://giphy.com/gifs/pbsdigitalstudios-education-xT0xeNwHemJw4fM5ag" %}
 
 {% hint style="info" %}
-Pas de panique, cette page est là pour vous orienter avec toutes les informations ! Mais avant ça, même si c'est chiant, on doit parler un peu de lois, parce-que nulle n'est l'ignorer.
+Pas de panique, cette page est là pour vous orienter avec toutes les informations ! Mais avant ça, même si c'est chiant, on doit parler un peu de lois, parce-que nulle n'est censé l'ignorer.
 {% endhint %}
 
 | **Termes** | **Signification** |
@@ -16,7 +16,7 @@ Pas de panique, cette page est là pour vous orienter avec toutes les informatio
 | CTF | Capture The Flag |
 | Pentest | Test d'intrusion |
 | Mac Lobster | Hamburger vendu au Canada 😂  |
-| Forensinc | Analyse du système d'information après une attaque informatique |
+| Forensic | Analyse du système d'information après une attaque informatique |
 | Journalisation | Action de relever, inscrire tous les événements produit par le système informatique |
 | PowerShell | Interface en ligne de commande sur Windows, ainsi qu'un kit de développement |
 
