@@ -4,7 +4,7 @@ description: >-
   bouge constamment. Merci.
 ---
 
-# 🙏 Crédits \(en cours\)
+# �� Crédits \(en cours\)
 
 Le but est de citer la plupart des sources, contributeurs ...
 
