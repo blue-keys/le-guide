@@ -145,5 +145,7 @@ Pour débuter :
 
 ## 13. Une suite par Bluekeys ?
 
- Suivez nous sur [Discord](https://discord.gg/2XGRFKDWeC) ainsi que notre future chaîne twitch pour plus d'informations, la bienveillance amène la bienveillance !
+{% hint style="info" %}
+Suivez nous sur [Discord](https://discord.gg/2XGRFKDWeC) ainsi que notre future chaîne twitch pour plus d'informations, la bienveillance amène la bienveillance !
+{% endhint %}
 
