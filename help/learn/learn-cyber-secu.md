@@ -4,7 +4,7 @@ description: Vous voulez débuter en sécurité informatique et ne savez pas où
 
 # Apprendre la cybersécurité
 
-{% embed url="https://giphy.com/gifs/pbsdigitalstudios-education-xT0xeNwHemJw4fM5ag" %}
+{% embed url="https://giphy.com/gifs/pbsdigitalstudios-education-xT0xeNwHemJw4fM5ag" caption="" %}
 
 {% hint style="info" %}
 Pas de panique, cette page est là pour vous orienter avec toutes les informations ! Mais avant ça, même si c'est chiant, on doit parler un peu de lois, parce-que nul n'est censé l'ignorer.
@@ -12,10 +12,10 @@ Pas de panique, cette page est là pour vous orienter avec toutes les informatio
 
 | **Termes** | **Signification** |
 | :--- | :--- |
-| Hacking | Piratage |
+| Hacking | Bidouillage dans le contexte informatique apparenté souvent au piratage |
 | CTF | Capture The Flag |
 | Pentest | Test d'intrusion |
-| Mac Lobster | Hamburger vendu au Canada 😂  |
+| Mac Lobster | Hamburger vendu au Canada 😂 |
 | Forensic | Analyse du système d'information après une attaque informatique |
 | Journalisation | Action de relever, inscrire tous les événements produit par le système informatique |
 | PowerShell | Interface en ligne de commande sur Windows, ainsi qu'un kit de développement |
@@ -56,17 +56,17 @@ Suivez les experts influents de la cybersécurité sur Twitter. Ceux qui ont le 
 
 Il existe plusieurs entreprises qui produisent régulièrement du contenu de qualité sur la sécurité. En tête de liste, nous trouvons **CrowdStrike**, **Endgame**, **FireEye**, **Kaspersky**, **Palo Alto's Unit 42** et **TrendLabs**. Au fil de votre lecture, essayez de comprendre comment vous détecteriez l'activité décrite, puis comment vous enquêteriez.
 
-Il existe aussi des _CTF_, il s'agit de compétitions en solo ou en équipe, généralement des challenges lié à la sécurité où il est nécessaire de retrouver un mot de passe qu'on appel le flag, plus d'info sur les CTF: 
+Il existe aussi des _CTF_, il s'agit de compétitions en solo ou en équipe, généralement des challenges lié à la sécurité où il est nécessaire de retrouver un mot de passe qu'on appel le flag, plus d'info sur les CTF:
 
-{% embed url="https://medium.com/prohacktive/quest-ce-qu-un-ctf-capture-the-flag-26af33219c90" %}
+{% embed url="https://medium.com/prohacktive/quest-ce-qu-un-ctf-capture-the-flag-26af33219c90" caption="" %}
 
 Ce qui est génial, c'est qu'après, les compétiteurs font ce qu'on appelle des write up. Il s'agit de documents qui expliquent pas à pas comment un challenge a été réussi. C'est une vraie mine d'or d'informations ! Nous recommandons vivement que vous en lisiez ou regardiez, car, oui, il y en a même sur YouTube!
 
 Cherchez-vous à développer vos connaissances techniques en vue d'un poste d'analyste ? L'étendue de ce que vous devez savoir peut paraître décourageant. Les connaissances les plus fondamentales à acquérir concernent peut-être la suite de protocoles TCP/IP. Préparez-vous à répondre en toute confiance à la question "que se passe-t-il quand...".
 
-Pour l'apprentissage du F**orensic**, vous ne pouvez probablement pas obtenir de meilleures bases que la 3e édition de "Incident Response and Computer **Forensics**". Le chapitre sur l'investigation de Windows est un véritable trésor. Plongez dans Powershell, les cadres d'attaque associés, et apprenez à accroître la visibilité de l'activité PowerShell grâce à la journalisation. Associez ces connaissances à l'une des meilleures formations gratuites disponibles sur Cobalt Strike et d'autres vidéos, regardez-les et appliquez les concepts que vous avez appris dans le cadre de l'essai de 21 jours de Cobalt Strike. 
+Pour l'apprentissage du F**orensic**, vous ne pouvez probablement pas obtenir de meilleures bases que la 3e édition de "Incident Response and Computer **Forensics**". Le chapitre sur l'investigation de Windows est un véritable trésor. Plongez dans Powershell, les cadres d'attaque associés, et apprenez à accroître la visibilité de l'activité PowerShell grâce à la journalisation. Associez ces connaissances à l'une des meilleures formations gratuites disponibles sur Cobalt Strike et d'autres vidéos, regardez-les et appliquez les concepts que vous avez appris dans le cadre de l'essai de 21 jours de Cobalt Strike.
 
-#### Vous n'avez pas assez de temps ? 
+#### Vous n'avez pas assez de temps ?
 
 Envisagez d'investir. Le "Blue Team Field Manual" et le "Red Team Field Manual" complètent nos recommandations à ce sujet. En parallèle, mettez en place un laboratoire avec des postes de travail Windows 7 \(ou ultérieur\) reliés à un domaine. Compromettez le poste de travail en utilisant certaines des techniques les plus simples, puis explorez l'activité post-exploitation. Votre objectif est de vous faire une idée aussi bien du côté de l'attaque que de la défense.
 
@@ -86,7 +86,7 @@ Pour y remédier, en plus de combiner lecture et pratique, pensez à la techniqu
 
 ## 4. Développer un état d'esprit malveillant
 
-Il y a quelques années, un spécialiste de la sécurité expliquait comment devenir un meilleur défenseur en pensant comme un adversaire. L'histoire s'accompagnait d'échanges maladroits \(et humoristiques\). Il est entré dans une chambre d'hôtel avec sa famille pendant ses vacances, a vu le distributeur de savon non sécurisé installé dans le mur de la douche et a dit à haute voix : "Wow, ce serait si facile de remplacer le shampoing par du Nair ! \(produit d'épilation\)" Sa famille était horrifiée. 
+Il y a quelques années, un spécialiste de la sécurité expliquait comment devenir un meilleur défenseur en pensant comme un adversaire. L'histoire s'accompagnait d'échanges maladroits \(et humoristiques\). Il est entré dans une chambre d'hôtel avec sa famille pendant ses vacances, a vu le distributeur de savon non sécurisé installé dans le mur de la douche et a dit à haute voix : "Wow, ce serait si facile de remplacer le shampoing par du Nair ! \(produit d'épilation\)" Sa famille était horrifiée.
 
 Soyons clairs : nous ne préconisons pas que vous remplaciez le shampoing par du Nair, ou tout autre produit anti-capillaire. Et le concept de penser comme un agresseur n'est pas nouveau. Il y a huit ans, lorsqu'on a demandé à Lance Cottrell ce qui faisait un bon professionnel de la cybersécurité, il a répondu qu'il se mettait "à la place de l'attaquant et regardait le réseau comme l'ennemi le regarderait, puis réfléchissait à la manière de le protéger".
 
@@ -112,7 +112,7 @@ Comme dans tout domaine technologique, il est utile de commencer par acquérir l
 
 ## 8. Déterminez ce que vous voulez apprendre.
 
-Le domaine de la cybersécurité est très vaste et comporte de nombreuses spécialités, qui changent et évoluent en permanence. La première étape de votre apprentissage autonome de la cybersécurité consiste à définir les domaines sur lesquels vous souhaitez vous concentrer et de vous faire une bonne image mentale de l'ensemble. Vous avez la possibilité de changer d'avis plus tard ou de pivoter,  il est essentiel de savoir quel domaine vous intéresse. Demandez-vous si vous voulez vous concentrer sur la programmation, les tests de pénétration, la sécurité des réseaux, la criminalistique ou un autre domaine. En décidant maintenant, vous pourrez déterminer la meilleure voie à suivre.
+Le domaine de la cybersécurité est très vaste et comporte de nombreuses spécialités, qui changent et évoluent en permanence. La première étape de votre apprentissage autonome de la cybersécurité consiste à définir les domaines sur lesquels vous souhaitez vous concentrer et de vous faire une bonne image mentale de l'ensemble. Vous avez la possibilité de changer d'avis plus tard ou de pivoter, il est essentiel de savoir quel domaine vous intéresse. Demandez-vous si vous voulez vous concentrer sur la programmation, les tests de pénétration, la sécurité des réseaux, la criminalistique ou un autre domaine. En décidant maintenant, vous pourrez déterminer la meilleure voie à suivre.
 
 ## 9. Puis-je apprendre gratuitement ?
 
@@ -131,16 +131,16 @@ Une machine virtuelle ou VM est un environnement entièrement virtualisé qui fo
 Pour débuter :
 
 [https://expel.io/blog/a-beginners-guide-to-getting-started-in-cybersecurity/](https://expel.io/blog/a-beginners-guide-to-getting-started-in-cybersecurity/)  
- [https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/](https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/)  
- [https://learntocodewith.me/posts/cybersecurity/\#how-to-get-started-in-cybersecurity](https://learntocodewith.me/posts/cybersecurity/#how-to-get-started-in-cybersecurity) 
+[https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/](https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/)  
+[https://learntocodewith.me/posts/cybersecurity/\#how-to-get-started-in-cybersecurity](https://learntocodewith.me/posts/cybersecurity/#how-to-get-started-in-cybersecurity)
 
 | Sources | Définition |
 | :--- | :--- |
 | [Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings) | Compilation d'outils et de commandes intéressantes, vous trouverez des informations sur toutes les principales failles. |
 | [Rustscan](https://github.com/RustScan/RustScan) | Outil de scan de machine, comme nmap |
 | [GTFObins](https://gtfobins.github.io/) | Collection d'exploits visant à escalader ses privilèges |
-| [Nishang](https://github.com/samratashok/nishang)  | Collection d'exploits visant à escalader ses privilèges |
-| [Nishang](https://github.com/samratashok/nishang)  | Collection de scripts powershell afin d'exploiter les machines windows |
+| [Nishang](https://github.com/samratashok/nishang) | Collection d'exploits visant à escalader ses privilèges |
+| [Nishang](https://github.com/samratashok/nishang) | Collection de scripts powershell afin d'exploiter les machines windows |
 | [Security idiots](http://www.securityidiots.com/) | Très bon blog plein d'information sur l'infosec |
 
 ## 13. Une suite par Bluekeys ?
