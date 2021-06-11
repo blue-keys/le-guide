@@ -18,11 +18,9 @@ Pas de panique, cette page est là pour vous orienter avec toutes les informatio
 | Mac Lobster | Hamburger vendu au Canada 😂 |
 | Forensic | Analyse du système d'information après une attaque informatique |
 | Journalisation | Action de relever, inscrire tous les événements produit par le système informatique |
-| PowerShell | Interface en ligne de commande sur Windows, ainsi qu'un kit de développement |
+| PowerShell | Est Multiplateforme pour l’automatisation des tâches, composée d’un interpréteur de commandes \(shell\), d’un langage de script et d’un framework de gestion de la configuration. Il s’exécute sur Windows, Linux et macOS. |
 
 {% hint style="danger" %}
-## Hacking et risques juridiques
-
 Il va sans dire que si le piratage peut être fait de manière éthique, il existe de nombreuses personnes qui jugent superflu le fait de rester dans un cadre légal... dans l'éventualité où vous souhaitiez vous abstenir de suivre la loi, laissez-moi vous rappeler les risques auxquels vous seriez exposés.
 
 La France dispose de lois contre le piratage depuis la [loi Godfrain](https://www.securiteinfo.com/legal/loi88-19.shtml) \(en 1988 !\). Déjà à l'époque, la loi prévoyait des peines de prison jusqu'à 2 ans et des amendes jusqu'à 25300€ en comptant l'inflation.
