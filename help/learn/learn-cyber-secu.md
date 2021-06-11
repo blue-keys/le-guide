@@ -18,7 +18,7 @@ Pas de panique, cette page est là pour vous orienter avec toutes les informatio
 | Mac Lobster | Hamburger vendu au Canada 😂 |
 | Forensic | Analyse du système d'information après une attaque informatique |
 | Journalisation | Action de relever, inscrire tous les événements produit par le système informatique |
-| PowerShell | Est Multiplateforme pour l’automatisation des tâches, composée d’un interpréteur de commandes \(shell\), d’un langage de script et d’un framework de gestion de la configuration. Il s’exécute sur Windows, Linux et macOS. |
+| PowerShell | Est une Multiplateforme pour l’automatisation des tâches, composée d’un interpréteur de commandes \(shell\), d’un langage de script et d’un framework de gestion de la configuration. Il s’exécute sur Windows, Linux et macOS. |
 
 {% hint style="danger" %}
 Il va sans dire que si le piratage peut être fait de manière éthique, il existe de nombreuses personnes qui jugent superflu le fait de rester dans un cadre légal... dans l'éventualité où vous souhaitiez vous abstenir de suivre la loi, laissez-moi vous rappeler les risques auxquels vous seriez exposés.
