@@ -10,7 +10,7 @@ description: Une association qui fait de l'orientation numérique une priorité
 
 Nous proposons un espace d'écoutes et d'échanges, puis en 2022, des préventions contre toutes formes de cybermalveillances et son action sur tout réseau informatique, réel ou supposé.
 
-Nous élaborons aussi cette année des services informatiques émanant directement de différent besoin identifié sur des groupes d'utilisateurs sur l'ensemble des réseaux auxquelles nous sommes connectés.
+Nous élaborons aussi cette année, des formations pour des stagiaires en génie logiciel et des services informatiques émanant directement de différent besoin identifié sur des groupes d'utilisateurs sur l'ensemble des réseaux auxquelles nous sommes connectés.
 
 ### Citations
 
