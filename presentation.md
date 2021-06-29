@@ -43,7 +43,7 @@ Email : contact@bluekeys.org
 
 {% embed url="https://status.bluekeys.org/" %}
 
-### 🗣 Messagerie instantané
+### 🗣 Messagerie instantanée
 
 {% embed url="https://message.bluekeys.org" %}
 
