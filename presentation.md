@@ -8,7 +8,9 @@ description: Une association qui fait de l'orientation numérique une priorité
 
 **BlueKeys** est une **association** créée le 23 février 2021 en Gironde qui se propose d'être un pont entre les nombreux jeunes usagers du numérique \(12-30 ans\) et ceux moins familiers avec ces pratiques \(leurs professeurs, leurs parents ...\), afin d'apporter aux uns comme aux autres une meilleure compréhension des comportements et des risques numérique ainsi que des informations et des solutions appropriées.
 
-Nous élaborons aussi des formations en génie logiciel pour nos stagiaires ainsi que des services informatiques émanant directement des différents besoins identifiés auprès des utilisateurs présents sur l'ensemble des réseaux auxquels nous sommes connectés. **Bluekeys** propose également un espace d'écoutes et d'échanges et envisage de développer la prévention contre la cybermalveillances \(réelle et/ou supposée\), sur les réseaux, notamment les communautés prisées par les jeunes. 
+Nous élaborons aussi des formations en génie logiciel pour nos stagiaires ainsi que des services informatiques émanant directement des différents besoins identifiés auprès des utilisateurs présents sur l'ensemble des réseaux auxquels nous sommes connectés. 
+
+**Bluekeys** propose également un espace d'écoutes/échanges et envisage de développer la prévention contre la cybermalveillances \(réelle et/ou supposée\), sur les réseaux, notamment dans les communautés prisées par les jeunes. 
 
 ### Citations
 
