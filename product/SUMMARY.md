@@ -10,7 +10,6 @@
   * [Papi Uzumaki](../nos-soutiens/papi-uzumaki.md)
   * [💻 Beau de l'aire](../nos-soutiens/beau-de-laire.md)
   * [Toshi](../nos-soutiens/toshi.md)
-  * [💻 IT Hub](../nos-soutiens/it-hub.md)
   * [🛡️ FCC \(French Communuty Cybersecurity\)](../nos-soutiens/fcc-french-communuty-cybersecurity.md)
   * [🛡️ TheBlackSide](../nos-soutiens/theblackside.md)
   * [🛡️ Flycase](../nos-soutiens/flycase.md)
@@ -19,10 +18,10 @@
   * [🛡️Sharpforce](../nos-soutiens/sharpforce.md)
   * [💻Café des devs](../nos-soutiens/cafe-des-devs.md)
   * [CryptoCity](../nos-soutiens/cryptocity.md)
-* [�� Crédits \(en cours\)](../credits-en-cours.md)
 * [🗣 Faire une suggestion](https://suggestion.bluekeys.org/)
 * [📘 Dernier article](../dernier-article.md)
 * [🔗 Nos liens](../bkjoin.md)
+* [Crédits \(en cours\)](../credits-en-cours.md)
 
 ## urgence
 
