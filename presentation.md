@@ -6,11 +6,11 @@ description: Une association qui fait de l'orientation numérique une priorité
 
 ![](.gitbook/assets/logox200%20%281%29.png)
 
-Qu'est-ce que **BlueKeys** ? C'est une **association** immatriculée le 23 février 2021 en Gironde
+**BlueKeys** est une **association** immatriculée le 23 février 2021 en Gironde, elle propose d'être une interface dans le numérique entre ceux derrières les écrans et les plus éloignés tels que : les professeurs, parents ..., afin d'apporter plus d'éclairage à l'ensemble comme l'image d'un phare à travers les mers rocheuses.
 
-C’est un espace d'échange, d'orientation, d'écoute, de conseils pour les personnes, entreprises numériques et leurs alliées, elle fait aussi de la prévention contre toutes formes de cybermalveillances et son action sur tout réseau informatique, réel ou supposé, et propose des services informatiques pour tout.e.s. Un autre point important, des dons sont reversés aux hôpitaux des enfants.  
-  
-Tu aimes le dev, cybersec, voire d'autres choses ? Tu es harcelé ? Rejoins notre espace associatif d'orientation, d'écoute, de conseils tout niveau dans le numérique.
+Nous proposons un espace d'écoutes et d'échanges avec plus tard en 2022 des préventions contre toutes formes de cybermalveillances et son action sur tout réseau informatique, réel ou supposé,
+
+Nous élaborons cette année des services informatiques émanant directement de différent besoin identifié sur des groupes d'utilisateurs auxquelles nous sommes connectés.
 
 ### Citations
 
