@@ -4,7 +4,7 @@ description: Vous voulez débuter en sécurité informatique et ne savez pas où
 
 # Apprendre la cybersécurité
 
-Cet article va vous permettre d'apprendre la cybersécurité en vous donnant des ressources, conseils et différentes informations. Cependant cet article n'est pas la Bible de la cybersécurité ! Vous n'êtes en aucun cas obligé de suivre ce que l'on vous conseille. Si vous avez des recommendations d'ajouts ou de choses à retirer, n'hésitez pas à nous contacter sur notre Discord ! Bonne lecture, et bon apprentissage ! :-)
+Cet article va vous permettre d'apprendre la cybersécurité en vous donnant des ressources, conseils et différentes informations. Cependant cet article n'est pas la Bible de la cybersécurité ! Vous n'êtes en aucun cas obligé de suivre ce que l'on vous conseille. Si vous avez des recommendations d'ajouts ou d'éléments à retirer, n'hésitez pas à nous contacter sur notre Discord ! Bonne lecture, et bon apprentissage ! :-)
 
 {% hint style="danger" %}
 Pas de panique, cette page est là pour vous orienter avec toutes les informations ! Mais avant ça, même si c'est chiant, on doit parler un peu de lois, parce-que nul n'est censé l'ignorer.
