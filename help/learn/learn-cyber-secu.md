@@ -4,28 +4,16 @@ description: Vous voulez débuter en sécurité informatique et ne savez pas où
 
 # Apprendre la cybersécurité
 
-{% embed url="https://giphy.com/gifs/pbsdigitalstudios-education-xT0xeNwHemJw4fM5ag" caption="" %}
-
 {% hint style="info" %}
 Pas de panique, cette page est là pour vous orienter avec toutes les informations ! Mais avant ça, même si c'est chiant, on doit parler un peu de lois, parce-que nul n'est censé l'ignorer.
 {% endhint %}
-
-| **Termes** | **Signification** |
-| :--- | :--- |
-| Hacking | Bidouillage dans le contexte informatique apparenté souvent au piratage |
-| CTF | Capture The Flag |
-| Pentest | Test d'intrusion |
-| Mac Lobster | Hamburger vendu au Canada 😂 |
-| Forensic | Analyse du système d'information après une attaque informatique |
-| Journalisation | Action de relever, inscrire tous les événements produit par le système informatique |
-| PowerShell | Est une Multiplateforme pour l’automatisation des tâches, composée d’un interpréteur de commandes \(shell\), d’un langage de script et d’un framework de gestion de la configuration. Il s’exécute sur Windows, Linux et macOS. |
 
 {% hint style="danger" %}
 Il va sans dire que si le piratage peut être fait de manière éthique, il existe de nombreuses personnes qui jugent superflu le fait de rester dans un cadre légal... dans l'éventualité où vous souhaitiez vous abstenir de suivre la loi, laissez-moi vous rappeler les risques auxquels vous seriez exposés.
 
 La France dispose de lois contre le piratage depuis la [loi Godfrain](https://www.securiteinfo.com/legal/loi88-19.shtml) \(en 1988 !\). Déjà à l'époque, la loi prévoyait des peines de prison jusqu'à 2 ans et des amendes jusqu'à 25300€ en comptant l'inflation.
 
-Depuis, les textes de lois ont été modifiés et amendés à plusieurs reprises, prévoyant maintenant des peines beaucoup plus sévères, allant de deux à cinq ans d'emprisonnement et jusqu'à 150000€ d'amende [**Article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/)\*\*\*\*
+Depuis, les textes de lois ont été modifiés et amendés à plusieurs reprises, prévoyant maintenant des peines beaucoup plus sévères, allant de deux à cinq ans d'emprisonnement et jusqu'à 150000€ d'amende [**Article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/)
 
 **Bluekeys se dégage de toute responsabilité quant à la mise en pratique de connaissances acquises grâce à l'association.**
 {% endhint %}
@@ -33,7 +21,7 @@ Depuis, les textes de lois ont été modifiés et amendés à plusieurs reprises
 {% hint style="info" %}
 ### Ce qui est interdit et ce qui ne l'est pas
 
-La loi reste vague à ce sujet, en effet [**l’article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/) punit "tout accès non autorisé à un système de traitement d'informations". Les outils de piratage, leurs partages et utilisations restent autorisés. Il est donc légal de pratiquer le piratage tant que vous avez l'autorisation du propriétaire du système, par exemple le vôtre, un autre mis à disposition ou bien une plateforme dédiée comme celle pour les _CTF_.
+La loi reste vague à ce sujet, en effet [**l’article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/) punit "tout accès non autorisé à un système de traitement d'informations". Les outils de piratage, leurs partages et utilisations restent autorisés. Il est donc légal de pratiquer le piratage tant que vous avez l'autorisation du propriétaire du système, par exemple le vôtre, un autre mis à disposition ou bien une plateforme dédiée comme celle pour les _CTF_ (des explications sur les CTF sont fournies plus bas).
 
 Attention, si la possession et l'utilisation d'outil n'est pas illégale, la possession et le partage de données obtenues illégalement sont techniquement du recel.
 
@@ -58,13 +46,13 @@ Il existe aussi des _CTF_, il s'agit de compétitions en solo ou en équipe, gé
 
 {% embed url="https://medium.com/prohacktive/quest-ce-qu-un-ctf-capture-the-flag-26af33219c90" caption="" %}
 
-Ce qui est génial, c'est qu'après, les compétiteurs font ce qu'on appelle des write up. Il s'agit de documents qui expliquent pas à pas comment un challenge a été réussi. C'est une vraie mine d'or d'informations ! Nous recommandons vivement que vous en lisiez ou regardiez, car, oui, il y en a même sur YouTube!
+Ce qui est génial, c'est qu'après, les compétiteurs font ce qu'on appelle des write up. Il s'agit de documents qui expliquent pas à pas comment un challenge a été réussi. C'est une vraie mine d'or d'informations ! Nous recommandons vivement que vous en lisiez ou regardiez, car oui, il y en a même sur YouTube!
 
 Cherchez-vous à développer vos connaissances techniques en vue d'un poste d'analyste ? L'étendue de ce que vous devez savoir peut paraître décourageant. Les connaissances les plus fondamentales à acquérir concernent peut-être la suite de protocoles TCP/IP. Préparez-vous à répondre en toute confiance à la question "que se passe-t-il quand...".
 
-Pour l'apprentissage du F**orensic**, vous ne pouvez probablement pas obtenir de meilleures bases que la 3e édition de "Incident Response and Computer **Forensics**". Le chapitre sur l'investigation de Windows est un véritable trésor. Plongez dans Powershell, les cadres d'attaque associés, et apprenez à accroître la visibilité de l'activité PowerShell grâce à la journalisation. Associez ces connaissances à l'une des meilleures formations gratuites disponibles sur Cobalt Strike et d'autres vidéos, regardez-les et appliquez les concepts que vous avez appris dans le cadre de l'essai de 21 jours de Cobalt Strike.
+Pour l'apprentissage du **Forensic**, vous ne pouvez probablement pas obtenir de meilleures bases que la 3e édition de "Incident Response and Computer **Forensics**". Le chapitre sur l'investigation de Windows est un véritable trésor. Plongez dans Powershell, les cadres d'attaque associés, et apprenez à accroître la visibilité de l'activité PowerShell grâce à la journalisation. Associez ces connaissances à l'une des meilleures formations gratuites disponibles sur Cobalt Strike et d'autres vidéos, regardez-les et appliquez les concepts que vous avez appris dans le cadre de l'essai de 21 jours de Cobalt Strike.
 
-#### Vous n'avez pas assez de temps ?
+##### Vous n'avez pas assez de temps ?
 
 Envisagez d'investir. Le "Blue Team Field Manual" et le "Red Team Field Manual" complètent nos recommandations à ce sujet. En parallèle, mettez en place un laboratoire avec des postes de travail Windows 7 \(ou ultérieur\) reliés à un domaine. Compromettez le poste de travail en utilisant certaines des techniques les plus simples, puis explorez l'activité post-exploitation. Votre objectif est de vous faire une idée aussi bien du côté de l'attaque que de la défense.
 
@@ -80,7 +68,7 @@ Lorsque le moment est venu de mettre en pratique ce que vous avez appris dans le
 
 Avez-vous déjà suivi un cours et, des mois plus tard, essayé d'utiliser les connaissances que vous aviez prétendument acquises pour découvrir que vous aviez oublié tous les éléments importants ? Oui, si vous déconnectez l'apprentissage de l'utilisation des connaissances, vous allez être dans une situation difficile. C'est peut-être l'un des plus grands défis à relever lorsqu'on se lance dans un rôle de sécurité plus technique.
 
-Pour y remédier, en plus de combiner lecture et pratique, pensez à la technique de Feynman. Vous n'en avez jamais entendu parler ? Eh bien, il est facile de survoler les éléments que l'on ne comprend pas... mais si vous parvenez à les traduire dans un langage simple de façon à ce que les autres puissent les comprendre, vous les aurez mieux compris par la même occasion. Rien ne vous aide à apprendre comme l'enseignement.
+Pour y remédier, en plus de combiner lecture et pratique, pensez à la technique de Feynman. Vous n'en avez jamais entendu parler ? Eh bien, il est facile de survoler les éléments que l'on ne comprend pas... mais si vous parvenez à les traduire dans un langage simple de façon à ce que les autres puissent les comprendre, vous les aurez mieux compris par la même occasion.
 
 ## 4. Développer un état d'esprit malveillant
 
@@ -89,8 +77,6 @@ Il y a quelques années, un spécialiste de la sécurité expliquait comment dev
 Soyons clairs : nous ne préconisons pas que vous remplaciez le shampoing par du Nair, ou tout autre produit anti-capillaire. Et le concept de penser comme un agresseur n'est pas nouveau. Il y a huit ans, lorsqu'on a demandé à Lance Cottrell ce qui faisait un bon professionnel de la cybersécurité, il a répondu qu'il se mettait "à la place de l'attaquant et regardait le réseau comme l'ennemi le regarderait, puis réfléchissait à la manière de le protéger".
 
 La meilleure façon d'y parvenir aujourd'hui est de se familiariser avec le cadre **ATTACK de MITRE**. Il devient rapidement le modèle de référence pour structurer le développement d'un processus d'investigation et comprendre où \(et comment\) vous pouvez appliquer la détection et l'investigation. Vous pouvez vous familiariser avec ce cadre avant d'entreprendre des lectures approfondies, puis y revenir de temps en temps si nécessaire.
-
-Avez-vous déjà eu l'idée de vouloir détourner une machine à café juste comme un simple défis de faire couler une tasse sans payer 1€ ?
 
 ## 5. Soyez intrépide
 
@@ -102,11 +88,11 @@ Ce que nous ne croyons pas, c'est de dire à des gens que nous ne connaissons pa
 
 ## 6. Un diplôme universitaire est-il nécessaire pour faire carrière dans la cybersécurité ?
 
-La réponse est courte : pas nécessairement. "Notre industrie a été inaugurée par des personnes sans diplôme universitaire", affirme Josh Feinblum. "Travaillez dur pour vous impliquer dans la communauté, contribuez à des projets open source, essayez de parler de recherches cool lors de conférences - ce sont toutes des choses que les pionniers originaux ont faites et qui peuvent offrir des opportunités aux personnes intelligentes et travailleuses d'entrer dans l'industrie."
+La réponse est courte : pas nécessairement. "Notre industrie a été inaugurée par des personnes sans diplôme universitaire", affirme Josh Feinblum. Travaillez dur pour vous impliquer dans la communauté, contribuez à des projets open source, essayez de parler de recherches cool lors de conférences - ce sont toutes des choses que les pionniers originaux ont faites et qui peuvent offrir des opportunités aux personnes intelligentes et travailleuses d'entrer dans l'industrie.
 
 ## 7. Prérequis en matière de cybersécurité
 
-Comme dans tout domaine technologique, il est utile de commencer par acquérir les bases de la programmation. "Être capable de comprendre un langage de programmation vous donnera un bon départ dans la cybersécurité", déclare Kristen Kozinski. "Vous n'avez pas besoin d'être un expert, mais être capable de lire et de comprendre un langage est une bonne compétence à avoir." Il ne s'agit pas d'un prérequis indispensable en matière de cybersécurité, mais c'est définitivement agréable à avoir.
+Comme dans tout domaine technologique, il est utile de commencer par acquérir les bases de la programmation. "Être capable de comprendre un langage de programmation vous donnera un bon départ dans la cybersécurité", déclare Kristen Kozinski. Vous n'avez pas besoin d'être un expert, mais être capable de lire et de comprendre un langage est une bonne compétence à avoir. Il ne s'agit pas d'un prérequis indispensable en matière de cybersécurité, mais c'est définitivement agréable à avoir.
 
 ## 8. Déterminez ce que vous voulez apprendre.
 
@@ -115,6 +101,10 @@ Le domaine de la cybersécurité est très vaste et comporte de nombreuses spéc
 ## 9. Puis-je apprendre gratuitement ?
 
 Il existe de nombreuses ressources gratuites disponibles en ligne et dans les bibliothèques locales, qui peuvent fournir une grande quantité d'informations sur la cybersécurité. À un moment donné dans tout parcours d'apprentissage, il sera probablement nécessaire d'investir dans des connaissances supplémentaires.
+Cependant, si vous souhaitez vous entrainer sans avoir à payer des serveurs, nous pouvons vous conseiller différents sites gratuits.
+[Root-Me](https://www.root-me.org/): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
+[HackTheBox](https://www.hackthebox.eu/): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateur sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficile, on le recommande donc peu si vous débutez!
+[TryHackMe](https://tryhackme.com/): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
 
 ## 10. Parler anglais
 
@@ -128,9 +118,9 @@ Une machine virtuelle ou VM est un environnement entièrement virtualisé qui fo
 
 Pour débuter :
 
-[https://expel.io/blog/a-beginners-guide-to-getting-started-in-cybersecurity/](https://expel.io/blog/a-beginners-guide-to-getting-started-in-cybersecurity/)  
-[https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/](https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/)  
-[https://learntocodewith.me/posts/cybersecurity/\#how-to-get-started-in-cybersecurity](https://learntocodewith.me/posts/cybersecurity/#how-to-get-started-in-cybersecurity)
+[Expel.io; a beginners guide to getting started in cybersecurity](https://expel.io/blog/a-beginners-guide-to-getting-started-in-cybersecurity/)  
+[StartACyberCareer.com: how to learn cyber-security on your own](https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/)  
+[LearnToCodeWith.me: how to get started in cybersecurity](https://learntocodewith.me/posts/cybersecurity/#how-to-get-started-in-cybersecurity)
 
 | Sources | Définition |
 | :--- | :--- |
