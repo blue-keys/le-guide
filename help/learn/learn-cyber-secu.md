@@ -101,9 +101,9 @@ Le domaine de la cybersécurité est très vaste et comporte de nombreuses spéc
 
 Il existe de nombreuses ressources gratuites disponibles en ligne et dans les bibliothèques locales, qui peuvent fournir une grande quantité d'informations sur la cybersécurité. À un moment donné dans tout parcours d'apprentissage, il sera probablement nécessaire d'investir dans des connaissances supplémentaires.
 Cependant, si vous souhaitez vous entrainer sans avoir à payer des serveurs, nous pouvons vous conseiller différents sites gratuits.
-[Root-Me](https://www.root-me.org/): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
-[HackTheBox](https://www.hackthebox.eu/): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateur sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficile, on le recommande donc peu si vous débutez!
-[TryHackMe](https://tryhackme.com/): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
+* [Root-Me](https://www.root-me.org/): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
+* [HackTheBox](https://www.hackthebox.eu/): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateurs sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficiles, on le recommande donc peu si vous débutez!
+* [TryHackMe](https://tryhackme.com/): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
 
 ## 10. Parler anglais
 
