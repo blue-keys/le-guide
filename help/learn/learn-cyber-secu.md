@@ -21,7 +21,7 @@ Depuis, les textes de lois ont été modifiés et amendés à plusieurs reprises
 {% hint style="info" %}
 ### Ce qui est interdit et ce qui ne l'est pas
 
-La loi reste vague à ce sujet, en effet [**l’article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/) punit "tout accès non autorisé à un système de traitement d'informations". Les outils de piratage, leurs partages et utilisations restent autorisés. Il est donc légal de pratiquer le piratage tant que vous avez l'autorisation du propriétaire du système, par exemple le vôtre, un autre mis à disposition ou bien une plateforme dédiée comme celle pour les _CTF_ (des explications sur les CTF sont fournies plus bas).
+La loi reste vague à ce sujet, en effet [**l’article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/) punit "tout accès non autorisé à un système de traitement d'informations". Les outils de piratage, leurs partages et utilisations restent autorisés. Il est donc légal de pratiquer le piratage tant que vous avez l'autorisation du propriétaire du système, par exemple le vôtre, un autre mis à disposition ou bien une plateforme dédiée comme celle pour les _CTF_ \(des explications sur les CTF sont fournies plus bas\).
 
 Attention, si la possession et l'utilisation d'outil n'est pas illégale, la possession et le partage de données obtenues illégalement sont techniquement du recel.
 
@@ -52,7 +52,7 @@ Cherchez-vous à développer vos connaissances techniques en vue d'un poste d'an
 
 Pour l'apprentissage du **Forensic**, vous ne pouvez probablement pas obtenir de meilleures bases que la 3e édition de "Incident Response and Computer **Forensics**". Le chapitre sur l'investigation de Windows est un véritable trésor. Plongez dans Powershell, les cadres d'attaque associés, et apprenez à accroître la visibilité de l'activité PowerShell grâce à la journalisation. Associez ces connaissances à l'une des meilleures formations gratuites disponibles sur Cobalt Strike et d'autres vidéos, regardez-les et appliquez les concepts que vous avez appris dans le cadre de l'essai de 21 jours de Cobalt Strike.
 
-##### Vous n'avez pas assez de temps ?
+#### Vous n'avez pas assez de temps ?
 
 Envisagez d'investir. Le "Blue Team Field Manual" et le "Red Team Field Manual" complètent nos recommandations à ce sujet. En parallèle, mettez en place un laboratoire avec des postes de travail Windows 7 \(ou ultérieur\) reliés à un domaine. Compromettez le poste de travail en utilisant certaines des techniques les plus simples, puis explorez l'activité post-exploitation. Votre objectif est de vous faire une idée aussi bien du côté de l'attaque que de la défense.
 
@@ -100,11 +100,11 @@ Le domaine de la cybersécurité est très vaste et comporte de nombreuses spéc
 
 ## 9. Puis-je apprendre gratuitement ?
 
-Il existe de nombreuses ressources gratuites disponibles en ligne et dans les bibliothèques locales, qui peuvent fournir une grande quantité d'informations sur la cybersécurité. À un moment donné dans tout parcours d'apprentissage, il sera probablement nécessaire d'investir dans des connaissances supplémentaires.
-Cependant, si vous souhaitez vous entrainer sans avoir à payer des serveurs, nous pouvons vous conseiller différents sites gratuits.
-[Root-Me](https://www.root-me.org/): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
-[HackTheBox](https://www.hackthebox.eu/): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateurs sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficiles, on le recommande donc peu si vous débutez!
-[TryHackMe](https://tryhackme.com/): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
+Il existe de nombreuses ressources gratuites disponibles en ligne et dans les bibliothèques locales, qui peuvent fournir une grande quantité d'informations sur la cybersécurité. À un moment donné dans tout parcours d'apprentissage, il sera probablement nécessaire d'investir dans des connaissances supplémentaires. Cependant, si vous souhaitez vous entrainer sans avoir à payer des serveurs, nous pouvons vous conseiller différents sites gratuits :
+
+* [Root-Me](https://www.root-me.org/): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
+* [HackTheBox](https://www.hackthebox.eu/): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateurs sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficiles, on le recommande donc peu si vous débutez!
+* [TryHackMe](https://tryhackme.com/): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
 
 ## 10. Parler anglais
 
