@@ -65,7 +65,7 @@ Email : contact@bluekeys.org
 
 {% embed url="https://discord.gg/2XGRFKDWeC" caption="" %}
 
-### 🎁 Tipeee
+### 🎁 HelloAsso
 
-{% embed url="https://fr.tipeee.com/bluekeys" caption="" %}
+[https://www.helloasso.com/associations/bluekeys](https://www.helloasso.com/associations/bluekeys)
 
