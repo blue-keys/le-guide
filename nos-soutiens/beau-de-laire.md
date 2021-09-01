@@ -24,9 +24,9 @@ Mon but n'est pas de faire ma pub, mais si vous avez besoin d'un bot multifoncti
 
 Beau de l'aire\#7628
 
-### Le serveur communautaire
+### Le serveur de support
 
-{% embed url="https://discord.com/invite/8jVhH9j" %}
+{% embed url="https://discord.com/invite/69A9aCfGxJ" %}
 
 ### Le profil et dashboard de Sharles
 
