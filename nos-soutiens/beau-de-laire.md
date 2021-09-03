@@ -24,19 +24,17 @@ Mon but n'est pas de faire ma pub, mais si vous avez besoin d'un bot multifoncti
 
 Beau de l'aire\#7628
 
-### Le serveur de support
+## Le serveur de support
 
-{% embed url="https://discord.com/invite/69A9aCfGxJ" %}
+{% embed url="https://discord.com/invite/69A9aCfGxJ" caption="" %}
 
-### Le profil et dashboard de Sharles
+## Le profil et dashboard de Sharles
 
-{% embed url="https://top.gg/bot/684841822836490293" %}
+{% embed url="https://top.gg/bot/684841822836490293" caption="" %}
 
-{% embed url="https://sharles.herokuapp.com/" %}
+{% embed url="https://sharles.herokuapp.com/" caption="" %}
 
-### Les suggestions c'est par ici 
+## Les suggestions c'est par ici
 
-{% embed url="https://suggest.sharles.me/bot" %}
-
-
+{% embed url="https://suggest.sharles.me/bot" caption="" %}
 

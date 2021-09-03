@@ -17,7 +17,6 @@
   * [Romain Lanz](../nos-soutiens/romain-lanz.md)
   * [🛡️Sharpforce](../nos-soutiens/sharpforce.md)
   * [💻Café des devs](../nos-soutiens/cafe-des-devs.md)
-  * [CryptoCity](../nos-soutiens/cryptocity.md)
 * [🗣 Faire une suggestion](https://suggestion.bluekeys.org/)
 * [📘 Dernier article](../dernier-article.md)
 * [🔗 Nos liens](../bkjoin.md)
