@@ -61,7 +61,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
 {% hint style="warning" %}
 ### **Si vous êtes victime d'hameçonnage :**
 
-* Changez votre mot de passe \(10 caractères minimum\) ;
+* Changez votre mot de passe \(12 caractères minimum\) ;
 * Vérifiez que le mot de passe donné à l'arnaqueur ne soit pas utilisé pour d'autres services \(mail, réseau social, assurances, etc.. \) ;
 * Signalez le mail frauduleux sur [https://www.signal-spam.fr/](https://www.signal-spam.fr/)
 {% endhint %}
