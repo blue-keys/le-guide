@@ -8,7 +8,7 @@ description: >-
 
 ## Introduction à BurpSuite
 
-Burp Suite est une suite d’outils développée en Java par la société PortSwigger Ltd. Il existe trois versions de Burpsuite : la version community \(free\), la version professional et la version enterprise \(les deux dernières sont payantes et assez chères\).
+Burp Suite est une suite d’outils développée en Java par la société PortSwigger Ltd. Il existe trois versions de Burpsuite : la version community (free), la version professional et la version enterprise (les deux dernières sont payantes et assez chères).
 
 Pour ce qui est de l’installation je vous invite à lire la page d’installation du site officiel. Pour lancer l’outil, ouvrez un terminal et entrez cette commande: `burpsuite`
 
@@ -26,7 +26,7 @@ Sur la barre du dessus vous avez les différents outils disponibles. Au cours de
 
 C’est l’outil le plus utilisé de la suite et pour cause, il nous permet d’intercepter toutes les requêtes envoyées depuis notre navigateur, de les modifier et de réceptionner la réponse du serveur. Pour cela il va falloir configurer notre navigateur pour qu’il envoie toutes les requêtes au Burp Proxy. Personnellement je travaille exclusivement sur Firefox donc je vais vous expliquer comment configurer ce navigateur.
 
-Allez dans les «**Paramètres**» puis dans «**Préférences**» &gt; «**Avancés**» et enfin «**Réseau**».
+Allez dans les «**Paramètres**» puis dans «**Préférences**» > «**Avancés**» et enfin «**Réseau**».
 
 [![pgn3](https://user-images.githubusercontent.com/38256925/71327314-4d4b4a00-2507-11ea-967b-4b48ba11648e.png)](https://user-images.githubusercontent.com/38256925/71327314-4d4b4a00-2507-11ea-967b-4b48ba11648e.png)
 
@@ -44,9 +44,9 @@ Voilà ! Notre Burp Proxy est configuré. Maintenant si vous lancez une requête
 
 [![pgn.6](https://user-images.githubusercontent.com/38256925/71327322-618f4700-2507-11ea-845a-89fae0096a48.png)](https://user-images.githubusercontent.com/38256925/71327322-618f4700-2507-11ea-845a-89fae0096a48.png)
 
-Oh wait ! On ne pourra pas se rendre sur des sites en HTTPS à cause des règles HSTS ! Eh oui, nous essayons de contacter le site [http://www.facebook.com](http://www.facebook.com/) mais le certificat que nous recevons est celui de Burpsuite donc notre navigateur bloque la connexion!
+Oh wait ! On ne pourra pas se rendre sur des sites en HTTPS à cause des règles HSTS ! Eh oui, nous essayons de contacter le site [http://www.facebook.com](http://www.facebook.com) mais le certificat que nous recevons est celui de Burpsuite donc notre navigateur bloque la connexion!
 
-Pour régler ce problème on va devoir télécharger le certificat d’autorité de Burp et l’installer dans Firefox. Pour cela rendez vous [ici](http://burp/) en ayant le proxy activé. Puis cliquez sur CA Certificate et téléchargez le certificat.
+Pour régler ce problème on va devoir télécharger le certificat d’autorité de Burp et l’installer dans Firefox. Pour cela rendez vous [ici](http://burp) en ayant le proxy activé. Puis cliquez sur CA Certificate et téléchargez le certificat.
 
 Maintenant rendez vous dans l’onglet « Avancées » puis « Certificats » dans les paramètres Firefox. Cliquez sur «**Voir les certificats**». Un onglet va s’ouvrir, allez dans «**Autorités**»:
 
@@ -58,7 +58,7 @@ Cliquez sur « Importer » puis sélectionnez le certificat que vous avez télé
 
 A partir de là vous ne devriez plus avoir de problèmes. Les requêtes HTTP et HTTPS seront captées par Burp et vous pourrez les modifier.
 
-Problèmes encore, si vous êtes en train de tester les sécurités d’un site en écoutant de la musique sur YouTube vous allez recevoir les requêtes du site que vous testez et celles venant de YouTube \(et YouTube va vous flooooooder au max\). Donc on va voir comment restreindre notre scope à un ou plusieurs sites. Pour cela allez dans l’onglet « **Target** » sur Burp Suite:
+Problèmes encore, si vous êtes en train de tester les sécurités d’un site en écoutant de la musique sur YouTube vous allez recevoir les requêtes du site que vous testez et celles venant de YouTube (et YouTube va vous flooooooder au max). Donc on va voir comment restreindre notre scope à un ou plusieurs sites. Pour cela allez dans l’onglet « **Target** » sur Burp Suite:
 
 [![pgn.9](https://user-images.githubusercontent.com/38256925/71327331-779d0780-2507-11ea-9221-f3617f20c64f.png)](https://user-images.githubusercontent.com/38256925/71327331-779d0780-2507-11ea-9221-f3617f20c64f.png)
 
@@ -76,7 +76,7 @@ Une fois que vous avez intercepté une requête, burp vous affichera son contenu
 
 [![pgn.11](https://user-images.githubusercontent.com/38256925/71327336-85528d00-2507-11ea-9342-302b4561c12c.png)](https://user-images.githubusercontent.com/38256925/71327336-85528d00-2507-11ea-9342-302b4561c12c.png)
 
-Vous pouvez tout modifier. Absolument tout et comment bon vous semble. Ensuite vous n’avez plus qu’à la forwarder \(i.e : l’envoyer au serveur\) et si vous voulez réceptionner la réponse du serveur il vous suffira de cliquer sur «**Action**» puis sur «**Do intercept** &gt; **Response to this request**».
+Vous pouvez tout modifier. Absolument tout et comment bon vous semble. Ensuite vous n’avez plus qu’à la forwarder (i.e : l’envoyer au serveur) et si vous voulez réceptionner la réponse du serveur il vous suffira de cliquer sur «**Action**» puis sur «**Do intercept** > **Response to this request**».
 
 Bon c’est cool, on intercepte, modifie et renvoie des requêtes mais n’y aurait-il pas moyen de rejouer une requête sans avoir à se retaper toutes ces actions ? Eh bien si, la suite burp propose un outil qui permet de rejouer une requête très simplement: Repeater.
 
@@ -96,7 +96,7 @@ Pour ma part je me sers de cet outil quand j’ai déjà repéré une faille et 
 
 Burp Spider est un outil bien sympas puisqu’il permet de mapper un site. C’est en fait un scanner qui va parcourir tous les liens qu’il trouve sur le site web que vous lui avez spécifié.
 
-Pour le lancer c’est très simple, rendez vous dans l’onglet Target, sélectionner le site que vous voulez mapper, clic droit &gt; Spider This Host. Vous trouverez les résultats du scan dans l’onglet Site Map :
+Pour le lancer c’est très simple, rendez vous dans l’onglet Target, sélectionner le site que vous voulez mapper, clic droit > Spider This Host. Vous trouverez les résultats du scan dans l’onglet Site Map :
 
 [![pgn.14](https://user-images.githubusercontent.com/38256925/71327349-9bf8e400-2507-11ea-97c7-bf386a465941.png)](https://user-images.githubusercontent.com/38256925/71327349-9bf8e400-2507-11ea-97c7-bf386a465941.png)
 
@@ -104,7 +104,7 @@ Ensuite c’est à vous de faire l’analyse des liens. Certains peuvent être i
 
 ## IV/ Decoder
 
-Le dernier outil que je trouve intéressant c’est le burp decoder. Il permet très rapidement d’encoder/décoder une chaîne de caractères \(on s’en sert beaucoup pour bypass des filtres par exemple\):
+Le dernier outil que je trouve intéressant c’est le burp decoder. Il permet très rapidement d’encoder/décoder une chaîne de caractères (on s’en sert beaucoup pour bypass des filtres par exemple):
 
 [![pgn.15](https://user-images.githubusercontent.com/38256925/71327351-a6b37900-2507-11ea-8ef3-8363bd485348.png)](https://user-images.githubusercontent.com/38256925/71327351-a6b37900-2507-11ea-8ef3-8363bd485348.png)
 
@@ -112,32 +112,32 @@ Je ne vais pas vous expliquer comment il fonctionne, je pense que c’est assez 
 
 ## BurpSuite-Utilisation
 
-### Comment utiliser Burp Suite - Test de pénétration Web \(Partie 1\)
+### Comment utiliser Burp Suite - Test de pénétration Web (Partie 1)
 
 [Tutoriel original de www.pentestgeek.com](https://www.pentestgeek.com/web-applications/burp-suite-tutorial-1)
 
 [![alt tag](https://user-images.githubusercontent.com/38256925/70809308-d05ef880-1dc1-11ea-9244-3355f0e741d9.jpg)](https://user-images.githubusercontent.com/38256925/70809308-d05ef880-1dc1-11ea-9244-3355f0e741d9.jpg)
 
-[Burp Suite](https://fr.wikipedia.org/wiki/Burp_suite) de [Portswigger](https://portswigger.net/) est l'un de mes outils préférés à utiliser lors de l'exécution d'un test de pénétration Web. Ce qui suit est un tutoriel Burp Suite étape par étape. Je vais vous montrer comment configurer et utiliser correctement de nombreuses fonctionnalités de Burp Suite. Après avoir lu ceci, vous devriez pouvoir effectuer un test de pénétration Web approfondi. Ce sera le premier d'une série d'articles en deux parties.
+[Burp Suite](https://fr.wikipedia.org/wiki/Burp\_suite) de [Portswigger](https://portswigger.net) est l'un de mes outils préférés à utiliser lors de l'exécution d'un test de pénétration Web. Ce qui suit est un tutoriel Burp Suite étape par étape. Je vais vous montrer comment configurer et utiliser correctement de nombreuses fonctionnalités de Burp Suite. Après avoir lu ceci, vous devriez pouvoir effectuer un test de pénétration Web approfondi. Ce sera le premier d'une série d'articles en deux parties.
 
 ### Sommaire
 
-* [Comment utiliser Burp Suite - Test de pénétration Web \(Partie 1\)]()
-  * [Configuration du proxy SOCKS sortant]()
-  * [Configurer le comportement d'interception]()
-  * [Procédure d'application]()
-  * [Rechercher des mots clés spécifiques]()
-  * [Utilisation de Spider et Discover]()
-  * [Utilisation de l'onglet Répéteur]()
-  * [Utilisation de l'onglet Intruder]()
-  * [Utilisation du Scan Automatique]()
-* [Comment utiliser Burp Suite - Test de pénétration Web \(Partie 2\)]()
-  * [Validation des résultats du scanner]()
-  * [Exportation des rapports de scanner]()
-  * [Analyse des résultats XML]()
-  * [Enregistrement d'une session Burp]()
-  * [Burp Extensions]()
-* [Fin de la partie 2]()
+* [Comment utiliser Burp Suite - Test de pénétration Web (Partie 1)](broken-reference)
+  * [Configuration du proxy SOCKS sortant](broken-reference)
+  * [Configurer le comportement d'interception](broken-reference)
+  * [Procédure d'application](broken-reference)
+  * [Rechercher des mots clés spécifiques](broken-reference)
+  * [Utilisation de Spider et Discover](broken-reference)
+  * [Utilisation de l'onglet Répéteur](broken-reference)
+  * [Utilisation de l'onglet Intruder](broken-reference)
+  * [Utilisation du Scan Automatique](broken-reference)
+* [Comment utiliser Burp Suite - Test de pénétration Web (Partie 2)](broken-reference)
+  * [Validation des résultats du scanner](broken-reference)
+  * [Exportation des rapports de scanner](broken-reference)
+  * [Analyse des résultats XML](broken-reference)
+  * [Enregistrement d'une session Burp](broken-reference)
+  * [Burp Extensions](broken-reference)
+* [Fin de la partie 2](broken-reference)
 
 **Avis de non-responsabilité:** tester des applications Web que vous n'avez pas l'autorisation écrite de tester est illégal et punissable par la loi
 
@@ -145,7 +145,7 @@ Je ne vais pas vous expliquer comment il fonctionne, je pense que c’est assez 
 
 Selon l'étendue de votre engagement, il peut être nécessaire de tunneler votre trafic Burp Suite via un proxy SOCKS sortant. Cela garantit que le trafic de test provient de votre environnement de test approuvé. Je préfère utiliser une simple connexion SSH qui fonctionne bien à cet effet. Connectez-vous à votre serveur de test et configurez un proxy SOCKS sur votre hôte local via l'option ‘–D’ comme celle-ci.
 
-```text
+```
 ssh –D 9292 –l username servername
 ```
 
@@ -153,7 +153,7 @@ Accédez à l'onglet Options situé à l'extrême droite du menu supérieur dans
 
 [![alt tag](https://user-images.githubusercontent.com/38256925/70810526-3a789d00-1dc4-11ea-8ff3-ddb33a571135.png)](https://user-images.githubusercontent.com/38256925/70810526-3a789d00-1dc4-11ea-8ff3-ddb33a571135.png)
 
-Désormais, Burp Suite est configuré pour acheminer le trafic via votre tunnel SSH sortant. Configurez les paramètres proxy de votre navigateur pour utiliser Burp Suite. Accédez à [www.whatismyip.com](https://www.whatismyip.com/) et assurez-vous que votre adresse IP provient de votre environnement de test.
+Désormais, Burp Suite est configuré pour acheminer le trafic via votre tunnel SSH sortant. Configurez les paramètres proxy de votre navigateur pour utiliser Burp Suite. Accédez à [www.whatismyip.com](https://www.whatismyip.com) et assurez-vous que votre adresse IP provient de votre environnement de test.
 
 **Conseil:** J'utilise un navigateur séparé pour les tests d'applications Web. Cela garantit que je ne transmets accidentellement aucune donnée personnelle à l'un des sites de mes clients, comme le mot de passe de mon compte gmail par exemple.
 
@@ -163,7 +163,7 @@ Je préfère également utiliser un module complémentaire de commutation de pro
 
 ### Configurer le comportement d'interception
 
-La prochaine chose que je fais est de configurer la fonction d'interception du proxy. Réglez-le pour ne suspendre que les demandes et réponses en provenance et à destination du site cible. Accédez à l'onglet `Proxy` sous le sous-onglet `Options`. Les deuxième et troisième en-têtes affichent les options configurables pour intercepter les demandes et les réponses. Décochez les paramètres par défaut de Burp Suite et cochez `URL Is in target scope`\(L'URL est dans la portée cible\). Désactivez ensuite l'interception car elle n'est pas nécessaire pour la procédure pas à pas initiale de l'application. Dans le sous-onglet `Intercept`, assurez-vous que le bouton à bascule indique `Intercept is off`
+La prochaine chose que je fais est de configurer la fonction d'interception du proxy. Réglez-le pour ne suspendre que les demandes et réponses en provenance et à destination du site cible. Accédez à l'onglet `Proxy` sous le sous-onglet `Options`. Les deuxième et troisième en-têtes affichent les options configurables pour intercepter les demandes et les réponses. Décochez les paramètres par défaut de Burp Suite et cochez `URL Is in target scope`(L'URL est dans la portée cible). Désactivez ensuite l'interception car elle n'est pas nécessaire pour la procédure pas à pas initiale de l'application. Dans le sous-onglet `Intercept`, assurez-vous que le bouton à bascule indique `Intercept is off`
 
 [![alt tag](https://user-images.githubusercontent.com/38256925/70810582-54b27b00-1dc4-11ea-8b5c-6d38a4c7d638.png)](https://user-images.githubusercontent.com/38256925/70810582-54b27b00-1dc4-11ea-8b5c-6d38a4c7d638.png)
 
@@ -173,7 +173,7 @@ Bizarrement , beaucoup de gens aiment sauter cette étape. Je ne le recommande p
 
 Vous devriez penser aux questions suivantes:
 
-```text
+```
 * Quels types d'actions quelqu'un peut-il faire, tant du point de vue authentifié que non authentifié?
 * Des demandes semblent-elles être traitées par un travail côté serveur ou une opération de base de données?
 * Y a-t-il des informations affichées que je peux contrôler
@@ -185,7 +185,7 @@ Si vous tombez sur des formulaires de saisie, assurez-vous de faire quelques tes
 
 Maintenant que vous avez une bonne idée du fonctionnement de votre application cible, il est temps de commencer à analyser certains GETs et publications. Cependant, avant de faire des tests avec Burp Suite, il est judicieux de définir correctement votre portée cible. Cela garantira que vous n'envoyez pas de trafic potentiellement malveillant vers des sites Web que vous n'êtes pas autorisé à tester.
 
-**Conseil:** Je suis autorisé à tester [www.pentestgeek.com](https://www.pentestgeek.com/) Tu ne l'es pas.
+**Conseil:** Je suis autorisé à tester [www.pentestgeek.com](https://www.pentestgeek.com) Tu ne l'es pas.
 
 Rendez-vous sur l'onglet `Target` puis sur le sous-onglet `Site map`. Sélectionnez votre site Web cible dans le volet d'affichage de gauche. Faites un clic droit et choisissez `Add to scope`. Sélectionnez ensuite tous les autres sites dans le volet d'affichage, cliquez avec le bouton droit et sélectionnez Supprimer de la portée. Si vous l'avez fait correctement, votre onglet de portée Burp Suite devrait ressembler à l'image ci-dessous.
 
@@ -195,7 +195,7 @@ Rendez-vous sur l'onglet `Target` puis sur le sous-onglet `Site map`. Sélection
 
 Cliquez sur l'onglet `Target` et le sous-onglet `Site Map`. Faites défiler jusqu'à la branche de site appropriée et développez toutes les flèches jusqu'à ce que vous obteniez une image complète de votre site cible. Cela devrait inclure toutes les pages individuelles que vous avez consultées ainsi que tous les fichiers javascript et css. Prenez un moment pour vous imprégner de tout cela, essayez de repérer les fichiers que vous ne reconnaissez pas dans la procédure manuelle. Vous pouvez utiliser Burp Suite pour afficher la réponse de chaque demande dans un certain nombre de formats différents situés sur l'onglet `Resposne` du volet d'affichage en bas à droite. Parcourez chaque réponse en recherchant des données intéressantes. Vous pourriez être surpris de découvrir:
 
-```text
+```
    * Commentaires des développeurs
    * Adresses mail
    * Noms d’utilisateur et mots de passe si vous avez de la chance
@@ -211,7 +211,7 @@ Vous pouvez également tirer parti de Burp Suite pour faire une grosse partie du
 
 ### Utilisation de Spider et Discover
 
-Après un peu de piquer et de pousser manuelle, il est généralement avantageux de permettre à Burp Suite de contrôler l'hôte. Faites un clic droit sur la branche racine de la cible dans le `Target` _\(plan du site\)_ et sélectionnez `Spider this host`.
+Après un peu de piquer et de pousser manuelle, il est généralement avantageux de permettre à Burp Suite de contrôler l'hôte. Faites un clic droit sur la branche racine de la cible dans le `Target` _(plan du site)_ et sélectionnez `Spider this host`.
 
 [![alt tag](https://user-images.githubusercontent.com/38256925/70810615-66941e00-1dc4-11ea-9cc9-e02d90040177.png)](https://user-images.githubusercontent.com/38256925/70810615-66941e00-1dc4-11ea-9cc9-e02d90040177.png)
 
@@ -235,13 +235,13 @@ Je recommande d'utiliser le bouton `Clear` pour supprimer ce qui est sélectionn
 
 ### Utilisation du Scan Automatique
 
-La dernière chose que je fais lors du test d'une application Web est d'effectuer une analyse automatisée à l'aide de Burp Suite. De retour sur votre sous-onglet `Site Map`, faites un clic droit sur la branche racine de votre site cible et sélectionnez `Passively scan this host`\(Scanner passivement cet hôte\). Cela analysera chaque demande et réponse que vous avez générée pendant votre session Burp Suite. Il produira un conseille de vulnérabilité sur le sous-onglet `Résults` situé sur l'onglet `Scanner`. J'aime faire l'analyse passive en premier car elle n'envoie aucun trafic au serveur cible. Vous pouvez également configurer Burp Suite pour analyser passivement les demandes et les réponses automatiquement dans le sous-onglet `Live scanning` \(Analyse en direct\). Vous pouvez également le faire pour la numérisation active, mais je ne le recommande pas.
+La dernière chose que je fais lors du test d'une application Web est d'effectuer une analyse automatisée à l'aide de Burp Suite. De retour sur votre sous-onglet `Site Map`, faites un clic droit sur la branche racine de votre site cible et sélectionnez `Passively scan this host`(Scanner passivement cet hôte). Cela analysera chaque demande et réponse que vous avez générée pendant votre session Burp Suite. Il produira un conseille de vulnérabilité sur le sous-onglet `Résults` situé sur l'onglet `Scanner`. J'aime faire l'analyse passive en premier car elle n'envoie aucun trafic au serveur cible. Vous pouvez également configurer Burp Suite pour analyser passivement les demandes et les réponses automatiquement dans le sous-onglet `Live scanning` (Analyse en direct). Vous pouvez également le faire pour la numérisation active, mais je ne le recommande pas.
 
 Lors d'une analyse active, j'aime utiliser les paramètres suivants:
 
 [![alt tag](https://user-images.githubusercontent.com/38256925/70810666-7c094800-1dc4-11ea-8bf3-c7fa8f3ef5d9.png)](https://user-images.githubusercontent.com/38256925/70810666-7c094800-1dc4-11ea-8bf3-c7fa8f3ef5d9.png)
 
-### Comment utiliser Burp Suite - Test de pénétration Web \(Partie 2\)
+### Comment utiliser Burp Suite - Test de pénétration Web (Partie 2)
 
 [Tutoriel original de www.pentestgeek.com](https://www.pentestgeek.com/web-applications/how-to-use-burp-suite)
 
@@ -259,7 +259,7 @@ L'onglet `Advisory` contient des informations sur la vulnérabilité, y compris 
 
 L'onglet de demande nous montre quelle page a généré l'alerte.
 
-```text
+```
 https://www.pentestgeek.com/wp-content/cache/minify/000000/NYtBDoAgDMA-JFsML5oEYShDYSbwez3goUl7qMV0P76OxU4xmUMl9ZBZlhVdpVHEtCFK3UQO8fxQXzE13Enc2EqfK_wNLKxwkTte.js
 ```
 
@@ -279,9 +279,9 @@ Cliquez sur l'Assistant et sélectionnez les éléments que vous souhaitez dans 
 
 ### Analyse des résultats XML
 
-J'ai écrit un simple script Ruby pour analyser les données de la sortie XML générée à partir d'un scan automatisé. Le script utilise la gem [Nokogiri](https://nokogiri.org/tutorials/parsing_an_html_xml_document.html) et génère les résultats dans un fichier CSV délimité par colonne qui peut être importé dans Excel pour produire une belle feuille de calcul. Si vous avez une compréhension de base de l'analyse des nœuds XML à l'aide de sélecteurs CSS, vous n'aurez aucun problème à modifier le script pour répondre à vos besoins spécifiques.
+J'ai écrit un simple script Ruby pour analyser les données de la sortie XML générée à partir d'un scan automatisé. Le script utilise la gem [Nokogiri](https://nokogiri.org/tutorials/parsing\_an\_html\_xml\_document.html) et génère les résultats dans un fichier CSV délimité par colonne qui peut être importé dans Excel pour produire une belle feuille de calcul. Si vous avez une compréhension de base de l'analyse des nœuds XML à l'aide de sélecteurs CSS, vous n'aurez aucun problème à modifier le script pour répondre à vos besoins spécifiques.
 
-```text
+```
 def clean_finding(finding)
   output = []
   output << 'Web Application Findings'
@@ -304,7 +304,7 @@ end
 
 Vous pouvez voir qu'en appelant simplement la méthode .css et en passant `[LA VALEUR QUE VOUS VOULEZ].text` en tant que paramètre, vous pourrez retirer tous les éléments spécifiques que vous souhaitez de la soupe XML. Exécutez le script sans argument et vous verrez qu'il prend un fichier XML et crache la sortie à l'écran.
 
-```text
+```
 $ ./parse-burp.rb
 Parse Burp Suite XML output into Tab delimited results
 Example: ./parse-brup.rb > output.csv
@@ -318,7 +318,7 @@ Vous pouvez filtrer les résultats dans un fichier.csv si vous le souhaitez. Le 
 
 Dans certains cas, il peut être nécessaire de suspendre une évaluation et de revenir plus tard. Vous pourriez également vous retrouver à vouloir partager votre session Burp Suite avec un autre consultant. Deux yeux valent souvent mieux qu'un après tout. Dans ces cas, la chose la plus simple à faire est d'enregistrer une copie locale de votre session. Sélectionnez simplement `Save state` dans le menu Burp en haut. Cela va créer un fichier plat que vous ou un autre consultant pouvez importer dans Burp Suite et voir le trafic capturé et les points précis du test. Il s'agit d'une fonctionnalité extrêmement utile.
 
-Si vous avez essayé de le faire dans le passé et que vous avez remarqué que la taille du fichier résultant était inutilement grande \(des centaines de Mo\). Il est possible que vous ayez oublié de cocher la case `Save in-scope items only`
+Si vous avez essayé de le faire dans le passé et que vous avez remarqué que la taille du fichier résultant était inutilement grande (des centaines de Mo). Il est possible que vous ayez oublié de cocher la case `Save in-scope items only`
 
 [![alt tag](https://user-images.githubusercontent.com/38256925/70846259-e3240c80-1e57-11ea-9c25-484d3cc7202e.png)](https://user-images.githubusercontent.com/38256925/70846259-e3240c80-1e57-11ea-9c25-484d3cc7202e.png)
 
@@ -349,4 +349,3 @@ J'espère que ce tutoriel vous a été utile. Après avoir lu les deux articles 
 Source may 2020 : [https://github.com/TeePee/BurpSuite-Utilisation](https://github.com/TeePee/BurpSuite-Utilisation)
 
 Source 3 mai 2020 : [https://github.com/TeePee/BurpSuite-Utilisation](https://github.com/TeePee/BurpSuite-Utilisation)
-

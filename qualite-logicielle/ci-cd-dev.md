@@ -4,7 +4,7 @@ description: Apprendre des technologies pour savoir faire un peu de qualité
 
 # CI/CD Dév
 
-🗓 Dernière maj le 14 octobre 2020
+:calendar\_spiral: Dernière maj le 14 octobre 2020
 
 Le but de ce TP est de monter une pipeline de test dev maison. Le tp permet de vous apprendre certaine technologie, au menu :
 
@@ -26,7 +26,7 @@ Le but de ce TP est de monter une pipeline de test dev maison. Le tp permet de v
 
 ### Un bout de code ?
 
-Le mieux pour effectuer ensuite des tests d'intégration et effectuer du déploiement facilement ça serait d'avoir une petite app API REST. Utilisez le langage/framework de votre choix pour coder une API simpliste \(une ou deux entités, avec du GET/POST/DELETE simplement\).
+Le mieux pour effectuer ensuite des tests d'intégration et effectuer du déploiement facilement ça serait d'avoir une petite app API REST. Utilisez le langage/framework de votre choix pour coder une API simpliste (une ou deux entités, avec du GET/POST/DELETE simplement).
 
 ### Une première pipeline
 
@@ -53,7 +53,7 @@ Tester ce premier fichier `.yml`.
 
 Créer une nouvelle pipeline qui met en place du linting. Pour ce faire :
 
-* trouver un binaire qui est capable de lint votre code \(par exemple `pylint` pour Python\)
+* trouver un binaire qui est capable de lint votre code (par exemple `pylint` pour Python)
 * utiliser une image Docker qui contient ce binaire
 * créer une pipeline qui mobilise cette image afin de tester votre code
 
@@ -63,7 +63,7 @@ Créer une nouvelle pipeline qui met en place du linting. Pour ce faire :
 
 Il est possible d'utiliser les pipelines de CI/CD pour construire et packager des images Docker. Ces images peuvent ensuite être utilisées à des fins de dév, ou poussées sur une infra de prod.
 
-Gitlab embarque nativement un registre Docker \(un registre permet d'héberger des images Docker, à l'instar du Docker Hub\).
+Gitlab embarque nativement un registre Docker (un registre permet d'héberger des images Docker, à l'instar du Docker Hub).
 
 Lors du déroulement d'une pipeline, plusieurs variables d'environnement sont disponibles à l'intérieur du fichier `.gitlab-ci.yml`. On peut par exemple récupérer dynamiquement le nom de la branche qui est en train d'être poussée, l'ID de commit ou encore, l'adresse du registre Docker associé à l'instance Gitlab.
 
@@ -75,17 +75,17 @@ Pour tester tout ça, on va avoir besoin de deux fichiers :
 
 Exemple de setup simple :
 
-* [Dockerfile](./files/docker-integration/Dockerfile)
+* [Dockerfile](https://app.gitbook.com/s/-MCFj\_VEhiEqSWXrtGBs/qualite-logicielle/files/docker-integration/Dockerfile)
 
-```text
+```
 FROM alpine
 
 RUN apk update
 ```
 
-* [.gitlab-ci.yml](./files/docker-integration/.gitlab-ci.yml)
+* [.gitlab-ci.yml](https://app.gitbook.com/s/-MCFj\_VEhiEqSWXrtGBs/qualite-logicielle/files/docker-integration/.gitlab-ci.yml)
 
-```text
+```
 image: docker:18
 
 stages:
@@ -151,10 +151,10 @@ Steps :
 
 * installer Docker et `docker-compose` en suivant la documentation officielle
   * dans une VM Linux si vous pouvez
-  * sur votre hôte c'est possible, je vous laisse gérer votre environnement :\)
-* récupérer le [docker-compose.yml](./files/sonarqube/docker-compose.yml) et le placer dans un répertoire de travail
+  * sur votre hôte c'est possible, je vous laisse gérer votre environnement :)
+* récupérer le [docker-compose.yml](https://app.gitbook.com/s/-MCFj\_VEhiEqSWXrtGBs/qualite-logicielle/files/sonarqube/docker-compose.yml) et le placer dans un répertoire de travail
 
-```text
+```
 # sonarqube : 8080
 # gitea : 3000
 # drone : 80
@@ -322,7 +322,7 @@ Steps :
 
 * aller sur la WebUI de Gitea
   * onglet `Explore`
-  * laisser les paramètres par défaut **SAUF :** n'oubliez pas la création d'un utilisateur admin \(tout en bas\)
+  * laisser les paramètres par défaut **SAUF :** n'oubliez pas la création d'un utilisateur admin (tout en bas)
   * vous authentifier pour vérifier le bon fonctionnement
   * créer un dépôt et y pousser du code
 * aller sur la WebUI de Sonarqube
@@ -338,9 +338,9 @@ Steps :
       * `sonar_host` : `http://sonarqube:9000`
       * `sonar_token` : `<YOUR_TOKEN>`
 * ajouter un `.drone.yml` à la racine de votre dépôt
-  * [exemple ici](./files/sonarqube/.drone.yml)
+  * [exemple ici](https://app.gitbook.com/s/-MCFj\_VEhiEqSWXrtGBs/qualite-logicielle/files/sonarqube/.drone.yml)
 
-```text
+```
 ind: pipeline
 type: docker
 name: code-analysis
@@ -361,4 +361,3 @@ steps:
 Explorez une peu l'interface de Sonarqube une fois qu'il est en place, beaucoup de métriques intéressantes y remontent.
 
 Drone est quant à lui un outil minimaliste mais puissant. Vous pouvez mettre en place une pipeline similaire à celle de Gitlab sous Drone.
-

@@ -19,7 +19,7 @@ The name DE-NO may seem odd until you realize that it is simply the interchange 
 * Adopts security by default. Unless explicitly allowed, Deno disallows file, network, or environment access.
 * Includes TypeScript support out-of-the-box.
 * Supports[ top-level await](https://medium.com/javascript-in-plain-english/javascript-top-level-await-in-a-nutshell-4e352b3fc8c8).
-* Includes built-in [unit testing](https://deno.land/manual/testing) and code formatting \(deno fmt\).
+* Includes built-in [unit testing](https://deno.land/manual/testing) and code formatting (deno fmt).
 * Is compatible with browser JavaScript APIs: Programs authored in JavaScript without the Deno namespace and its internal features should work in all modern browsers.
 * Provides a one-file executable bundler through deno bundle command which lets you share your code for others to run without installing Deno.
 
@@ -29,7 +29,7 @@ The easiest way to install Deno is to use the `deno_install` scripts. You can do
 
 `curl -fsSL https://deno.land/x/install/install.sh | sh`
 
-Windows users can leverage [Chocolatey](https://chocolatey.org/):
+Windows users can leverage [Chocolatey](https://chocolatey.org):
 
 `choco install deno`
 
@@ -37,15 +37,15 @@ A successful install with  Linux looks like this:
 
 ![](https://res.infoq.com/articles/deno-introduction-practical-examples/en/resources/11image002-1603478801048.jpg)
 
-**Note**: You may also need to [export the deno directories to make the ](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu)[deno](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu)[ command globally available](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu). 
+**Note**: You may also need to [export the deno directories to make the ](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu)[deno](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu)[ command globally available](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu).&#x20;
 
-There are [additional ways to install Deno](https://deno.land/manual/getting_started/installation).
+There are [additional ways to install Deno](https://deno.land/manual/getting\_started/installation).
 
 ## Hands-on Deno
 
 Simple Example
 
-Deno uses `.js` and `.ts` file extensions \(though it will run any JavaScript or TypeScript file regardless of extension\). Our first example demonstrates how we can safely write a browser-based Deno application, a simple JavaScript program that prints the current date and time.
+Deno uses `.js` and `.ts` file extensions (though it will run any JavaScript or TypeScript file regardless of extension). Our first example demonstrates how we can safely write a browser-based Deno application, a simple JavaScript program that prints the current date and time.
 
 `// date_time.js`
 
@@ -73,7 +73,7 @@ The run command runs any Deno code. And if you’re stuck, run deno --help, or d
 
 ![](https://res.infoq.com/articles/deno-introduction-practical-examples/en/resources/26image003-1603478800391.jpg)
 
-Deno also provides a way to run programs from a local file, a URL, or by integrating with other applications in `the stdin` by using `"-"` \(without quotes\).
+Deno also provides a way to run programs from a local file, a URL, or by integrating with other applications in `the stdin` by using `"-"` (without quotes).
 
 Running code from filename:
 
@@ -85,11 +85,11 @@ Running code from a URL is nearly identical:
 
 Read code from stdin:
 
-`echo "console.log('Hello Deno')" | deno run` 
+`echo "console.log('Hello Deno')" | deno run`&#x20;
 
 ### Deno Script Arguments
 
-Deno provides the args property from the Deno  namespace \(Deno.args\) for accessing script arguments, this property returns an array containing the passed arguments at runtime. 
+Deno provides the args property from the Deno  namespace (Deno.args) for accessing script arguments, this property returns an array containing the passed arguments at runtime.&#x20;
 
 A simple example below outputs the argument for a program with Deno.args.
 
@@ -111,7 +111,7 @@ Follow these steps to create a simple web server with Deno:
 
 1. Create a file, for example, server.js.
 
-```text
+```
 import { serve } from "https://deno.land/std/http/server.ts";
 const server = serve({ port: 5000 });
 console.log('Listening to port 5000 on http://localhost:5000');
@@ -120,13 +120,14 @@ for await (const server_request of server) {
 }
 ```
 
-1. Run the code from the terminal.  `deno run --allow-net server.js`
-2. Open your favorite browser and visit [http://localhost:5000/](http://localhost:5000/)
+1. Run the code from the terminal.\
+   &#x20;`deno run --allow-net server.js`
+2. Open your favorite browser and visit [http://localhost:5000/](http://localhost:5000)
 
 In this example,  `--allow-net` provides network access permission to our program, otherwise Deno will throw a `PermissionDenied` error. This example:
 
 * Imports a module from the HTTP remote package.
-* Uses serve\(\) method to create the server that listens on port 5000.
+* Uses serve() method to create the server that listens on port 5000.
 * Loops through a promise to send the string "Deno server created\n" whenever any request is made to port 5000.
 
 ### Another Web Server Example: HTML
@@ -134,11 +135,12 @@ In this example,  `--allow-net` provides network access permission to our progra
 To create an HTML web server in Deno, we will first have our HTML files that will be served whenever a user visits the server. To do this, follow the steps below:
 
 1. Create a folder for your project, for example, deno\_server.
-2. Navigate to the folder from your terminal:  cd `deno_server`
+2. Navigate to the folder from your terminal:\
+   &#x20;cd `deno_server`
 
 Create a file name `index.html`, and paste the following code into it:
 
-```text
+```
 
 
 
@@ -152,7 +154,7 @@ Create a file name `index.html`, and paste the following code into it:
 
 1. Create a file named `server.js` and paste the following code into it:
 
-```text
+```
 import { serve } from "https://deno.land/std/http/server.ts";
 const server = serve({ port: 5000 });
 for await (const server_request of server) {
@@ -162,7 +164,8 @@ for await (const server_request of server) {
 }
 ```
 
-1. Go to your terminal and run the code:  `deno run --allow_net --allow_read server.js`
+1. Go to your terminal and run the code:\
+   &#x20;`deno run --allow_net --allow_read server.js`
 
 ![](https://res.infoq.com/articles/deno-introduction-practical-examples/en/resources/17image004-1603478799305.jpg)
 
@@ -172,7 +175,7 @@ This example:
 
 * Stores the hostname in a variable
 * Stores the port in a variable
-* Creates a loop that waits for a request from the client \(e.g, user’s browser\), reads a file from the server, and then sends the HTML file in response.
+* Creates a loop that waits for a request from the client (e.g, user’s browser), reads a file from the server, and then sends the HTML file in response.
 
 ## TypeScript in Deno?
 
@@ -180,7 +183,7 @@ Deno supports both JavaScript and TypeScript as its first-class languages, allow
 
 A quick example of a TypeScript program in Deno:
 
-```text
+```
 // ask_details.ts
 interface PersonDetails {
   name: string;
@@ -197,11 +200,11 @@ console.log(getDetails(Deno.args));
 
 ## Deno Package Management
 
-Package management has been one of the factors for Node.js popularity, however this has also been a major bottleneck to its code instability and vulnerabilities. Node.js also predates JavaScript having a standard module format by several years. Instead of providing a standard package management system like npm, Deno instead recommends using standard ES module imports for loading URL modules. When URL modules are imported for the first time, Deno downloads and caches the module and its dependencies for later use. This also means Deno does not provide global CommonJS module functions like require\(\) which exist in Node.js.
+Package management has been one of the factors for Node.js popularity, however this has also been a major bottleneck to its code instability and vulnerabilities. Node.js also predates JavaScript having a standard module format by several years. Instead of providing a standard package management system like npm, Deno instead recommends using standard ES module imports for loading URL modules. When URL modules are imported for the first time, Deno downloads and caches the module and its dependencies for later use. This also means Deno does not provide global CommonJS module functions like require() which exist in Node.js.
 
 ### Example of Importing a URL Module in Deno
 
-```text
+```
 // imports the Deno standard datetime module
 import { parseDate, parseDateTime } from 'https://deno.land/std/datetime/mod.ts'
 parseDate("20-01-2019", "dd-mm-yyyy") // output : new Date(2019, 0, 20)
@@ -219,11 +222,11 @@ The Deno FileSystem allows you to perform operating system tasks on files. Like 
 
 ### Reading from a File in Deno
 
-The Deno namespace provides the open\(\) method for reading files. 
+The Deno namespace provides the open() method for reading files.&#x20;
 
 Let's create a file, `sample.ts`, and paste the following code:
 
-```text
+```
 // open() asynchronously returns the Uint8Array buffer of the file.
 const file = await Deno.open('./sample.txt');
 // TextDecoder decodes the Uint8Array to unicode text
@@ -249,7 +252,7 @@ This example throws  a PermissionDenied error because we wanted to read a file w
 
 The `Deno.writeFile()` method provides asynchronous methods for file writing. Let's explore with an example:
 
-```text
+```
 //create a text encoder that encodes utf8 string to Uint8Array
 const encoder = new TextEncoder();
 // encodes your utf8 text
@@ -269,14 +272,14 @@ Run the Deno file writing example  with the `--allow-write` flag.
 
 Let's read the `sample1.txt` file to confirm the write, the Deno namespace also provides `readTextFile` which can be easily used to read text files:
 
-```text
+```
 // Read the file to see if it truly writes.
 console.log(await Deno.readTextFile('./sample1.txt'));
 ```
 
 ## Formatting Code
 
-Unlike Node.js which uses formatter libraries like [Prettier](https://prettier.io/),  Deno includes an automatic formatter with the `deno fmt` command.
+Unlike Node.js which uses formatter libraries like [Prettier](https://prettier.io),  Deno includes an automatic formatter with the `deno fmt` command.
 
 #### To format all JS/TS files in the current directory including nested directories
 
@@ -302,7 +305,7 @@ Unlike Node.js which uses formatter libraries like [Prettier](https://prettier.i
 
 #### To ignore formatting a section or block of code, precede the code section with // deno-fmt-ignore comment. For example:
 
-```text
+```
 // deno-fmt-ignore comment
 const arrs = ["I", "will", "be", "left","unformatted"
                ];
@@ -310,7 +313,7 @@ const arrs = ["I", "will", "be", "left","unformatted"
 
 To ignore formatting for an entire file, add // deno-fmt-ignore-file to the top of the file:
 
-```text
+```
 // deno-fmt-ignore-file
 const arrs = ["I", "will", "be", "left","unformatted"  
  ];
@@ -323,12 +326,12 @@ console.log(arrs[rand]);
 
 Deno and Node.js have several key similarities and differences:
 
-| **Environment** | **Deno** | **Node.js** |
-| :--- | :--- | :--- |
-| **JavaScript engine and technologies** | **Built with Chrome V8 and Rust** | **Built with Chrome V8 and C++** |
-| **Package management** | **Intentionally does not encourage a single standard package manager \(although** [**the community is exploring some ideas**](https://deno.land/x?query=package%20manager)**\)** | **npm** |
-| **Module loading** | **ES Modules** | **CommonJS or ES Modules** |
-| **Default security restrictions** | **Restricts access to a file, network, and environment access.** | **Does not disallow access by default.** |
+| **Environment**                        | **Deno**                                                                                                                                                                       | **Node.js**                              |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
+| **JavaScript engine and technologies** | **Built with Chrome V8 and Rust**                                                                                                                                              | **Built with Chrome V8 and C++**         |
+| **Package management**                 | **Intentionally does not encourage a single standard package manager (although** [**the community is exploring some ideas**](https://deno.land/x?query=package%20manager)**)** | **npm**                                  |
+| **Module loading**                     | **ES Modules**                                                                                                                                                                 | **CommonJS or ES Modules**               |
+| **Default security restrictions**      | **Restricts access to a file, network, and environment access.**                                                                                                               | **Does not disallow access by default.** |
 
 ## Conclusion
 
@@ -345,4 +348,3 @@ Please share any questions or feedback in the comments.
 ## About the Author
 
 ![](https://res.infoq.com/articles/deno-introduction-practical-examples/en/resources/1erisan-1603480459910.jpg)**Erisan Olasheni** is a Full-stack software engineer, freelancer, and a creative thinker who loves writing programming tutorials and tech tips. CTO at siit.co.
-

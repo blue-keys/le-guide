@@ -2,25 +2,19 @@
 
 * [📖 Synopsis](README.md)
 * [ℹ️ Qui sommes-nous ?](../presentation.md)
-* [✍Partenaires](../partenaires/README.md)
-  * [Le Trèfle 2.0](../partenaires/le-trefle-2.0.md)
-  * [Brocloud](../partenaires/brocloud.md)
-* [💕Nos soutiens](../nos-soutiens/README.md)
+* [💕Nous soutenons](../nos-soutiens/README.md)
   * [💻 Azales](../nos-soutiens/azales.md)
   * [Papi Uzumaki](../nos-soutiens/papi-uzumaki.md)
   * [💻 Beau de l'aire](../nos-soutiens/beau-de-laire.md)
   * [Toshi](../nos-soutiens/toshi.md)
-  * [🛡️ FCC \(French Communuty Cybersecurity\)](../nos-soutiens/fcc-french-communuty-cybersecurity.md)
+  * [🛡️ FCC (French Communuty Cybersecurity)](../nos-soutiens/fcc-french-communuty-cybersecurity.md)
   * [🛡️ TheBlackSide](../nos-soutiens/theblackside.md)
-  * [🛡️ Flycase](../nos-soutiens/flycase.md)
-  * [Jonathan Boyer](../nos-soutiens/jonathan-boyer.md)
   * [Romain Lanz](../nos-soutiens/romain-lanz.md)
   * [🛡️Sharpforce](../nos-soutiens/sharpforce.md)
-  * [💻Café des devs](../nos-soutiens/cafe-des-devs.md)
-* [🗣 Faire une suggestion](https://suggestion.bluekeys.org/)
+* [🗣 Faire une suggestion](https://suggestion.bluekeys.org)
 * [📘 Dernier article](../dernier-article.md)
 * [🔗 Nos liens](../bkjoin.md)
-* [Crédits \(en cours\)](../credits-en-cours.md)
+* [Crédits (en cours)](../credits-en-cours.md)
 
 ## urgence
 
@@ -32,14 +26,14 @@
 
 * [👁️‍🗨️ C'est quoi le phishing ?](../prevention/cest-quoi-le-phishing.md)
 * [🌐 Que peut-on faire avec une IP ?](../prevention/que-peut-on-faire-avec-une-ip.md)
-* [Comment se rétracter lors d'un achat \(ecommerce\) ?](../prevention/comment-se-retracter-lors-dun-achat-ecommerce.md)
+* [Comment se rétracter lors d'un achat (ecommerce) ?](../prevention/comment-se-retracter-lors-dun-achat-ecommerce.md)
 
 ## HELP
 
 * [Dont ask to ask](https://dontasktoask.com/fr/)
 * [Une alternative ?](../help/une-alternative.md)
 * [🎓 Apprendre](../help/learn/README.md)
-  * [🇬🇧 Apprendre autre chose](https://learn-anything.xyz/)
+  * [🇬🇧 Apprendre autre chose](https://learn-anything.xyz)
   * [Apprendre la cybersécurité](../help/learn/learn-cyber-secu.md)
   * [Apprendre le développement](../help/learn/learndev.md)
   * [liens utiles cybersec](../help/learn/learn-cyber-secu-resource.md)
@@ -49,7 +43,7 @@
 
 ## Projets
 
-* [Blukeys \(en cours\)](../projets/blukeys-en-cours.md)
+* [Blukeys (en cours)](../projets/blukeys-en-cours.md)
 * [Communautés](../projets/autour/README.md)
   * [Quark](../projets/autour/quark.md)
 
@@ -57,15 +51,15 @@
 
 * [Comment bien écrire une liste ?](../francais/comment-bien-ecrire-une-liste.md)
 
-## Cybersécurité - Hack <a id="cyber-securite"></a>
+## Cybersécurité - Hack <a href="#cyber-securite" id="cyber-securite"></a>
 
 * [Outils](../cyber-securite/outils/README.md)
   * [Introduction au reverse engineering](../cyber-securite/outils/introduction-au-reverse-engineering.md)
-  * [Outils de Base \(introduction au Pentesting et la cybersécurité\)](../cyber-securite/outils/outils-de-base-introduction-au-pentesting-et-la-cybersecurite.md)
+  * [Outils de Base (introduction au Pentesting et la cybersécurité)](../cyber-securite/outils/outils-de-base-introduction-au-pentesting-et-la-cybersecurite.md)
   * [BurpSuite - Intercepter toutes les requêtes HTTP](../cyber-securite/outils/burpsuite-introduction.md)
   * [🇬🇧 fabacab/awesome-cybersecurity-blueteam](../cyber-securite/outils/blueteam.md)
   * [🇬🇧 fabionoth/awesome-cyber-security](../cyber-securite/outils/awesome.md)
-  * [🇬🇧 Bypassing Cloudflare WAF with the origin server IP address \| Detectify Blog](../cyber-securite/outils/cloudflare.md)
+  * [🇬🇧 Bypassing Cloudflare WAF with the origin server IP address | Detectify Blog](../cyber-securite/outils/cloudflare.md)
 * [OWASP Top 10](../cyber-securite/owasp-top-10.md)
 * [On dit chiffrer plutôt que crypter](../cyber-securite/on-dit-chiffrer-plutot-que-crypter.md)
 * [Web security academy - WSA](https://sites.google.com/view/secu-hacking/labs-web-security-academy-th%C3%A8mes?authuser=0)
@@ -73,11 +67,11 @@
   * [TryHackMe - Retro](../cyber-securite/write-up-ctf/tryhackme-retro.md)
 * [SANS - Formations en cybersécurité](https://www.sans.org/cyber-security-training/france)
 
-## Développement logiciels <a id="dev"></a>
+## Développement logiciels <a href="#dev" id="dev"></a>
 
 * [Par où commencer ?](../dev/par-ou-commencer.md)
 * [Principes et bonnes pratiques](../dev/principes-et-bonnes-pratiques/README.md)
-  * [POO \(Programmation Orienté Objet\)](../dev/principes-et-bonnes-pratiques/poo-programmation-oriente-objet.md)
+  * [POO (Programmation Orienté Objet)](../dev/principes-et-bonnes-pratiques/poo-programmation-oriente-objet.md)
 * [Langages informatique](../dev/langages-informatique/README.md)
   * [CSS, SASS](../dev/langages-informatique/css-sass.md)
   * [HTML](../dev/langages-informatique/html.md)
@@ -96,18 +90,18 @@
   * [Les IDE recommandés](../dev/technologies/les-ide-recommandes.md)
   * [Base de données](../dev/technologies/base-de-donnees.md)
   * [Développement web sur windows](../dev/technologies/outils-dev-web.md)
-* [Toute les documentations](https://devdocs.io/)
+* [Toute les documentations](https://devdocs.io)
 
 ## Cryptomonnaie
 
-* [Tips navigateur Brave \| Laisser un pourboire](../cryptomonnaie/tips-navigateur-brave-or-laisser-un-pourboire.md)
+* [Tips navigateur Brave | Laisser un pourboire](../cryptomonnaie/tips-navigateur-brave-or-laisser-un-pourboire.md)
 * [Town Star - Un bon démarrage](../cryptomonnaie/town-star-guide.md)
 
 ## Infrastructure
 
-* [Générateur de configuration SSL](https://ssl-config.mozilla.org/)
+* [Générateur de configuration SSL](https://ssl-config.mozilla.org)
 
-## Qualité ingénierie logicielle <a id="qualite-logicielle"></a>
+## Qualité ingénierie logicielle <a href="#qualite-logicielle" id="qualite-logicielle"></a>
 
 * [CI/CD Dév](../qualite-logicielle/ci-cd-dev.md)
 * [CI/CD d'une infra](../qualite-logicielle/ci-cd-dune-infra.md)
@@ -138,7 +132,7 @@
 ## Web
 
 * [Inspecteur de code web](../web/inspecteur-de-code-web.md)
-* [Liste des APIs publique \( en cours \)](../web/liste-des-apis-publique.md)
+* [Liste des APIs publique ( en cours )](../web/liste-des-apis-publique.md)
 * [Apprendre le SEO naturel](https://www.grafikart.fr/tutoriels/seo-referencement-naturel-594)
 * [Tips pour fusionner des communautés Discord](../web/tips-pour-fusionner-des-communautes-discord.md)
 * [Qu’est-ce que le rp ?](../web/quest-ce-que-le-rp.md)
@@ -153,7 +147,7 @@
 * [React-native](../couche-haute/react-native.md)
 * [🇬🇧 Angular HttpClient v9/8](../couche-haute/angular-httpclient.md)
 * [🇬🇧 Compiler un front Angular variabilisé comme un chef](../couche-haute/compiler-un-front-angular-variabilise-comme-un-chef.md)
-* [🇬🇧 Applying Angular Runtime Configurations in Dockerized Environments \| Hacker Noon](../couche-haute/untitled-1.md)
+* [🇬🇧 Applying Angular Runtime Configurations in Dockerized Environments | Hacker Noon](../couche-haute/untitled-1.md)
 
 ## Gaming
 
@@ -167,9 +161,9 @@
 * [Bases de linux](../linux/untitled.md)
 * [Installation LEMP sur Ubuntu 20.04 Digitalocean](../linux/lemp.md)
 * [🇬🇧 Wireguard VPN on Ubuntu 20.04](https://www.howtoforge.com/how-to-set-up-wireguard-vpn-on-ubuntu-20-04/)
-* [Comment installer et utiliser Docker sur Ubuntu 20.04 \| DigitalOcean](../linux/untitled-1.md)
+* [Comment installer et utiliser Docker sur Ubuntu 20.04 | DigitalOcean](../linux/untitled-1.md)
 * [Sécuriser son serveur Linux sous Ubuntu](https://baptiste0928.net/securiser-son-serveur-linux-sous-ubuntu/)
-* [Introduction à tmux \(terminal multiplexer\)](../linux/introduction-a-tmux-terminal-multiplexer.md)
+* [Introduction à tmux (terminal multiplexer)](../linux/introduction-a-tmux-terminal-multiplexer.md)
 
 ## Bot
 
@@ -192,23 +186,22 @@
 
 * [Tips sur les réseaux sociaux 2021](../marketing/tips-sur-les-reseaux-sociaux-2021.md)
 
-## Gestions IT \(pro/perso\) <a id="gestions-it"></a>
+## Gestions IT (pro/perso) <a href="#gestions-it" id="gestions-it"></a>
 
 * [Méthodes Agiles](../gestions-it/methodes-agiles.md)
-* [Savoir utiliser la méthode GTD \(Getting Things Done\)](../gestions-it/methode-gtd.md)
+* [Savoir utiliser la méthode GTD (Getting Things Done)](../gestions-it/methode-gtd.md)
 * [Méthode QQCOQP : analyse et résolution des problèmes](../gestions-it/analyse-et-resolution-des-problemes.md)
 
 ## Nouveautés
 
 * [🇬🇧 Netflix-technologies](../nouveautes/netflix-technologies/README.md)
-  * [How Netflix Scales its API with GraphQL Federation \(Part 1\)](../nouveautes/netflix-technologies/how-netflix-scales-its-api-with-graphql-federation-part-1.md)
-  * [How Netflix Scales its API with GraphQL Federation \(Part 2\)](../nouveautes/netflix-technologies/how-netflix-scales-its-api-with-graphql-federation-part-2.md)
+  * [How Netflix Scales its API with GraphQL Federation (Part 1)](../nouveautes/netflix-technologies/how-netflix-scales-its-api-with-graphql-federation-part-1.md)
+  * [How Netflix Scales its API with GraphQL Federation (Part 2)](../nouveautes/netflix-technologies/how-netflix-scales-its-api-with-graphql-federation-part-2.md)
 
 ## Autres
 
 * [A classer](../autres/a-classer.md)
 
----
+***
 
 * [How to install Windows 10 root certificates \[EASY STEPS\]](../untitled.md)
-

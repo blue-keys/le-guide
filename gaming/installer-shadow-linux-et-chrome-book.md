@@ -4,27 +4,27 @@ Pour installer l'application Linux, téléchargez l'AppImage du site, mettez les
 
 ## Correctif 1
 
-  
-Pour ceux présentant un stream coloré du plus bel effet \(ex: que des variantes de rouge\), ceci est dû à une mauvaise utilisation des drivers par votre OS. Pour le régler, exécutez la commande suivante, et relancez l'application.
+\
+Pour ceux présentant un stream coloré du plus bel effet (ex: que des variantes de rouge), ceci est dû à une mauvaise utilisation des drivers par votre OS. Pour le régler, exécutez la commande suivante, et relancez l'application.
 
-```text
+```
 curl https://gitlab.com/NicolasGuilloux/shadow-live-os/raw/arch-master/airootfs/etc/drirc -o ~/.drirc
 ```
 
- Plus d'info ici : [https://nicolasguilloux.github.io/blade-shadow-beta/issues\#the-drirc-fix](https://nicolasguilloux.github.io/blade-shadow-beta/issues#the-drirc-fix)  
+&#x20;Plus d'info ici : [https://nicolasguilloux.github.io/blade-shadow-beta/issues#the-drirc-fix](https://nicolasguilloux.github.io/blade-shadow-beta/issues#the-drirc-fix)\
 Source  : Discord Shadow
 
 ## Correctif 2
 
-Une nouvelle mise à jour a eu lieu hier, le 26 août, et apporte le Quick Menu. Si vous rencontrez des problèmes, merci bien vouloir : 1. Vérifier que `libva-glx2` est installé sur votre machine 2. Si vous rencontrez toujours des problèmes, veuillez activer l'option "Faible Configuration" \(et non faible connexion !\). Celle-ci va désactiver le Quick Menu, il est possible que votre GPU ne le supporte pas. 3. Partagez nous le lien retourné par cette commande : `curl https://raw.githubusercontent.com/NicolasGuilloux/blade-shadow-beta/master/scripts/report.pl | perl` 4. Pinguez moi ou un dev qu'on récolte vos rapports  
-  
+Une nouvelle mise à jour a eu lieu hier, le 26 août, et apporte le Quick Menu. Si vous rencontrez des problèmes, merci bien vouloir : 1. Vérifier que `libva-glx2` est installé sur votre machine 2. Si vous rencontrez toujours des problèmes, veuillez activer l'option "Faible Configuration" (et non faible connexion !). Celle-ci va désactiver le Quick Menu, il est possible que votre GPU ne le supporte pas. 3. Partagez nous le lien retourné par cette commande : `curl https://raw.githubusercontent.com/NicolasGuilloux/blade-shadow-beta/master/scripts/report.pl | perl` 4. Pinguez moi ou un dev qu'on récolte vos rapports\
+\
 Source  : Discord Shadow
 
 ## Installation
 
 Shadow is compatible with the following OS and their more recent versions:
 
-[Ubuntu 18.04](https://ubuntu.com/), [Linux Mint 19](https://www.linuxmint.com/), [Debian 10](https://www.debian.org/), [Arch Linux](https://www.archlinux.org/), [Solus](https://getsol.us/), [Fedora 28](https://getfedora.org/), [GalliumOS 3.0](https://galliumos.org/).
+[Ubuntu 18.04](https://ubuntu.com), [Linux Mint 19](https://www.linuxmint.com), [Debian 10](https://www.debian.org), [Arch Linux](https://www.archlinux.org), [Solus](https://getsol.us), [Fedora 28](https://getfedora.org), [GalliumOS 3.0](https://galliumos.org).
 
 If your OS meets the minimum version, lets get started! Please [download the official AppImage](https://nicolasguilloux.github.io/blade-shadow-beta/index#appimage).
 
@@ -46,7 +46,7 @@ The community built a wonderful report script that gather all information to deb
 
 `curl https://raw.githubusercontent.com/NicolasGuilloux/blade-shadow-beta/master/scripts/report.pl | perl`
 
-## Setup you GPU for the VA-API <a id="setup-you-gpu-for-the-va-api"></a>
+## Setup you GPU for the VA-API <a href="#setup-you-gpu-for-the-va-api" id="setup-you-gpu-for-the-va-api"></a>
 
 As Shadow for Linux uses the VA-API, it is important to well setup your GPU for it. So it is important to understand how works`vainfo` and how to debug it.
 
@@ -64,82 +64,82 @@ Vainfo scans your GPU with the given driver to check his abilities. There are 3 
 
 The following result show that the GPU is well recognized and have both profiles wanted. The relevant information are highlighted.
 
-`libva info: VA-API version 1.1.0  
-libva info: va_getDriverName() returns 0  
-libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so  
-libva info: Found init function __vaDriverInit_1_1  
-libva info: va_openDriver() returns 0  
-vainfo: VA-API version: 1.1 (libva 2.1.0)  
-vainfo: Driver version: Intel i965 driver for Intel(R) Skylake - 2.1.0  
-vainfo: Supported profile and entrypoints  
- VAProfileMPEG2Simple : VAEntrypointVLD  
- VAProfileMPEG2Simple : VAEntrypointEncSlice  
- VAProfileMPEG2Main : VAEntrypointVLD  
- VAProfileMPEG2Main : VAEntrypointEncSlice  
- VAProfileH264ConstrainedBaseline: VAEntrypointVLD  
- VAProfileH264ConstrainedBaseline: VAEntrypointEncSlice  
- VAProfileH264ConstrainedBaseline: VAEntrypointEncSliceLP  
- VAProfileH264ConstrainedBaseline: VAEntrypointFEI  
- VAProfileH264ConstrainedBaseline: VAEntrypointStats  
- VAProfileH264Main : VAEntrypointVLD  
- VAProfileH264Main : VAEntrypointEncSlice  
- VAProfileH264Main : VAEntrypointEncSliceLP  
- VAProfileH264Main : VAEntrypointFEI  
- VAProfileH264Main : VAEntrypointStats  
- VAProfileH264High : VAEntrypointVLD  
- VAProfileH264High : VAEntrypointEncSlice  
- VAProfileH264High : VAEntrypointEncSliceLP  
- VAProfileH264High : VAEntrypointFEI  
- VAProfileH264High : VAEntrypointStats  
- VAProfileH264MultiviewHigh : VAEntrypointVLD  
- VAProfileH264MultiviewHigh : VAEntrypointEncSlice  
- VAProfileH264StereoHigh : VAEntrypointVLD  
- VAProfileH264StereoHigh : VAEntrypointEncSlice  
- VAProfileVC1Simple : VAEntrypointVLD  
- VAProfileVC1Main : VAEntrypointVLD  
- VAProfileVC1Advanced : VAEntrypointVLD  
- VAProfileNone : VAEntrypointVideoProc  
- VAProfileJPEGBaseline : VAEntrypointVLD  
- VAProfileJPEGBaseline : VAEntrypointEncPicture  
- VAProfileVP8Version0_3 : VAEntrypointVLD  
- VAProfileVP8Version0_3 : VAEntrypointEncSlice  
- VAProfileHEVCMain : VAEntrypointVLD  
- VAProfileHEVCMain : VAEntrypointEncSlice`
+`libva info: VA-API version 1.1.0`\
+`libva info: va_getDriverName() returns 0`\
+`libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so`\
+`libva info: Found init function __vaDriverInit_1_1`\
+`libva info: va_openDriver() returns 0`\
+`vainfo: VA-API version: 1.1 (libva 2.1.0)`\
+`vainfo: Driver version: Intel i965 driver for Intel(R) Skylake - 2.1.0`\
+`vainfo: Supported profile and entrypoints`\
+&#x20;`VAProfileMPEG2Simple : VAEntrypointVLD`\
+&#x20;`VAProfileMPEG2Simple : VAEntrypointEncSlice`\
+&#x20;`VAProfileMPEG2Main : VAEntrypointVLD`\
+&#x20;`VAProfileMPEG2Main : VAEntrypointEncSlice`\
+&#x20;`VAProfileH264ConstrainedBaseline: VAEntrypointVLD`\
+&#x20;`VAProfileH264ConstrainedBaseline: VAEntrypointEncSlice`\
+&#x20;`VAProfileH264ConstrainedBaseline: VAEntrypointEncSliceLP`\
+&#x20;`VAProfileH264ConstrainedBaseline: VAEntrypointFEI`\
+&#x20;`VAProfileH264ConstrainedBaseline: VAEntrypointStats`\
+&#x20;`VAProfileH264Main : VAEntrypointVLD`\
+&#x20;`VAProfileH264Main : VAEntrypointEncSlice`\
+&#x20;`VAProfileH264Main : VAEntrypointEncSliceLP`\
+&#x20;`VAProfileH264Main : VAEntrypointFEI`\
+&#x20;`VAProfileH264Main : VAEntrypointStats`\
+&#x20;`VAProfileH264High : VAEntrypointVLD`\
+&#x20;`VAProfileH264High : VAEntrypointEncSlice`\
+&#x20;`VAProfileH264High : VAEntrypointEncSliceLP`\
+&#x20;`VAProfileH264High : VAEntrypointFEI`\
+&#x20;`VAProfileH264High : VAEntrypointStats`\
+&#x20;`VAProfileH264MultiviewHigh : VAEntrypointVLD`\
+&#x20;`VAProfileH264MultiviewHigh : VAEntrypointEncSlice`\
+&#x20;`VAProfileH264StereoHigh : VAEntrypointVLD`\
+&#x20;`VAProfileH264StereoHigh : VAEntrypointEncSlice`\
+&#x20;`VAProfileVC1Simple : VAEntrypointVLD`\
+&#x20;`VAProfileVC1Main : VAEntrypointVLD`\
+&#x20;`VAProfileVC1Advanced : VAEntrypointVLD`\
+&#x20;`VAProfileNone : VAEntrypointVideoProc`\
+&#x20;`VAProfileJPEGBaseline : VAEntrypointVLD`\
+&#x20;`VAProfileJPEGBaseline : VAEntrypointEncPicture`\
+&#x20;`VAProfileVP8Version0_3 : VAEntrypointVLD`\
+&#x20;`VAProfileVP8Version0_3 : VAEntrypointEncSlice`\
+&#x20;`VAProfileHEVCMain : VAEntrypointVLD`\
+&#x20;`VAProfileHEVCMain : VAEntrypointEncSlice`
 
-## Install your drivers <a id="install-your-drivers"></a>
+## Install your drivers <a href="#install-your-drivers" id="install-your-drivers"></a>
 
 Now that you understand how vainfo works, it is time to install the appropriate driver for your GPU. Sadly, there is not one driver and it depends on your GPU brand and model.
 
-As it may change during time, we recommand you to read the documentation of the 2 main Linux distributions, especially the Arch Linux wiki because it is very complete: [Arch Linux](https://wiki.archlinux.org/index.php/Hardware_video_acceleration#Installation), [Ubuntu](https://doc.ubuntu-fr.org/vaapi).
+As it may change during time, we recommand you to read the documentation of the 2 main Linux distributions, especially the Arch Linux wiki because it is very complete: [Arch Linux](https://wiki.archlinux.org/index.php/Hardware\_video\_acceleration#Installation), [Ubuntu](https://doc.ubuntu-fr.org/vaapi).
 
 But as we are so nice, the following table is a summary of all the main cases we encountered. If you meet some difficulties to install the drivers, please come in the official Discord so we can speak and let us help you.
 
 #### Intel GPU
 
-| OS | &lt; 8th gen | &gt; 8th gen |
-| :--- | :--- | :--- |
-| Ubuntu | i965-va-driver | intel-media-va-driver-non-free |
-| Arch Linux | intel-media-driver | libva-intel-driver |
-| Solus | libva-intel-driver | x |
-| NixOS | vaapiIntel | intel-media-driver |
+| OS         | < 8th gen          | > 8th gen                      |
+| ---------- | ------------------ | ------------------------------ |
+| Ubuntu     | i965-va-driver     | intel-media-va-driver-non-free |
+| Arch Linux | intel-media-driver | libva-intel-driver             |
+| Solus      | libva-intel-driver | x                              |
+| NixOS      | vaapiIntel         | intel-media-driver             |
 
 #### AMD GPU
 
-| OS | Radeon HD xxxx | Radeon Rxxx |
-| :--- | :--- | :--- |
-| Ubuntu | mesa-va-drivers | vdpau-va-driver |
-| Arch Linux | libva-mesa-driver | mesa-vdpau |
-| Solus | x | libvdpau-va-dl |
-| NixOS | vaapiVdpau | libvdpau-va-dl |
+| OS         | Radeon HD xxxx    | Radeon Rxxx     |
+| ---------- | ----------------- | --------------- |
+| Ubuntu     | mesa-va-drivers   | vdpau-va-driver |
+| Arch Linux | libva-mesa-driver | mesa-vdpau      |
+| Solus      | x                 | libvdpau-va-dl  |
+| NixOS      | vaapiVdpau        | libvdpau-va-dl  |
 
 #### NVIDIA GPU
 
-| OS | NVIDIA &lt; 800 series | NVIDIA &gt; 800 series |
-| :--- | :--- | :--- |
-| Ubuntu | x | Check [Arekinath's patch](https://gitlab.com/aar642/libva-vdpau-driver) |
-| Arch Linux | nouveau-fw |  |
-| Solus | x | x |
-| NixOS | x | x |
+| OS         | NVIDIA < 800 series | NVIDIA > 800 series                                                     |
+| ---------- | ------------------- | ----------------------------------------------------------------------- |
+| Ubuntu     | x                   | Check [Arekinath's patch](https://gitlab.com/aar642/libva-vdpau-driver) |
+| Arch Linux | nouveau-fw          |                                                                         |
+| Solus      | x                   | x                                                                       |
+| NixOS      | x                   | x                                                                       |
 
 
 
@@ -153,5 +153,4 @@ Tutoriel pour installer l'application Linux sur un Chromebook par @Mat€o Ce tu
 
 Source : Discord Shadow
 
-{% file src="../.gitbook/assets/2020shadow\_sur\_chromebook.pdf" %}
-
+{% file src="../.gitbook/assets/2020shadow_sur_chromebook.pdf" %}

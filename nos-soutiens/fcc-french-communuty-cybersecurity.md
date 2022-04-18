@@ -4,7 +4,7 @@ description: >-
   cybersécurité
 ---
 
-# 🛡️ FCC \(French Communuty Cybersecurity\)
+# 🛡️ FCC (French Communuty Cybersecurity)
 
 ![](../.gitbook/assets/fcc.gif)
 
@@ -18,7 +18,7 @@ Nous nous présentons trois personnes passionnées par la cybersécurité que vo
 
 TenShi a créé le discord récemment sur le sujet de la CyberSecurity qui se nomme FCC.
 
-Cette communauté a pour but de vous aider **VOUS** à débuter en mettant à votre disposition des dizaines de ressources uniques et des cours de programmation. Tout cela sera bien évidemment un partage sans but lucratif pour votre bonheur🤩 
+Cette communauté a pour but de vous aider **VOUS** à débuter en mettant à votre disposition des dizaines de ressources uniques et des cours de programmation. Tout cela sera bien évidemment un partage sans but lucratif pour votre bonheur:star\_struck:&#x20;
 
 Avec mes collaborateurs Leslato et Jeje, nous avons fait grandir cette communauté naissante.
 
@@ -26,9 +26,8 @@ Si vous hésitez encore à nous rejoindre n'oubliez pas que tout le monde est le
 
 Attention l'éthique est notre valeur la plus importante et elle doit être respectée sous peine de sanction immédiate.
 
-## Rejoignez-nous 
+## Rejoignez-nous&#x20;
 
 {% embed url="https://discord.gg/NsTZ9NJZgA" %}
 
-A bientôt sur la communauté l'ami ! 
-
+A bientôt sur la communauté l'ami !&#x20;

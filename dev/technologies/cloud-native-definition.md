@@ -24,7 +24,7 @@ These techniques enable loosely coupled systems that are resilient, manageable, 
 
 The Cloud Native Computing Foundation seeks to drive adoption of this paradigm by fostering and sustaining an ecosystem of open source, vendor-neutral projects. We democratize state-of-the-art patterns to make these innovations accessible for everyone.
 
- \#\# العربية تمكّن التقنيات سحابية المصدر المؤسسات من إنشاء تطبيقات قابلة للتطوير و تشغيلها في بيئات حديثة و ديناميكية مثل السحب العامة و الخاصة و الهجينة. يمثل هذا النموذج الحاويات، و شبكات الخدمة، و الخدمات المصغرة، و البنية التحتية غير المستقرة، و واجهات برمجة التطبيقات التعريفية. و تمكن هذه التقنيات النظم المقرونة بالمرونة و القابلية للاداره و الملاحظة. بالاضافه إلى الاتمته القوية ، فانها تسمح للمهندسين باجراء تغييرات عاليه التاثير بشكل متكرر و متوقع مع الحد الأدنى من الكدح. تسعى Cloud Native Computing Foundation إلى دفع اعتماد هذا النموذج من خلال تعزيز نظام إيكولوجي ثابت و مفتوح المصدر و محايد من البائعين. اننا نقوم بإضفاء الديمقراطية على أحدث الأنماط لجعل هذه الابتكارات متاحه للجميع.
+&#x20;\## العربية تمكّن التقنيات سحابية المصدر المؤسسات من إنشاء تطبيقات قابلة للتطوير و تشغيلها في بيئات حديثة و ديناميكية مثل السحب العامة و الخاصة و الهجينة. يمثل هذا النموذج الحاويات، و شبكات الخدمة، و الخدمات المصغرة، و البنية التحتية غير المستقرة، و واجهات برمجة التطبيقات التعريفية. و تمكن هذه التقنيات النظم المقرونة بالمرونة و القابلية للاداره و الملاحظة. بالاضافه إلى الاتمته القوية ، فانها تسمح للمهندسين باجراء تغييرات عاليه التاثير بشكل متكرر و متوقع مع الحد الأدنى من الكدح. تسعى Cloud Native Computing Foundation إلى دفع اعتماد هذا النموذج من خلال تعزيز نظام إيكولوجي ثابت و مفتوح المصدر و محايد من البائعين. اننا نقوم بإضفاء الديمقراطية على أحدث الأنماط لجعل هذه الابتكارات متاحه للجميع.
 
 ### 中文版本：
 
@@ -68,9 +68,9 @@ Die Cloud Native Computing Foundation fördert die Akzeptanz dieser Paradigmen d
 
 ### Polski
 
-Technologie **Cloud Native** pozwalają organizacjom tworzyć i wykorzystywać skalowalne aplikacje w nowoczesnych, dynamicznych środowiskach takich jak chmury publiczne, prywatne czy hybrydowe. Przykładami tego podejścia technologicznego są wirtualne kontenery \(ang. _containers_\), mikrousługi \(ang. _microservices_\), platformy dla mikrousług \(ang. _service mesh_\), niezmienna infrastruktura \(ang. _immutable infrastructure_\) i deklaratywne interfejsy aplikacyjne \(ang. _declarative APIs_\).
+Technologie **Cloud Native** pozwalają organizacjom tworzyć i wykorzystywać skalowalne aplikacje w nowoczesnych, dynamicznych środowiskach takich jak chmury publiczne, prywatne czy hybrydowe. Przykładami tego podejścia technologicznego są wirtualne kontenery (ang. _containers_), mikrousługi (ang. _microservices_), platformy dla mikrousług (ang. _service mesh_), niezmienna infrastruktura (ang. _immutable infrastructure_) i deklaratywne interfejsy aplikacyjne (ang. _declarative APIs_).
 
-Wymienione technologie umożliwiają współistnienie luźno-powiązanych \(ang. _loosely coupled_\) systemów, które cechują się wysokim poziomem odporności, zarządzalności i monitorowalności. W powiązaniu z niezawodną automatyzacją pozwalają inżynierom regularnie i przewidywalnie wprowadzać istotne zmiany z minimalnym wysiłkiem.
+Wymienione technologie umożliwiają współistnienie luźno-powiązanych (ang. _loosely coupled_) systemów, które cechują się wysokim poziomem odporności, zarządzalności i monitorowalności. W powiązaniu z niezawodną automatyzacją pozwalają inżynierom regularnie i przewidywalnie wprowadzać istotne zmiany z minimalnym wysiłkiem.
 
 Intencją **Cloud Native Computing Foundation** jest przyczynienie się do adopcji tego paradygmatu poprzez wspieranie ekosystemu niezależnych projektów open-source. Demokratyzujemy wysokiej klasy wzorce tworzenia wolnego oprogramowania, aby uczynić te innowacje dostępne dla wszystkich.
 
@@ -84,7 +84,7 @@ A Cloud Native Computing Foundation procura conduzir a adoção desse paradigma 
 
 ### Русский:
 
-Нативные облачные \(Cloud native\) технологии позволяют организациям создавать и запускать масштабируемые приложения в современных динамических средах, таких как публичные, частные и гибридные облака. Контейнеры, сервисные сита \(service meshes\), микросервисы, неизменяемая инфраструктура и декларативные API являются примером такого подхода.
+Нативные облачные (Cloud native) технологии позволяют организациям создавать и запускать масштабируемые приложения в современных динамических средах, таких как публичные, частные и гибридные облака. Контейнеры, сервисные сита (service meshes), микросервисы, неизменяемая инфраструктура и декларативные API являются примером такого подхода.
 
 Эти техники позволяют слабосвязанным системам быть устойчивыми, управляемыми и под постоянным контролем. В сочетании с надежной автоматизацией они позволяют инженерам часто и предсказуемо вносить значительные изменения с минимальными усилиями.
 
@@ -100,25 +100,31 @@ La **Cloud Native Computing Foundation** cerca di favorire l'adozione di questo 
 
 ### Bahasa Indonesia:
 
-Teknologi _cloud native_ memperlengkapi organisasi-organisasi untuk membangun dan menjalankan aplikasi-aplikasi yang dapat diskalakan di dalam lingkungan yang modern dan dinamis seperti layanan _cloud_ publik, privat, maupun hibrida. Kontainer, jaringan layanan \(_service mesh_\), layanan mikro \(_microservice_\), infrastruktur yang tidak dapat diubah \(_immutable_\), dan API-API yang deklaratif merupakan contoh-contoh pendekatan ini.
+Teknologi _cloud native_ memperlengkapi organisasi-organisasi untuk membangun dan menjalankan aplikasi-aplikasi yang dapat diskalakan di dalam lingkungan yang modern dan dinamis seperti layanan _cloud_ publik, privat, maupun hibrida. Kontainer, jaringan layanan (_service mesh_), layanan mikro (_microservice_), infrastruktur yang tidak dapat diubah (_immutable_), dan API-API yang deklaratif merupakan contoh-contoh pendekatan ini.
 
-Teknik-teknik tersebut memungkinkan sistem-sistem yang terhubung secara longgar \(_loosely coupled_\) yang tahan banting, dapat dikelola, dan dapat dipantau. Dikombinasikan dengan automasi yang baik, mereka memungkinkan para rekayasawan \(_engineer_\) untuk membuat perubahan-perubahan yang berdampak besar secara sering dan dapat diprediksi dengan usaha yang minimal.
+Teknik-teknik tersebut memungkinkan sistem-sistem yang terhubung secara longgar (_loosely coupled_) yang tahan banting, dapat dikelola, dan dapat dipantau. Dikombinasikan dengan automasi yang baik, mereka memungkinkan para rekayasawan (_engineer_) untuk membuat perubahan-perubahan yang berdampak besar secara sering dan dapat diprediksi dengan usaha yang minimal.
 
-**Cloud Native Computing Foundation** berusaha untuk mendorong adopsi paradigma ini dengan membina dan menopang sebuah ekosistem proyek-proyek yang bersifat sumber terbuka \(_open source_\) dan tidak memihak vendor tertentu. Kami mendemokratisasi pola-pola terkini agar inovasi-inovasi ini dapat diakses oleh semua orang.
+**Cloud Native Computing Foundation** berusaha untuk mendorong adopsi paradigma ini dengan membina dan menopang sebuah ekosistem proyek-proyek yang bersifat sumber terbuka (_open source_) dan tidak memihak vendor tertentu. Kami mendemokratisasi pola-pola terkini agar inovasi-inovasi ini dapat diakses oleh semua orang.
 
 ## La fondation sur le sujet
 
-{% embed url="https://www.cncf.io/" caption="C\'est la fondation la plus connu sur le sujet qui aides pas mal" %}
+{% embed url="https://www.cncf.io/" %}
+C'est la fondation la plus connu sur le sujet qui aides pas mal
+{% endembed %}
 
 ## Source
 
-{% embed url="https://github.com/cncf/toc" caption="C\'est une bonne communauté sur le sujet" %}
+{% embed url="https://github.com/cncf/toc" %}
+C'est une bonne communauté sur le sujet
+{% endembed %}
 
 ## RedHat
 
-{% embed url="https://www.redhat.com/fr/topics/cloud-native-apps" caption="Définition" %}
+{% embed url="https://www.redhat.com/fr/topics/cloud-native-apps" %}
+Définition
+{% endembed %}
 
-{% embed url="https://www.redhat.com/fr/solutions/cloud-native-development" caption="Aller plus loin et en savoir plus" %}
-
-
+{% embed url="https://www.redhat.com/fr/solutions/cloud-native-development" %}
+Aller plus loin et en savoir plus
+{% endembed %}
 

@@ -4,53 +4,53 @@ description: Apprendre des technologies pour l'infra et savoir le faire avec qua
 
 # CI/CD d'une infra
 
-🗓 Dernière maj le 14 octobre 2020
+:calendar\_spiral: Dernière maj le 14 octobre 2020
 
-Le but de ce TP est de monter une pipeline de test d'infra et de code d'infra \(Ansible\) maison. Le tp permet de vous apprendre certaine technologie, au menu :
+Le but de ce TP est de monter une pipeline de test d'infra et de code d'infra (Ansible) maison. Le tp permet de vous apprendre certaine technologie, au menu :
 
-* [git](https://git-scm.com/)
-  * outil de versioning \(SCM\)
+* [git](https://git-scm.com)
+  * outil de versioning (SCM)
 * [Gitea](https://gitea.io/en-us/)
   * application permettant d'héberger des dépôtss Git
   * léger
   * expose une WebUI
-* [Drone](https://drone.io/)
+* [Drone](https://drone.io)
   * application permettant de mettre en place des pipelines de test/build
   * s'intègre nativement avec Gitea
-* [Ansible](https://www.ansible.com/)
+* [Ansible](https://www.ansible.com)
   * outil de gestion et déploiement de configuration
   * très utilisé aujourd'hui, c'est l'outil de référence en la matière
 * [Molecule](https://molecule.readthedocs.io/en/latest/)
   * outil qui se couple à Ansible pour effectuer des tests sur les playbooks
   * en particulier des tests de conformité
-* [Docker](https://www.docker.com/)
+* [Docker](https://www.docker.com)
   * application de conteneurisation
   * permet de créer des environnements légers et autonomes
-* [0. Setup environment]()
-  * [Poste de travail]()
-  * [Machines virtuelles]()
-  * [Images Docker]()
-* [I. Setup environnement Git]()
-* [II. Mise en place de Drone]()
-* [III. Ansible]()
-  * [0. Structure du dépôt Ansible]()
-  * [1. Création de playbooks]()
-  * [2. Premiers tests]()
-  * [3. Molecule]()
-    * [Présentation]()
-    * [Prise en main]()
-    * [Setup dans la pipeline]()
+* [0. Setup environment](broken-reference)
+  * [Poste de travail](broken-reference)
+  * [Machines virtuelles](broken-reference)
+  * [Images Docker](broken-reference)
+* [I. Setup environnement Git](broken-reference)
+* [II. Mise en place de Drone](broken-reference)
+* [III. Ansible](broken-reference)
+  * [0. Structure du dépôt Ansible](broken-reference)
+  * [1. Création de playbooks](broken-reference)
+  * [2. Premiers tests](broken-reference)
+  * [3. Molecule](broken-reference)
+    * [Présentation](broken-reference)
+    * [Prise en main](broken-reference)
+    * [Setup dans la pipeline](broken-reference)
 
 ## 0. Setup environment
 
 ### Poste de travail
 
-Pendant le TP, je vous conseille d'utiliser une machine GNU/Linux comme "poste de travail". Si vous avez un GNU/Linux en dur c'est OK, sinon je vous recommande une VM "poste de travail" \(un CentOS peut faire l'affaire\).  
+Pendant le TP, je vous conseille d'utiliser une machine GNU/Linux comme "poste de travail". Si vous avez un GNU/Linux en dur c'est OK, sinon je vous recommande une VM "poste de travail" (un CentOS peut faire l'affaire).\
 En soit aucun pb pour utiliser un autre OS, il faut simplement être à l'aise pour l'utilisation de `git`, `docker`, Python `pip`, et `ansible`, sur votre machine.
 
 ### Machines virtuelles
 
-L'OS conseillé pour les VMs en cours est CentOS7. Afin de faciliter et accélérer le déploiement, on va utiliser [Vagrant](https://www.vagrantup.com/).
+L'OS conseillé pour les VMs en cours est CentOS7. Afin de faciliter et accélérer le déploiement, on va utiliser [Vagrant](https://www.vagrantup.com).
 
 Téléchargez Vagrant pour votre OS, puis initialisez une box `centos/7` :
 
@@ -116,7 +116,7 @@ Pour ce qui est des images Docker, on va beaucoup réutiliser d'images déjà pa
 
 **EDIT : vous pouvez utiliser le fichier docker-compose.yml :**
 
-```text
+```
 version: "3.7"
 
 services:
@@ -218,7 +218,7 @@ networks:
     name: ci
 ```
 
-  
+****\
 **Qui permet de monter facilement Gitea + Drone afin d'accélérer vos tests.**
 
 Pour ce qui est du dépôt git, on va utiliser [Gitea](https://gitea.io/en-us/). C'est une app minimaliste développée en go, qui permet d'héberger des dépôts Git.
@@ -232,7 +232,7 @@ Loin d'être fully-featured comme un Gitlab, Gitea opte plutôt pour un aspect m
 * 2048M RAM sont conseillés
 * pour lancer les services, libres à vous :
   * en dur
-  * dans des conteneurs Docker \(je vous le conseille, plus rapide et plus simple à faire évoluer pour faire joujou pendant le TP\)
+  * dans des conteneurs Docker (je vous le conseille, plus rapide et plus simple à faire évoluer pour faire joujou pendant le TP)
 
 **TO DO : mettre en place Gitea**
 
@@ -248,7 +248,7 @@ Loin d'être fully-featured comme un Gitlab, Gitea opte plutôt pour un aspect m
 
 ## II. Mise en place de Drone
 
-[Drone](https://drone.io/) est un outil léger permettant de mettre en place des pipelines de build et de test. Il se couple nativement très bien avec Gitea.
+[Drone](https://drone.io) est un outil léger permettant de mettre en place des pipelines de build et de test. Il se couple nativement très bien avec Gitea.
 
 Comme beaucoup d'outils en son genre, il fonctionne sur un principe de master/runner :
 
@@ -265,9 +265,9 @@ Dans le cadre du TP, ce sera la même VM qui portera le master et un runner Dock
 
 **TO DO : tester une première pipeline de test**
 
-* créer un dépôt git dans la WebUI de Gitea 
+* créer un dépôt git dans la WebUI de Gitea&#x20;
 * synchroniser le dépôt depuis l'interface de Drone
-  * préciser que le dépôt est Trusted \(paramètres du dépôt dans la WebUI de Drone\)
+  * préciser que le dépôt est Trusted (paramètres du dépôt dans la WebUI de Drone)
 * cloner le projet
 * placer à la racine un fichier `.drone.yml` qui contient :
 
@@ -299,18 +299,18 @@ Quelques impératifs pour qu'Ansible fonctionne :
 * les fichiers Ansible sont au format `yml`
 * à l'intérieur de ces fichiers, on décrit ce qu'il faut installer et configurer sur les serveurs de destination
 * la machine qui possède les fichiers `.yml` doit pouvoir se connecter en SSH sur les serveurs de destination
-* l'utilisateur sur les serveurs de destination doit pavoir accès à des droits root \(_via_ `sudo` par exemple\)
+* l'utilisateur sur les serveurs de destination doit pavoir accès à des droits root (_via_ `sudo` par exemple)
   * nécessaires pour beaucoup d'actions comme l'installation de paquets
 
 ### 0. Structure du dépôt Ansible
 
 Vous devrez organiser votre dépôt Ansible selon un format standard :
 
-| Directory | Usage |
-| :--- | :--- |
-| `inventory/` | Contient l'inventaire des machines et les variables qui y sont liées |
-| `roles/` | Contient l'ensemble des "roles" Ansible. Un "role" est un ensemble de tasks ayant un sens \(par exemple un rôle "Apache" ou "MySQL"\) |
-| `playbooks/` | La glu entre l'inventaire et les rôles : les playbooks décrivent quel rôle appliquer sur quelle machine |
+| Directory    | Usage                                                                                                                               |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `inventory/` | Contient l'inventaire des machines et les variables qui y sont liées                                                                |
+| `roles/`     | Contient l'ensemble des "roles" Ansible. Un "role" est un ensemble de tasks ayant un sens (par exemple un rôle "Apache" ou "MySQL") |
+| `playbooks/` | La glu entre l'inventaire et les rôles : les playbooks décrivent quel rôle appliquer sur quelle machine                             |
 
 ### 1. Création de playbooks
 
@@ -318,7 +318,7 @@ Vous devrez organiser votre dépôt Ansible selon un format standard :
 
 * s'assurer que Python est installé sur les machines de destination
 * s'assurer qu'il existe un utilisateur pouvant accéder aux droits de root à l'aide de `sudo` sur les machines de destination
-* configurer un échange de clés SSH entre le poste de travail \(qui héberge les fichiers `yml` Ansible\) et les machines de destination
+* configurer un échange de clés SSH entre le poste de travail (qui héberge les fichiers `yml` Ansible) et les machines de destination
 
 **TO DO : un premier playbook**
 
@@ -326,7 +326,7 @@ Vous devrez organiser votre dépôt Ansible selon un format standard :
 * créer un rôle qui installe et configure un serveur NGINX
 * créer un playbook qui permet de déployer le rôle NGINX sur la machine déclarée dans votre inventaire
 
-Le dépôt Ansible est à déposer dans un endroit personnel \(le homedir de votre utilisateur par exemple\).
+Le dépôt Ansible est à déposer dans un endroit personnel (le homedir de votre utilisateur par exemple).
 
 Exemple de structure de dépôt Ansible :
 
@@ -415,7 +415,7 @@ fi
 
 **TO DO : tester le bon déploiement du service NGINX et vérifier que le serveur Web est bien fonctionnel**
 
-* **NB** : nous travaillerons essentiellement avec des conteneurs pour les tests. Or il n'existe pas de gestion de services \(comme systemd\) dans les conteneurs Vous ne pourrez donc pas utiliser quelque chose comme `systemctl start nginx` afin de démarrer NGINX. Le script `start_nginx.sh` est donc utilisé pour lancer le serveur.
+* **NB** : nous travaillerons essentiellement avec des conteneurs pour les tests. Or il n'existe pas de gestion de services (comme systemd) dans les conteneurs Vous ne pourrez donc pas utiliser quelque chose comme `systemctl start nginx` afin de démarrer NGINX. Le script `start_nginx.sh` est donc utilisé pour lancer le serveur.
 
 ### 2. Premiers tests
 
@@ -441,17 +441,17 @@ Le but de cette partie est d'effectuer des tests, à l'aide Molecule, sur le dé
 
 Le fonctionnement de Molecule est simple :
 
-* créer un environnement de test \(conteneur, VM\)
+* créer un environnement de test (conteneur, VM)
 * dérouler un rôle dans l'environnement
 * vérifier le bon déroulement du playbook
 
-Par "vérifier le bon déroulement du playbook", on entend : vérifier que le playbook passe, que l'environnement est conforme à nos attentes après déroulement du playbook \(est-ce que tel paquet a été bien installé ou tel port firewall a été correctement ouver\) ou encore vérifier l'idempotence du playbook \(en l'exécutant deux fois d'affilée\).
+Par "vérifier le bon déroulement du playbook", on entend : vérifier que le playbook passe, que l'environnement est conforme à nos attentes après déroulement du playbook (est-ce que tel paquet a été bien installé ou tel port firewall a été correctement ouver) ou encore vérifier l'idempotence du playbook (en l'exécutant deux fois d'affilée).
 
 #### Prise en main
 
 Afin de prendre en main Molecule, il peut être bon de tester quelques commandes à la main.
 
-**TO DO** : [Installer Molecule](https://molecule.readthedocs.io/en/latest/installation.html#) \(je vous recommande l'installation avec `pip`\).
+**TO DO** : [Installer Molecule](https://molecule.readthedocs.io/en/latest/installation.html#) (je vous recommande l'installation avec `pip`).
 
 Molecule va nous permettre ici de tester le rôle `nginx` que nous venions d'écrire. Pour que Molecule accepte de tester notre rôle, il est nécessaire d'y ajouter quelques fichiers. Molecule permet de créer un rôle possédant une structure qui correspond aux bonnes pratiques Ansible, afin d'être testé correctement. Pour ce faire :
 
@@ -484,7 +484,7 @@ $ molecule test
 
 **TO DO : créer une pipeline qui utilise Molecule**
 
-* éditer le `drone.yml` 
+* éditer le `drone.yml`&#x20;
 * la pipeline doit utiliser une image Docker qui contient Molecule
   * image officielle : `quay.io/ansible/molecule:3.0.8`
 * le test de la pipeline doit exécuter un `molecule test`
@@ -496,7 +496,7 @@ Auteur du TP et intervenant professionnel auprès des écoles du supérieur :
 
 Note de coté pour **Léolios :**
 
-```text
+```
 version: "3.7"
 
 services:
@@ -597,4 +597,3 @@ networks:
   ci:
     name: ci
 ```
-

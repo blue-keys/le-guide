@@ -57,7 +57,7 @@ $ quark
 
 ### Formatage
 
-Dans un premier temps, le code va être formaté afin que tous les commentaires soient supprimés de ce dernier : le fait que le langage soit simplement interprété supprime toute utilité aux commentaires **pour le moment**. 
+Dans un premier temps, le code va être formaté afin que tous les commentaires soient supprimés de ce dernier : le fait que le langage soit simplement interprété supprime toute utilité aux commentaires **pour le moment**.&#x20;
 
 Ce code ne retourne donc qu'une simple copie du code brut modifié.
 
@@ -143,22 +143,22 @@ La représentation sera :
 
 ### Interprétation
 
-L'interprétation est la dernière étape du processus du langage de programmation. Elle consiste en l'exécution de notre arbre syntaxique \(ou AST\) généré à l'étape précédente. Cette étape bien que plus complexe demeure toujours réalisable et assez simple avec un peu de motivation.  
-  
-_Nous ne survolerons cependant que la partie simple de l'interpréteur._  
-  
+L'interprétation est la dernière étape du processus du langage de programmation. Elle consiste en l'exécution de notre arbre syntaxique (ou AST) généré à l'étape précédente. Cette étape bien que plus complexe demeure toujours réalisable et assez simple avec un peu de motivation.\
+\
+_Nous ne survolerons cependant que la partie simple de l'interpréteur._\
+\
 Avant de partir dans les profondeurs du fonctionnement d'un langage interprété, il est déjà important de définir plusieurs termes :
 
 * La stack : l'intégralité de votre code est régis par la Stack. Pour faire simple, c'est un conteneur qui contient lui-même des conteneurs appelés **Function Frame**. Ce dernier vous permet donc de maintenir la structure des différentes variables du code. C'est cette organisation en conteneurs qui permet de délimiter le **scoping** de ces dernières.
 * La Function Frame : il s'agit simplement d'un conteneur, cette fois-ci encore, permettant contrairement à la Stack, d'organiser bien plus précisément les variables et leur utilisation. En effet, la function frame contient ce qu'on appelle des **Local Frame**. La function frame est créée dès lors l'appel d'une fonction. Les function frames ne peuvent pas intéragir entre-elles.
 * La Local Frame : c'est le conteneur le plus profond, celui qui contient quant à lui, l'intégralité de vos variables, du scope global au scope local, il est omniprésent. Chaque local frame représente un niveau de scope bien précis et propre à la function frame en question. Les local frames peuvent intéragir entre-elles.
-* Le scoping : Le scoping n'est ni plus ni moins qu'un terme pour désigner la délimitation de code via des blocs. Cette dite délimitation permet notamment la création de nouvelles Local Frames, ce pouvant être utile à la création de variables "privées". 
+* Le scoping : Le scoping n'est ni plus ni moins qu'un terme pour désigner la délimitation de code via des blocs. Cette dite délimitation permet notamment la création de nouvelles Local Frames, ce pouvant être utile à la création de variables "privées".&#x20;
 
 #### Définition d'une variable
 
-Dès à présent, commençons par la définition d'une variable et sa modification.  
-Lors de la création d'une variable, cette dernière est stockée sur la **dernière frame** contenue dans la local frame en cours d'utilisation, ce qui fait qu'elle est constamment créée de manière locale à moins d'être dans la racine du programme, où elle sera alors considérée comme faisant parti intégrante de la frame globale.  
-  
+Dès à présent, commençons par la définition d'une variable et sa modification.\
+Lors de la création d'une variable, cette dernière est stockée sur la **dernière frame** contenue dans la local frame en cours d'utilisation, ce qui fait qu'elle est constamment créée de manière locale à moins d'être dans la racine du programme, où elle sera alors considérée comme faisant parti intégrante de la frame globale.\
+\
 La modification de variable, quant à elle, récupère modifie la variable en question dans le scope dans lequel elle est trouvée en dernier. De ce fait, une variable dans un scope antérieur peut être modifiée. Mais ne peut pas être modifié, les variables d'une function frame.
 
 #### Appel d'une fonction
@@ -167,21 +167,19 @@ L'appel d'une fonction déclenche la création d'une nouvelle frame : Les argume
 
 #### Valeur de retour
 
-Le système de retour peut paraître assez innocent mais est en réalité une réelle peine si attention n'est pas prise : dans un système où toute fonction retourne constamment une valeur, il est compliqué de différencier une valeur de retour d'une fonction de notre code Quark que d'une simple valeur de retour de notre interpréteur.  
-  
-C'est pour cela, qu'il a été mis en place dans Quark un système assez simple en définition et en application permettant de gérer simplement et à un seul endroit le retour : ce système consiste en retourner une liste dont le premier élément est la valeur de retour et le second élément est un booléen indiquant s'il s'agit d'une valeur de retour d'une fonction dans Quark ou pas.   
-  
+Le système de retour peut paraître assez innocent mais est en réalité une réelle peine si attention n'est pas prise : dans un système où toute fonction retourne constamment une valeur, il est compliqué de différencier une valeur de retour d'une fonction de notre code Quark que d'une simple valeur de retour de notre interpréteur.\
+\
+C'est pour cela, qu'il a été mis en place dans Quark un système assez simple en définition et en application permettant de gérer simplement et à un seul endroit le retour : ce système consiste en retourner une liste dont le premier élément est la valeur de retour et le second élément est un booléen indiquant s'il s'agit d'une valeur de retour d'une fonction dans Quark ou pas. \
+\
 A partir de là, s'il s'agit bel et bien d'une valeur de retour, nous pouvons retourner la valeur en question de la fonction et donc arrêter la boucle de noeud, sinon on continue simplement la boucle.
 
 
 
-## 🔗 Liens
+## :link: Liens
 
 {% embed url="https://github.com/quark-lang" %}
 
 {% embed url="https://github.com/quark-lang/quark" %}
 
 {% embed url="https://github.com/thomasvergne" %}
-
-
 

@@ -8,7 +8,7 @@ description: >-
 
 ![](../.gitbook/assets/lighthouse-1-.png)
 
-## 💡 Pourquoi un guide ?
+## :bulb: Pourquoi un guide ?
 
 Le présent guide est réalisé pour donner plusieurs orientations suivant un contexte avec certaines ressources, afin d'apporter une information sur des questions auxquelles nous répondons souvent depuis 6 mois en 2020 sur nos différents réseaux.
 
@@ -30,7 +30,5 @@ Vous pouvez nous laisser un pourboire directement sur nos sites web depuis le na
 
 {% embed url="https://docs.bluekeys.org/guide/cryptomonnaie/tips-navigateur-brave-or-laisser-un-pourboire" %}
 
-![](../.gitbook/assets/image%20%283%29.png)
-
-
+![](<../.gitbook/assets/image (3) (1).png>)
 

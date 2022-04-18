@@ -6,7 +6,7 @@ description: >-
 
 # Toshi
 
-![](../.gitbook/assets/grapic_service.png)
+![](../.gitbook/assets/grapic\_service.png)
 
 Je me présente Toshinorie, âgé de 16 ans et étudiant d'un bac professionnel métiers de l'enseigne et de la signalétique, cela fait partie du domaine des enseignes lumineuses, décoration d'intérieur comme d'extérieur, des habilages de véhicule et design de vêtements. Je travaille vraiment sur beaucoup de choses.
 
@@ -18,13 +18,12 @@ Si une personne a besoin de moi ou autre, faites-le-moi savoir et envoyez-moi un
 
 ## 📨 Email
 
-{% embed url="https://toshigraphisme@gmail.com" caption="" %}
+{% embed url="https://toshigraphisme@gmail.com" %}
 
 ## 🖼 Instagram
 
-{% embed url="https://www.instagram.com/toshi\_graph/?hl=fr" caption="" %}
+{% embed url="https://www.instagram.com/toshi_graph/?hl=fr" %}
 
 ## ![:discord\_gif\_benc:](https://cdn.discordapp.com/emojis/745264159851151471.gif?v=1)Discord
 
-{% embed url="https://discord.gg/7Jf8j5NByV" caption="" %}
-
+{% embed url="https://discord.gg/7Jf8j5NByV" %}

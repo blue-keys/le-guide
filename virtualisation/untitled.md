@@ -1,19 +1,19 @@
 ---
-description: 'https://phoenixnap.com/kb/remove-docker-images-containers-networks-volumes'
+description: https://phoenixnap.com/kb/remove-docker-images-containers-networks-volumes
 ---
 
 # 🇬🇧 How To Remove Docker Images, Containers, Networks & Volumes
 
 Docker containers are designed to provide a self-sufficient environment, with all the libraries and configurations needed for the software to execute. During development, they can grow unorganized with old, outdated, and unused components.
 
-In this guide, you will learn how to organize a Docker environment by **removing Docker images, containers, volumes, and networks.** 
+In this guide, you will learn how to organize a Docker environment by **removing Docker images, containers, volumes, and networks.**&#x20;
 
 Using these commands makes [Docker container management](https://phoenixnap.com/kb/docker-container-management) fast and straightforward.
 
-![How to remove Docker images, Containers, Networks and Volumes](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20799%20400'%3E%3C/svg%3E)
+![How to remove Docker images, Containers, Networks and Volumes](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MCFj\_VEhiEqSWXrtGBs%2Fuploads%2Fgo2Qgkz1gkShezEbhCw0%2Ffile.svg?alt=media)
 
 * Linux system running Docker
-* Access to a terminal/command line \(**Ctrl**+**Alt**+**T** on Ubuntu, **Alt**+**F2** on CentOS\)
+* Access to a terminal/command line (**Ctrl**+**Alt**+**T** on Ubuntu, **Alt**+**F2** on CentOS)
 * User account with **sudo** privileges
 
 **Note:** If your system responds with “**access denied**” after trying to remove, add the **sudo** prefix at the beginning of the command.
@@ -24,27 +24,27 @@ A container creates a specific environment in which a process can be executed. M
 
 Therefore, it’s important to know how to find unnecessary containers and remove them.
 
-1. First, list all Docker containers using the command:
+1\. First, list all Docker containers using the command:
 
-```text
+```
 docker container ls -a
 ```
 
 The output displays a list of all running containers, their IDs, names, images, status and other parameters.
 
-![List all Docker containers.](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20712%20345'%3E%3C/svg%3E)
+![List all Docker containers.](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MCFj\_VEhiEqSWXrtGBs%2Fuploads%2FzBoBz2O7uQ0GYme74ky9%2Ffile.svg?alt=media)
 
 You can also generates a list of all the containers only by their numeric ID’s, run the command:
 
-```text
+```
 docker container ls –aq 
 ```
 
-![List all Docker containers by ID.](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20620%20166'%3E%3C/svg%3E)
+![List all Docker containers by ID.](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MCFj\_VEhiEqSWXrtGBs%2Fuploads%2F2aK7ljficvhgVkmItUGv%2Ffile.svg?alt=media)
 
-2. To **stop a specific container**, enter the following:
+2\. To **stop a specific container**, enter the following:
 
-```text
+```
 docker container stop [container_id]
 ```
 
@@ -54,19 +54,19 @@ You can enter multiple container IDs into the same command.
 
 To **stop all containers**, enter:
 
-```text
+```
 docker container stop $(docker container ls –aq)
 ```
 
 This forces Docker to use the list of all container IDs as the target of the **`stop`** command.
 
-**Note:** If you are logged in as the **sudo** user, make sure to add the **`sudo`** prefix before both **`docker`** commands when stopping all containers \( **`sudo docker container stop $(sudo docker container ls –aq`**\) \)
+**Note:** If you are logged in as the **sudo** user, make sure to add the **`sudo`** prefix before both **`docker`** commands when stopping all containers ( **`sudo docker container stop $(sudo docker container ls –aq`**) )
 
 ### Remove a Stopped Container
 
 To **remove a stopped container**, use the command:
 
-```text
+```
 docker container rm [container_id]
 ```
 
@@ -76,7 +76,7 @@ Like before, this removes a container with the ID you specify.
 
 To **remove all stopped containers**:
 
-```text
+```
 docker container rm $(docker container ls –aq)
 ```
 
@@ -84,7 +84,7 @@ docker container rm $(docker container ls –aq)
 
 To wipe Docker clean and start from scratch, enter the command:
 
-```text
+```
 docker container stop $(docker container ls –aq) && docker system prune –af ––volumes
 ```
 
@@ -94,7 +94,7 @@ Inside the parentheses, you instruct Docker to generate a list of all the contai
 
 The **`&&`** attribute instructs Docker to remove all stopped containers and volumes.
 
-**`–af`** indicates this should apply to all containers \(**`a`**\) without a required confirmation \(**`f`**\).
+**`–af`** indicates this should apply to all containers (**`a`**) without a required confirmation (**`f`**).
 
 ### Removing Container With Filters
 
@@ -102,7 +102,7 @@ You can also specify to delete all objects that do not match a specified label.
 
 To do so, use the command:
 
-```text
+```
 docker container prune ––filter=”label!=maintainer=Jeremy”
 ```
 
@@ -123,21 +123,21 @@ Docker images are files, which include multiple layers used to run code within a
 
 Images may go through many iterations during development. Old and outdated images can clutter your system, taking up storage space and making searches more cumbersome.
 
-1. To **remove a Docker image**, start by listing all the images on your system:
+1\. To **remove a Docker image**, start by listing all the images on your system:
 
-```text
+```
 docker image ls
 ```
 
 The output displays the locally available Docker images, as seen below.
 
-![List Docker images.](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20716%20150'%3E%3C/svg%3E)
+![List Docker images.](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MCFj\_VEhiEqSWXrtGBs%2Fuploads%2FRIdTQNdEBO3bDtKtUlWG%2Ffile.svg?alt=media)
 
-2. Make a note of the **IMAGE ID** – this is the identifier used to remove the image.
+2\. Make a note of the **IMAGE ID** – this is the identifier used to remove the image.
 
-3. Then, remove the unwanted image\(s\):
+3\. Then, remove the unwanted image(s):
 
-```text
+```
 docker image rm [image_id1] [image_id2]
 ```
 
@@ -153,19 +153,19 @@ Use the **`until`** filter to remove all resources up to a given time.
 
 Enter the following:
 
-```text
+```
 docker image prune –a ––filter “until=24h”
 ```
 
 This removes all **`(–a)`** images created over the last 24 hours. The command can be used for containers, images, and filters. Make sure to specify the asset you want to remove.
 
-The **`until`** command accepts Unix timestamps, date-formatted timestamps, or an amount of time \(30m, 4h, 2h25m\) calculated against the machine time.
+The **`until`** command accepts Unix timestamps, date-formatted timestamps, or an amount of time (30m, 4h, 2h25m) calculated against the machine time.
 
 Use the **`label`** command to remove assets defined by labels.
 
 Enter the following:
 
-```text
+```
 docker image prune ––filter=”label=old”
 ```
 
@@ -175,7 +175,7 @@ Filtering can also be used to define a specific value of a label.
 
 For example, if a container is labeled with a “maintainer” key, and the value of “maintainer” is either “bill” or “jeremy,” you can type:
 
-```text
+```
 docker container prune ––filter=”label=maintainer=bill”
 ```
 
@@ -187,19 +187,19 @@ A [volume is used to store Docker data](https://phoenixnap.com/kb/docker-volumes
 
 It helps store and organize data outside containers in a way that it’s accessible to multiple containers.
 
-1. Use the following command to generate a list of all the available Docker volumes:
+1\. Use the following command to generate a list of all the available Docker volumes:
 
-```text
+```
 docker volume ls
 ```
 
-![List Docker volumes.](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%2076'%3E%3C/svg%3E)
+![List Docker volumes.](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MCFj\_VEhiEqSWXrtGBs%2Fuploads%2FFSw4ZMgr57SkWGDq6SrW%2Ffile.svg?alt=media)
 
 Take note of the **VOLUME NAME** you want to remove.
 
-2. Then enter:
+2\. Then enter:
 
-```text
+```
 docker volume rm VolumeName
 ```
 
@@ -215,15 +215,15 @@ The **`prune`** command removes all unused networks.
 
 ### Removing a Single Network
 
-1. **Display a list of all existing Docker networks** with the command:
+1\. **Display a list of all existing Docker networks** with the command:
 
-```text
+```
 docker network ls
 ```
 
-2. Take note of the **NETWORK ID** – this is the identifier used to remove a specific network. Then, enter:
+2\. Take note of the **NETWORK ID** – this is the identifier used to remove a specific network. Then, enter:
 
-```text
+```
 docker network rm [networkID]
 ```
 
@@ -237,7 +237,7 @@ The **`prune`** command automatically removes all resources that aren’t associ
 
 In a terminal window, enter the following:
 
-```text
+```
 docker system prune
 ```
 
@@ -249,19 +249,19 @@ Additional flags can be included:
 
 Also, you can specify a single type of object to be removed, instead of the entire environment:
 
-```text
+```
 docker container prune
 ```
 
-```text
+```
 docker image prune
 ```
 
-```text
+```
 docker volume prune
 ```
 
-```text
+```
 docker network prune
 ```
 
@@ -271,23 +271,23 @@ Running **`docker system prune -a`** removes both unused and dangling images . I
 
 Enter the following commands to display resources:
 
-```text
+```
 docker container ls
 ```
 
-```text
+```
 docker image ls
 ```
 
-```text
+```
 docker volume ls
 ```
 
-```text
+```
 docker network ls
 ```
 
-```text
+```
 docker info
 ```
 
@@ -295,10 +295,9 @@ The above-mentioned lists number of containers, images, and information about th
 
 The following flags can also be added:
 
-* **`–a`** display all of a resource \(including the ones that are stopped\)
-* **`–q`** or **`--quiet`** \(display only the numeric ID\)
+* **`–a`** display all of a resource (including the ones that are stopped)
+* **`–q`** or **`--quiet`** (display only the numeric ID)
 
 During the development cycle of an application in Docker containers, it’s easy to use a lot of storage with old versions of images and containers.
 
 In this guide, you learned the most **common commands for removing Docker images, containers, volumes, and networks**.
-

@@ -12,15 +12,19 @@ Depuis, j'ai rejoint la communauté dont je suis l'un des administrateurs, nous 
 
 ## [▶️](https://emojipedia.org/youtube/) Youtube
 
-{% embed url="https://www.youtube.com/channel/UCyIwBvXeACRSVdeseFU1dEA/featured" caption="Ma chaîne youtube" %}
+{% embed url="https://www.youtube.com/channel/UCyIwBvXeACRSVdeseFU1dEA/featured" %}
+Ma chaîne youtube
+{% endembed %}
 
-## [👅](https://emojiterra.com/fr/langue/) Langue \(La mienne :P\)
+## [👅](https://emojiterra.com/fr/langue/) Langue (La mienne :P)
 
-{% embed url="https://docs.bluekeys.org/dinmoni/" caption="Je suis en train de créer une langue" %}
+{% embed url="https://docs.bluekeys.org/dinmoni/" %}
+Je suis en train de créer une langue
+{% endembed %}
 
 ## 💻 Mon site web
 
-{% embed url="https://azalesdoragon.alwaysdata.net/infos.php" caption="Mon site web avec mes informations et mon manga Black screen !" %}
-
-
+{% embed url="https://azalesdoragon.alwaysdata.net/infos.php" %}
+Mon site web avec mes informations et mon manga Black screen !
+{% endembed %}
 

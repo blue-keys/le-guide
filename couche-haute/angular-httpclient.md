@@ -7,7 +7,7 @@ You can use the example code to either send requests to third-party API servers,
 ## Other Angular HttpClient Tutorials
 
 * [Importing `HttpClient` and sending Http get, post, put and delete requests to the server](https://www.techiediaries.com/angular-http-client),
-* Building a service to encapsulate the `HttpClient` code interfacing with the server \(this part\),
+* Building a service to encapsulate the `HttpClient` code interfacing with the server (this part),
 * [Getting headers and typed and full responses with Angular HttpClient](https://www.techiediaries.com/angular-httpclient-headers-full-response),
 * [Uploading files with Angular `HttpClient`](https://www.techiediaries.com/angular-file-upload-progress-bar)
 * [Communicating with a Node.js & Express server using POST Requests](https://www.techiediaries.com/angular-tutorial-httpclient-post/)
@@ -26,7 +26,7 @@ To be able to complete this tutorial, you first need to have a few requirements:
 
 You also need to have the Angular CLI 8 installed:
 
-```text
+```
 $ npm install -g @angular/cli
 ```
 
@@ -34,7 +34,7 @@ $ npm install -g @angular/cli
 
 If you don't have an Angular 8 project, you need to generate one using the following command:
 
-```text
+```
 $ ng start angular-example-httpclient
 ```
 
@@ -50,7 +50,7 @@ Angular provides the [`HttpClient`](https://angular.io/guide/http) module which 
 
 `HttpClient` is available from the `@angular/common/http` package and it replaces the old HTTP client that was available from the `@angular/http` package.
 
-In web browsers you have two standard APIs for sending HTTP requests which are the `XMLHttpRequest` interface and the `fetch()` API \(available only on modern browsers\).
+In web browsers you have two standard APIs for sending HTTP requests which are the `XMLHttpRequest` interface and the `fetch()` API (available only on modern browsers).
 
 The `HttpClient` module is built on top of the `XMLHttpRequest` interface. It wraps all the complexities of this interface and provides extra features like:
 
@@ -71,13 +71,13 @@ In fact, you don't have to do much, you simply need to import `HttpClientModule`
 
 Open the `src/app/app.module.ts` file and add the following code at the top of the file:
 
-```text
+```
 import { HttpClientModule } from '@angular/common/http';
 ```
 
 Next, include `HttpClientModule` in the `imports` array of the application module:
 
-![Angular 8 HttpClient](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MzUiIGhlaWdodD0iMjYzIj48L3N2Zz4=)
+![Angular 8 HttpClient](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MCFj\_VEhiEqSWXrtGBs%2Fuploads%2FCfx5WvVpn0iBgcPmSrr5%2Ffile.svg?alt=media)
 
 That's it! You can now use the `HttpClient` library to send HTTP requests to a third-party API server or to your back-end REST API server.
 
@@ -104,9 +104,9 @@ In the example, we suppose that you have an API server that exposes an `www.serv
 * phone,
 * city
 
-In the next step, you'll create a model for your data \(customer\).
+In the next step, you'll create a model for your data (customer).
 
-## Creating your Angular Model\(s\)
+## Creating your Angular Model(s)
 
 At this point, the first thing that you need to do is to create a `Customer` class which will be used as a type for each fetched customer object
 
@@ -114,7 +114,7 @@ At this point, the first thing that you need to do is to create a `Customer` cla
 
 You need to start by generating the `Customer` model using the following command:
 
-```text
+```
 ng generate class customer
 ```
 
@@ -122,11 +122,11 @@ ng generate class customer
 
 This will generate the model file inside the `src/app` folder
 
-> For simple projects, the organization we used is OK but for big projects you may need to create a `models` folder where you can put your class model\(s\). And also use feature modules to encapsulate separate parts of your project. For example, in this project you could use a `customers` module that contains the API service, the Customer model and any components then import it in the main application module.
+> For simple projects, the organization we used is OK but for big projects you may need to create a `models` folder where you can put your class model(s). And also use feature modules to encapsulate separate parts of your project. For example, in this project you could use a `customers` module that contains the API service, the Customer model and any components then import it in the main application module.
 
 Next, open the `src/app/customer.ts` file and add:
 
-```text
+```
 export class Customer{
     id: number;
     firstName: string;
@@ -143,7 +143,7 @@ export class Customer{
 
 Next, open the `src/app/api.service.ts` file and import then inject `HttpClient`:
 
-```text
+```
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
@@ -171,13 +171,13 @@ After creating an Angular service and the class model and injected `HttpClient` 
 
 Since these methods will make use of the `Customer` model class as a type, either for the parameters or the return results, you first need to import the class inside the service's file:
 
-```text
+```
 import { Customer } from './customer';
 ```
 
 Next, you can define the following five methods for creating, reading, updating and deleting the customers:
 
-```text
+```
 public createCustomer(customer: Customer){}
 
 public updateCustomer(customer: Customer){}
@@ -215,7 +215,7 @@ For storing the paging information, you'll need to add the following variables i
 
 In your `ApiService` add the following code:
 
-```text
+```
 public firstPage: string = "";
 public prevPage: string = "";
 public nextPage: string = "";
@@ -224,7 +224,7 @@ public lastPage: string = "";
 
 Now, you are ready to implement the `.getContacts` method. The simple version of this method would simply be:
 
-```text
+```
 public getContacts(){
     return this.httpClient.get<Customer[]>(`${this.apiURL}/customers`);
 }
@@ -236,7 +236,7 @@ This will return an `Observable` that you need to subscribe to, in your componen
 
 I you want to fetch the pages of data, provided that your server is implementing pagination using `Link` headers, you need add the following code instead:
 
-```text
+```
   public getContacts(url?: string){
 
     if(url){
@@ -271,7 +271,7 @@ Next, you need to implement two methods in your service that will be used to ret
 
 This is the implementation of the `.parse_link_header` method:
 
-```text
+```
   parse_link_header(header) {
     if (header.length == 0) {
       return ;
@@ -292,7 +292,7 @@ This is the implementation of the `.parse_link_header` method:
 
 This is the implementation of the `.retrieve_pagination_links` method:
 
-```text
+```
 public retrieve_pagination_links(response){
       const linkHeader = this.parse_link_header(response.headers.get('Link'));
       this.firstPage = linkHeader["first"];
@@ -310,7 +310,7 @@ In the next section, you'll implement the method for getting a single customer b
 
 After implementing the method for fetching paginated sets of data you now add the method for getting a single customer by id:
 
-```text
+```
 public getCustomerById(id: number){
     return this.httpClient.get(`${this.apiURL}/customers/${id}`);
 }
@@ -324,7 +324,7 @@ In the next section, you'll implement the method for creating a customer on the 
 
 In this section, you'll add the `.createCustomer` method which sends a POST request to the server. It takes a parameter of type `Customer`:
 
-```text
+```
 public createCustomer(customer: Customer){
     return this.httpClient.post(`${this.apiURL}/customers/`,customer);
 }
@@ -338,7 +338,7 @@ In the next section, you'll see how to update data on the server using `HttpClie
 
 After creating the method to create customers on the server, you will create the `.updateCustomer` method that will be used to update customers data on the server:
 
-```text
+```
 public updateCustomer(customer: Customer){
     return this.httpClient.put(`${this.apiURL}/customers/${customer.id}`,customer);
 }
@@ -352,7 +352,7 @@ In the next section, you'll add the implementation for the last method that will
 
 The last method that we need to create is the `.deleteCustomer` method which deletes a single customer by its identifier:
 
-```text
+```
 public deleteCustomer(id: number){
     return this.httpClient.delete(`${this.apiURL}/customers/${id}`);
 }
@@ -366,7 +366,7 @@ After creating the Angular service that encapsulates all the methods to send HTT
 
 If you have that, open the `src/app/app.component.ts` file and start by importing `ApiService` then inject it in `AppComponent`:
 
-```text
+```
 import { Component , OnInit } from '@angular/core';
 import { ApiService } from './api.service';
 
@@ -383,7 +383,7 @@ export class AppComponent{
 
 Next, add the following code inside the `.ngOnInit` life-cycle method:
 
-```text
+```
   ngOnInit(){
     this.apiService.getCustomers().subscribe((res)=>{
       this.apiService.getCustomers(this.apiService.nextPage).subscribe((res)=>{
@@ -400,7 +400,7 @@ This can be ideally implemented by adding first, previous, next and last buttons
 
 Next, create a `customer` object:
 
-```text
+```
     var customer = {
       "id": 1,
       "firstName": "First name",
@@ -415,7 +415,7 @@ Next, create a `customer` object:
 
 And use it to create a customer on the server:
 
-```text
+```
 this.apiService.createCustomer(customer).subscribe((res)=>{
       console.log("Created a customer");
 });
@@ -423,7 +423,7 @@ this.apiService.createCustomer(customer).subscribe((res)=>{
 
 You can also update the customer using the following code:
 
-```text
+```
 this.apiService.updateCustomer(customer).subscribe((res)=>{
    console.log("Updated the customer");
 });
@@ -431,7 +431,7 @@ this.apiService.updateCustomer(customer).subscribe((res)=>{
 
 Finally, you can delete the customer by its identifier using:
 
-```text
+```
 this.apiService.deleteContact(1).subscribe((res)=>{
       console.log("Deleted a customer");
 });
@@ -442,4 +442,3 @@ this.apiService.deleteContact(1).subscribe((res)=>{
 ## Conclusion
 
 In this tutorial, you've learned to use Angular 7/8 and `HttpClient` to send HTTP requests to the server.
-

@@ -13,14 +13,14 @@ Merci de prendre en compte pendant cette période de pandémie que les lignes ne
 {% endhint %}
 
 {% hint style="danger" %}
-**Informations et numéros d’urgences :** 
+**Informations et numéros d’urgences :**&#x20;
 {% endhint %}
 
-* **17** : Police, Gendarmerie 
-* **15** : SAMU 
-* **18** : Sapeurs-Pompiers 
-* **112** : Numéro d’Urgences accessibles dans toute l’Union Européenne même sans réseau 
-* **114** : Numéro d’Urgences, Accessible par fax, ou SMS uniquement toutes urgences \(pour personnes malentendantes ou sourdes ou en cas de terrorisme à proximité\)
+* **17** : Police, Gendarmerie&#x20;
+* **15** : SAMU&#x20;
+* **18** : Sapeurs-Pompiers&#x20;
+* **112** : Numéro d’Urgences accessibles dans toute l’Union Européenne même sans réseau&#x20;
+* **114** : Numéro d’Urgences, Accessible par fax, ou SMS uniquement toutes urgences (pour personnes malentendantes ou sourdes ou en cas de terrorisme à proximité)
 
 {% embed url="https://www.info.urgence114.fr/" %}
 
@@ -29,20 +29,20 @@ Merci de prendre en compte pendant cette période de pandémie que les lignes ne
 
 {% embed url="https://www.allo119.gouv.fr/" %}
 
-* 197 : Alerte Enlèvement 
-* 3624 : SOS Médecin, 24h/24, 7j/7, gratuit 
+* 197 : Alerte Enlèvement&#x20;
+* 3624 : SOS Médecin, 24h/24, 7j/7, gratuit&#x20;
 
 {% embed url="https://sosmedecins-france.fr" %}
 
-* Pharmacie de garde : 3237 
+* Pharmacie de garde : 3237&#x20;
 
 {% embed url="https://www.3237.fr/" %}
 
-* Centre antipoison : 0800 59 59 59, 24h/24, 7j/7, gratuit, 
+* Centre antipoison : 0800 59 59 59, 24h/24, 7j/7, gratuit,&#x20;
 
 {% embed url="http://www.centres-antipoison.net" %}
 
-* Violences Conjugales : 3919 , 24h/24, 7j/7, Anonyme et gratuit, 
+* Violences Conjugales : 3919 , 24h/24, 7j/7, Anonyme et gratuit,&#x20;
 
 {% embed url="https://arretonslesviolences.gouv.fr" %}
 
@@ -64,7 +64,7 @@ Merci de prendre en compte pendant cette période de pandémie que les lignes ne
 
 {% embed url="https://suicideecoute.pads.fr" %}
 
-* **Fil Santé Jeune \(12/25 ans\)** : 01 44 93 30 74 Anonyme et gratuit, de 9h/23h, 7j/7 ****
+* **Fil Santé Jeune (12/25 ans)** : 01 44 93 30 74 Anonyme et gratuit, de 9h/23h, 7j/7 ****&#x20;
 
 {% embed url="https://www.filsantejeunes.com" %}
 
@@ -84,21 +84,19 @@ Merci de prendre en compte pendant cette période de pandémie que les lignes ne
 
 {% embed url="https://www.le-refuge.org" %}
 
-* **Autisme Info Service** : 0 800 71 40 40, Anonyme et gratuit, 
+* **Autisme Info Service** : 0 800 71 40 40, Anonyme et gratuit,&#x20;
 
 {% embed url="https://www.autismeinfoservice.fr/informer" %}
 
-* **Surdi Info** : Contact sur le site : 
+* **Surdi Info** : Contact sur le site :&#x20;
 
 {% embed url="https://www.surdi.info/accueil-visiophonique" %}
 
 ## Trèfle 2.0
 
 {% hint style="info" %}
-Vous avez des permanences d'écoutes disponible de notre partenaire ![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)Trèfle 2.0![:four\_leaf\_clover:](https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg)
+Vous avez des permanences d'écoutes disponible de notre partenaire <img src="https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg" alt=":four_leaf_clover:" data-size="line">Trèfle 2.0<img src="https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg" alt=":four_leaf_clover:" data-size="line">
 {% endhint %}
 
 {% embed url="https://docs.bluekeys.org/guide/partenaires/le-trefle-2.0" %}
-
-
 
