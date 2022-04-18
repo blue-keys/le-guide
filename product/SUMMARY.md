@@ -95,7 +95,6 @@
 ## Cryptomonnaie
 
 * [Tips navigateur Brave | Laisser un pourboire](../cryptomonnaie/tips-navigateur-brave-or-laisser-un-pourboire.md)
-* [Town Star - Un bon démarrage](../cryptomonnaie/town-star-guide.md)
 
 ## Infrastructure
 

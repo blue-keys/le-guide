@@ -10,7 +10,7 @@ description: Une association qui fait de l'orientation numérique une priorité
 
 L'association élabore aussi des formations en génie logiciel pour ses stagiaires ainsi que des services informatiques émanant directement des différents besoins identifiés sur les réseaux auxquels elle est connectée.&#x20;
 
-De plus, **Bluekeys** propose un espace d'écoutes/échanges et ambitionne de développer la prévention contre la cybermalveillances (réelle et/ou supposée), sur les réseaux, notamment dans les communautés prisées par les jeunes.&#x20;
+De plus, **Bluekeys** ambitionne de développer la prévention contre la cybermalveillances (réelle et/ou supposée), sur les réseaux.&#x20;
 
 ### Citations
 
