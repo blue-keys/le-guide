@@ -197,6 +197,7 @@ Output  attach      Attach local standard input, output, and error streams to a 
   update      Update configuration of one or more containers
   version     Show the Docker version information
   wait        Block until one or more containers stop, then print their exit codes
+
 ```
 
 Pour voir les options disponibles pour une commande spécifique, tapez :
@@ -236,6 +237,7 @@ Hello from Docker!
 This message shows that your installation appears to be working correctly.
 
 ...
+
 ```
 
 Au départ, Docker n'a pas pu trouver l'image `hello-world` localement, il a donc téléchargé l'image depuis Docker Hub, qui est le référentiel par défaut. Une fois l'image téléchargée, Docker a créé un conteneur à partir de l'image et l'application dans le conteneur s'est exécutée, affichant le message.
@@ -257,6 +259,7 @@ consol/ubuntu-xfce-vnc                                    Ubuntu container with 
 ubuntu-upstart                                            Upstart is an event-based replacement for th…   108                 [OK]
 ansible/ubuntu14.04-ansible                               Ubuntu 14.04 LTS with
 ...
+
 ```
 
 Dans la colonne **OFFICIAL**, **OK** indique une image construite et soutenue par l'entreprise à l'origine du projet. Une fois que vous avez identifié l'image que vous souhaitez utiliser, vous pouvez la télécharger sur votre ordinateur à l'aide de la sous-commande `pull`.
@@ -361,6 +364,7 @@ Vous verrez une sortie similaire à celle-ci :
 
 ```
 OutputCONTAINER ID        IMAGE               COMMAND             CREATED             
+
 ```
 
 Dans ce tutoriel, vous avez lancé deux conteneurs ; un à partir de l'image `hello-world` et un autre à partir de l'image `ubuntu`. Les deux conteneurs ne sont plus actifs, mais ils existent toujours sur votre système.
@@ -376,6 +380,7 @@ Vous verrez une sortie semblable à celle-ci :
 ```
 1c08a7a0d0e4        ubuntu              "/bin/bash"         2 minutes ago       Exited (0) 8 seconds ago                       quizzical_mcnulty
 a707221a5f6c        hello-world         "/hello"            6 minutes ago       Exited (0) 6 minutes ago                       youthful_curie
+
 ```
 
 Pour voir le dernier conteneur que vous avez créé, passez-le au commutateur `-l` :
@@ -387,6 +392,7 @@ docker ps -l
 ```
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES
 1c08a7a0d0e4        ubuntu              "/bin/bash"         2 minutes ago       Exited (0) 40 seconds ago                       quizzical_mcnulty
+
 ```
 
 Pour démarrer un conteneur arrêté, utilisez `docker start`, suivi de l'ID du conteneur ou de son nom. Démarrons le conteneur basé sur Ubuntu avec l'ID de `1c08a7a0d0e4` :
@@ -400,6 +406,7 @@ Le conteneur démarrera, et vous pouvez utiliser `docker ps` pour voir son statu
 ```
 OutputCONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 1c08a7a0d0e4        ubuntu              "/bin/bash"         3 minutes ago       Up 5 seconds                            quizzical_mcnulty
+
 ```
 
 Pour arrêter un conteneur en cours d'exécution, utilisez `docker stop`, suivi de l'ID ou du nom du conteneur. Cette fois, nous utiliserons le nom que Docker a attribué au conteneur, qui est `quizzical_mcnulty` :
@@ -432,7 +439,7 @@ Ensuite, effectuez les modifications dans une nouvelle instance d'image Docker �
 docker commit -m "What you did to the image" -a "Author Name" container_id repository/new_image_name
 ```
 
-Le commutateur **-m** est destiné au message de validation qui vous aide, ainsi que les autres, à connaître les modifications que vous avez apportées, tandis que **-a** est utilisé pour spécifier l'auteur. Le `container_id` est celui que vous avez noté plus tôt dans le tutoriel lorsque vous avez lancé la session interactive de Docker. À moins de créer des référentiels supplémentaires sur Docker Hub, le `référentiel` est généralement votre nom d'utilisateur Docker Hub.
+Le commutateur **-m** est destiné au message de validation qui vous aide, ainsi que les autres, à connaître les modifications que vous avez apportées, tandis que **-a** est utilisé pour spécifier l'auteur.  Le `container_id` est celui que vous avez noté plus tôt dans le tutoriel lorsque vous avez lancé la session interactive de Docker. À moins de créer des référentiels supplémentaires sur Docker Hub, le `référentiel` est généralement votre nom d'utilisateur Docker Hub.
 
 Par exemple, pour l'utilisateur **sammy**, avec l'ID de conteneur `d9b100f2f636`, la commande serait :
 
@@ -454,6 +461,7 @@ Vous verrez une sortie de ce type :
 OutputREPOSITORY               TAG                 IMAGE ID            CREATED             SIZE
 sammy/ubuntu-nodejs   latest              7c1f35226ca6        7 seconds ago       179MB
 ...
+
 ```
 
 Dans cet exemple, `ubuntu-nodejs` est la nouvelle image, qui a été dérivée de l'image `ubuntu` existante à partit de Docker Hub. La différence de taille reflète les modifications apportées. Et dans cet exemple, le changement est que NodeJS a été installé. Donc la prochaine fois que vous aurez besoin d'exécuter un conteneur en utilisant Ubuntu avec NodeJS pré-installé, vous pourrez simplement utiliser la nouvelle image.
@@ -476,7 +484,7 @@ docker login -u docker-registry-username
 
 Vous serez invité à vous s'authentifier à l'aide de votre mot de passe Docker Hub. Si vous avez spécifié le bon mot de passe, l'authentification devrait réussir.
 
-**Remarque** : Si votre nom d'utilisateur du registre Docker est différent du nom d'utilisateur local que vous avez utilisé pour créer l'image, vous devrez tagger votre image avec votre nom d'utilisateur du registre. Pour l'exemple donné à la dernière étape, vous devriez taper :
+&#x20;**Remarque** : Si votre nom d'utilisateur du registre Docker est différent du nom d'utilisateur local que vous avez utilisé pour créer l'image, vous devrez tagger votre image avec votre nom d'utilisateur du registre. Pour l'exemple donné à la dernière étape, vous devriez taper :
 
 ```
 docker tag sammy/ubuntu-nodejs docker-registry-username/ubuntu-nodejs
@@ -506,6 +514,7 @@ a3b5c80a4eba: Pushed
 7aae4540b42d: Pushed
 
 ...
+
 
 ```
 
@@ -537,3 +546,4 @@ Dans ce tutoriel, vous avez installé Docker, travaillé avec des images et des 
 ## Source :
 
 {% embed url="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-fr" %}
+

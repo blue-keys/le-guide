@@ -22,10 +22,10 @@ Il existe des créateurs officiel de Brave que vous connaissez surement comme Up
 
 ### Laissez un pourboire à n’importe quel propriétaire de site via la panneau Brave Rewards
 
-Le Web est rempli de contenu de qualité sous forme de sites Web, de blogs, de magazines en lignes et de portfolios créatifs. Vous pouvez laisser un pourboire à chacun d’eux en ouvrant le panneau Brave Rewards et en cliquant sur le bouton « Envoyer un pourboire ».
+Le Web est rempli de contenu de qualité sous forme de sites Web, de blogs, de magazines en lignes et de portfolios créatifs. Vous pouvez laisser un pourboire à chacun d’eux en ouvrant le panneau Brave Rewards et en cliquant sur le bouton « Envoyer un pourboire ».&#x20;
 
 {% hint style="info" %}
-#### Remarque concernant les pourboires dans le navigateur Brave
+### Remarque concernant les pourboires dans le navigateur Brave
 
 Si vous êtes nouvel utilisateur il faut attendre 1 mois pour cumuler des BAT
 
@@ -38,7 +38,7 @@ Lorsque vous consultez Twitter au sein du navigateur Brave pour ordinateur, vous
 
 #### Laissez des pourboires à vos créateurs favoris sur Youtube lorsque vous regardez leurs vidéos
 
-Lorsque vous surfez sur Youtube, le programme Beave Rewards vous permet de laisser un pourboire directement aux créateurs en tant que récompense pour un contenu vidéo de qualité.
+Lorsque vous surfez sur Youtube, le programme Beave Rewards vous permet de laisser un pourboire directement aux créateurs en tant que récompense pour un contenu vidéo de qualité.&#x20;
 
 #### Laissez un pourboire à vos streamers favoris pendant que vous regardez leur chaîne
 

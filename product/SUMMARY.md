@@ -1,33 +1,20 @@
 # Table of contents
 
-* [📖 Synopsis](README.md)
-* [📖 ℹ️ Qui sommes-nous ?](../presentation.md)
-* [💕Nous soutenons](../nos-soutiens/README.md)
-  * [💻 Azales](../nos-soutiens/azales.md)
-  * [Papi Uzumaki](../nos-soutiens/papi-uzumaki.md)
-  * [💻 Beau de l'aire](../nos-soutiens/beau-de-laire.md)
-  * [Toshi](../nos-soutiens/toshi.md)
-  * [🛡️ FCC (French Communuty Cybersecurity)](../nos-soutiens/fcc-french-communuty-cybersecurity.md)
-  * [🛡️ TheBlackSide](../nos-soutiens/theblackside.md)
-  * [Romain Lanz](../nos-soutiens/romain-lanz.md)
-  * [🛡️Sharpforce](../nos-soutiens/sharpforce.md)
-* [🗣 Faire une suggestion](https://suggestion.bluekeys.org)
-* [📘 Dernier article](../dernier-article.md)
-* [🔗 Nos liens](../bkjoin.md)
-* [Crédits (en cours)](../credits-en-cours.md)
-
-## urgence
-
-* [❤️‍🩹Kit d'aide digital](../urgence/digital-first-aid-kit.md)
-* [⚡Cybermalveillance](https://cybermalveillance.gouv.fr)
-* [🚨 Informations d'urgences 🇫🇷](../urgence/informations-numeros-urgences.md)
+* [📖 Qui sommes-nous ?](README.md)
 
 ## prévention
 
-* [👀 👁️‍🗨️ C'est quoi le phishing ?](../prevention/cest-quoi-le-phishing.md)
-* [🌐 Que peut-on faire avec une IP ?](../prevention/que-peut-on-faire-avec-une-ip.md)
 * [📱 Les dangers des réseaux sociaux](../prevention/les-dangers-des-reseaux-sociaux.md)
+* [👀 C'est quoi le phishing ?](../prevention/cest-quoi-le-phishing.md)
+* [🌐 Que peut-on faire avec une IP ?](../prevention/que-peut-on-faire-avec-une-ip.md)
 * [Comment se rétracter lors d'un achat (ecommerce) ?](../prevention/comment-se-retracter-lors-dun-achat-ecommerce.md)
+
+## urgence
+
+* [⚡Cybermalveillance](https://cybermalveillance.gouv.fr)
+* [🩹 Kit d'aide digital](https://digitalfirstaid.org/fr/)
+* [🚨 Infos d'urgences](../urgence/informations-numeros-urgences.md)
+* [📘 Dernier poste](../urgence/dernier-article.md)
 
 ## HELP
 
@@ -205,3 +192,11 @@
 ***
 
 * [How to install Windows 10 root certificates \[EASY STEPS\]](../untitled.md)
+* [💕Nous soutenons](../nos-soutiens/README.md)
+  * [💻 Azales](../nos-soutiens/azales.md)
+  * [Papi Uzumaki](../nos-soutiens/papi-uzumaki.md)
+  * [💻 Beau de l'aire](../nos-soutiens/beau-de-laire.md)
+  * [Toshi](../nos-soutiens/toshi.md)
+  * [🛡️ FCC (French Communuty Cybersecurity)](../nos-soutiens/fcc-french-communuty-cybersecurity.md)
+  * [🛡️ TheBlackSide](../nos-soutiens/theblackside.md)
+  * [🛡️Sharpforce](../nos-soutiens/sharpforce.md)

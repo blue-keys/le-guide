@@ -19,7 +19,7 @@ Depuis, les textes de lois ont été modifiés et amendés à plusieurs reprises
 {% endhint %}
 
 {% hint style="info" %}
-#### Ce qui est interdit et ce qui ne l'est pas
+### Ce qui est interdit et ce qui ne l'est pas
 
 La loi reste vague à ce sujet, en effet [**l’article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/) punit "tout accès non autorisé à un système de traitement d'informations". Les outils de piratage, leurs partages et utilisations restent autorisés. Il est donc légal de pratiquer le piratage tant que vous avez l'autorisation du propriétaire du système, par exemple le vôtre, un autre mis à disposition ou bien une plateforme dédiée comme celle pour les _CTF_ (des explications sur les CTF sont fournies plus bas).
 
@@ -60,7 +60,7 @@ En ce qui concerne le réseau, pensez à :
 
 * "The Practice of Network Security Monitoring" ;
 * "Practical Packet Analysis" ;
-* "Applied Network Security Monitoring".
+* "Applied Network Security Monitoring".&#x20;
 
 Lorsque le moment est venu de mettre en pratique ce que vous avez appris dans les livres, utilisez des ressources telles que le blog sur l'analyse du trafic des logiciels malveillants et la consultation de PacketTotal pour vous faire une idée de ce qui est "normal" et de ce qui ne l'est pas. Votre objectif ici devrait être de comprendre les sources de données (preuves réseau) qui peuvent être utilisées pour détecter et expliquer l'activité. Pour affiner vos processus d'investigation sur le réseau, pensez à Security Onion. Installez quelques capteurs réseau, surveillez le trafic et créez des signatures Snort/Suricata pour signaler le trafic illicite. Votre objectif est d'établir un processus d'enquête de base et, comme pour les points d'accès, de comprendre les côtés attaque et défense de l'équation.
 

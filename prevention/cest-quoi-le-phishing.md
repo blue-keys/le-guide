@@ -2,7 +2,7 @@
 description: L’hameçonnage fait partie des cybermalveillances les plus connus en 2021
 ---
 
-# 👀 👁️‍🗨️ C'est quoi le phishing ?
+# 👀 C'est quoi le phishing ?
 
 ![](../.gitbook/assets/scam-3933004\_1920.jpg)
 
@@ -42,7 +42,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
     Comme nous l'avons énoncé précédemment pour l'objet du courriel, regardez son contenu pour détecter les erreurs de syntaxes, d'orthographes ou de grammaires.
 
 {% hint style="success" %}
-#### **Les bons réflexes**
+### **Les bons réflexes**
 
 * Ne pas ouvrir les pièces jointes ;
 * Ne pas répondre ;
@@ -54,7 +54,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
 {% endhint %}
 
 {% hint style="warning" %}
-#### **Si vous êtes victime d'hameçonnage :**
+### **Si vous êtes victime d'hameçonnage :**
 
 * Changez votre mot de passe (12 caractères minimum) ;
 * Vérifiez que le mot de passe donné à l'arnaqueur ne soit pas utilisé pour d'autres services (mail, réseau social, assurances, etc.. ) ;
@@ -74,16 +74,22 @@ Temps estimé pour déchiffrer votre mot de passe en 2021 :
 
 ![Tableau des estimations pour déchiffrer un mot de passe](<../.gitbook/assets/image (20).png>)
 
+### Un journaliste humoristique explique en 2 minutes
+
+Vous le connaissez surement il s'agit de David Castello Lopes, notamment connu avec le buz de la vidéo "Je possède des thunes", il explique très bien comment avoir un bon mot de passe
+
+{% embed url="https://www.arte.tv/fr/videos/105894-005-A/est-ce-que-c-est-bien-de-choisir-des-mots-de-passe-tres-compliques" %}
+
 ### **Hello bank en parle :**
 
 ![](<../.gitbook/assets/image (21).png>)
 
-### **Contact**
+### **Auteur de l'article**&#x20;
 
-**Auteur** : Valentin#1239 _étudiant en étude supérieur en informatique_
+Valentin _étudiant en étude supérieur en informatique à retrouver sur Linkedin_
 
-{% hint style="info" %}
-Vous pouvez me retrouver sur le Discord de Bluekeys pour échanger.
-{% endhint %}
+{% embed url="https://www.linkedin.com/in/valmri" %}
+&#x20;
+{% endembed %}
 
 {% embed url="https://pixabay.com/fr/service/license/" %}

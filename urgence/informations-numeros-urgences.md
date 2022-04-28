@@ -4,7 +4,7 @@ description: >-
   peuvent aider voire sauver des vies.
 ---
 
-# 🚨 Informations d'urgences 🇫🇷
+# 🚨 Infos d'urgences
 
 ## **Informations et numéros**
 
@@ -91,12 +91,6 @@ Merci de prendre en compte pendant cette période de pandémie que les lignes ne
 * **Surdi Info** : Contact sur le site :&#x20;
 
 {% embed url="https://www.surdi.info/accueil-visiophonique" %}
-
-## Trèfle 2.0
-
-{% hint style="info" %}
-Vous avez des permanences d'écoutes disponible de notre partenaire <img src="https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg" alt=":four_leaf_clover:" data-size="line">Trèfle 2.0<img src="https://discord.com/assets/ccb393b137e9218ac3af16b2c4617a2e.svg" alt=":four_leaf_clover:" data-size="line">
-{% endhint %}
-
-{% embed url="https://docs.bluekeys.org/guide/partenaires/le-trefle-2.0" %}
+Trèfle 2.0
+{% endembed %}
 

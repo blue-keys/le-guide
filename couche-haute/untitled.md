@@ -33,11 +33,11 @@ Windows users can leverage [Chocolatey](https://chocolatey.org):
 
 `choco install deno`
 
-A successful install with Linux looks like this:
+A successful install with  Linux looks like this:
 
 ![](https://res.infoq.com/articles/deno-introduction-practical-examples/en/resources/11image002-1603478801048.jpg)
 
-**Note**: You may also need to [export the deno directories to make the ](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu)[deno](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu)[ command globally available](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu).
+**Note**: You may also need to [export the deno directories to make the ](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu)[deno](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu)[ command globally available](https://stackoverflow.com/questions/61851774/how-to-install-deno-on-ubuntu).&#x20;
 
 There are [additional ways to install Deno](https://deno.land/manual/getting\_started/installation).
 
@@ -85,11 +85,11 @@ Running code from a URL is nearly identical:
 
 Read code from stdin:
 
-`echo "console.log('Hello Deno')" | deno run`
+`echo "console.log('Hello Deno')" | deno run`&#x20;
 
 ### Deno Script Arguments
 
-Deno provides the args property from the Deno namespace (Deno.args) for accessing script arguments, this property returns an array containing the passed arguments at runtime.
+Deno provides the args property from the Deno  namespace (Deno.args) for accessing script arguments, this property returns an array containing the passed arguments at runtime.&#x20;
 
 A simple example below outputs the argument for a program with Deno.args.
 
@@ -121,10 +121,10 @@ for await (const server_request of server) {
 ```
 
 1. Run the code from the terminal.\
-   `deno run --allow-net server.js`
+   &#x20;`deno run --allow-net server.js`
 2. Open your favorite browser and visit [http://localhost:5000/](http://localhost:5000)
 
-In this example, `--allow-net` provides network access permission to our program, otherwise Deno will throw a `PermissionDenied` error. This example:
+In this example,  `--allow-net` provides network access permission to our program, otherwise Deno will throw a `PermissionDenied` error. This example:
 
 * Imports a module from the HTTP remote package.
 * Uses serve() method to create the server that listens on port 5000.
@@ -136,17 +136,19 @@ To create an HTML web server in Deno, we will first have our HTML files that wil
 
 1. Create a folder for your project, for example, deno\_server.
 2. Navigate to the folder from your terminal:\
-   cd `deno_server`
+   &#x20;cd `deno_server`
 
 Create a file name `index.html`, and paste the following code into it:
 
 ```
 
 
+
     My First Deno Web page
 
 
     My First Deno Web page
+
 
 ```
 
@@ -163,7 +165,7 @@ for await (const server_request of server) {
 ```
 
 1. Go to your terminal and run the code:\
-   `deno run --allow_net --allow_read server.js`
+   &#x20;`deno run --allow_net --allow_read server.js`
 
 ![](https://res.infoq.com/articles/deno-introduction-practical-examples/en/resources/17image004-1603478799305.jpg)
 
@@ -220,7 +222,7 @@ The Deno FileSystem allows you to perform operating system tasks on files. Like 
 
 ### Reading from a File in Deno
 
-The Deno namespace provides the open() method for reading files.
+The Deno namespace provides the open() method for reading files.&#x20;
 
 Let's create a file, `sample.ts`, and paste the following code:
 
@@ -240,7 +242,7 @@ First let's run the code without the `--allow-read` flag to see how Deno behaves
 
 ![](https://res.infoq.com/articles/deno-introduction-practical-examples/en/resources/22image005-1603478802394.jpg)
 
-This example throws a PermissionDenied error because we wanted to read a file without requesting permission, so let's re-run the example with the correct file access:
+This example throws  a PermissionDenied error because we wanted to read a file without requesting permission, so let's re-run the example with the correct file access:
 
 `deno run --allow-read sample.ts`
 
@@ -266,7 +268,7 @@ await Deno.writeFile("./sample4.txt", data, {append: true});
 await Deno.writeFile("./sample2.txt", data, {create: false});
 ```
 
-Run the Deno file writing example with the `--allow-write` flag.
+Run the Deno file writing example  with the `--allow-write` flag.
 
 Let's read the `sample1.txt` file to confirm the write, the Deno namespace also provides `readTextFile` which can be easily used to read text files:
 
@@ -277,7 +279,7 @@ console.log(await Deno.readTextFile('./sample1.txt'));
 
 ## Formatting Code
 
-Unlike Node.js which uses formatter libraries like [Prettier](https://prettier.io), Deno includes an automatic formatter with the `deno fmt` command.
+Unlike Node.js which uses formatter libraries like [Prettier](https://prettier.io),  Deno includes an automatic formatter with the `deno fmt` command.
 
 #### To format all JS/TS files in the current directory including nested directories
 
@@ -338,7 +340,7 @@ Deno is still a very new environment with many promising features around securit
 Congratulations on your practical introduction to using Deno. Here are few more resources to become familiar with Deno:
 
 * [Deno v1.0.0 released to solve Node.js design flaws](https://stackoverflow.blog/2020/05/22/deno-v1-0-0-released-to-solve-node-js-design-flaws/) — By Ryan Donovan
-* [Deno Loves WebAssembly](https://www.infoq.com/articles/deno-loves-webassembly/) — By Michael Yuan
+* [Deno Loves WebAssembly](https://www.infoq.com/articles/deno-loves-webassembly/)  — By Michael Yuan
 * [Creating your first REST API with Deno and Postgres](https://blog.logrocket.com/creating-your-first-rest-api-with-deno-and-postgres/) — By Diogo Souza
 
 Please share any questions or feedback in the comments.

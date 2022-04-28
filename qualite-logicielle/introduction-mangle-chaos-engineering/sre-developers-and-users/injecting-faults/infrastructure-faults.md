@@ -44,11 +44,11 @@ CPU fault enables spiking cpu usage values for a selected endpoint by a percenta
 11. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The fault will continue to run at the endpoint until the timeout expires or a remediation request is triggered. The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 12. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Memory Fault <a href="#memory-fault" id="memory-fault"></a>
 
@@ -69,11 +69,11 @@ Memory fault enables spiking memory usage values for a selected endpoint by a pe
 11. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The fault will continue to run at the endpoint until the timeout expires or a remediation request is triggered. The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 12. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Disk IO Fault <a href="#disk-io-fault" id="disk-io-fault"></a>
 
@@ -94,11 +94,11 @@ Disk IO fault enables spiking disk IO operation for a selected endpoint by an IO
 11. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The fault will continue to run at the endpoint until the timeout expires or a remediation request is triggered. The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 12. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Kill Process Fault <a href="#kill-process-fault" id="kill-process-fault"></a>
 
@@ -120,11 +120,11 @@ Kill Process fault enables abrupt termination of any process that is running on 
 12. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 13. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## File Handler Leak Fault <a href="#file-handler-leak-fault" id="file-handler-leak-fault"></a>
 
@@ -146,11 +146,11 @@ File Handler Leak fault enables you to simulate conditions where a program reque
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Disk Space Fault <a href="#disk-space-fault" id="disk-space-fault"></a>
 
@@ -174,11 +174,11 @@ Disk Space Fault enables you to simulate out of disk or low disk space condition
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Kernel Panic Fault <a href="#kernel-panic-fault" id="kernel-panic-fault"></a>
 
@@ -209,11 +209,11 @@ To modify this setting permanently, remotely log in to the endpoint, modify file
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Network Faults <a href="#network-faults" id="network-faults"></a>
 
@@ -239,11 +239,11 @@ Network Faults enables you to simulate unfavorable conditions such as packet del
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
+    &#x20;![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
 
 ### Packet Duplication <a href="#packet-duplication" id="packet-duplication"></a>
 
@@ -265,11 +265,11 @@ Network Faults enables you to simulate unfavorable conditions such as packet del
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ### Packet Loss <a href="#packet-loss" id="packet-loss"></a>
 
@@ -291,11 +291,11 @@ Network Faults enables you to simulate unfavorable conditions such as packet del
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ### Packet Corruption <a href="#packet-corruption" id="packet-corruption"></a>
 
@@ -317,11 +317,11 @@ Network Faults enables you to simulate unfavorable conditions such as packet del
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Docker State Change <a href="#docker-state-change" id="docker-state-change"></a>
 
@@ -341,11 +341,11 @@ Docker State Change faults enable you to abruptly stop or pause containers runni
 10. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 11. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Kubernetes Delete Resource <a href="#kubernetes-delete-resource" id="kubernetes-delete-resource"></a>
 
@@ -367,11 +367,11 @@ Kubernetes (K8s) Delete Resource faults enable you to abruptly delete pods or no
 12. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". Remediation requests are not supported for this fault.
 13. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media&#x26;token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)
 
 ## Kubernetes Resource Not Ready <a href="#kubernetes-resource-not-ready" id="kubernetes-resource-not-ready"></a>
 
@@ -394,11 +394,11 @@ Kubernetes (K8s) Resource Not Ready faults enable you to abruptly put pods or no
 13. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". Remediation requests are not supported for this fault.
 14. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
+    &#x20;![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
 
 ## Kubernetes Service Not Available <a href="#kubernetes-service-not-available" id="kubernetes-service-not-available"></a>
 
@@ -419,15 +419,15 @@ Kubernetes (K8s) Service Not Available faults enable you to abruptly make a serv
 11. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". Remediation requests are not supported for this fault.
 12. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
+    &#x20;![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
 
 ## vCenter Disk Fault <a href="#vcenter-disk-fault" id="vcenter-disk-fault"></a>
 
-vCenter Disk faults enable you to abruptly disconnect disks from a virtual machine in its inventory. It requires the VM Disk ID and VM Name to trigger the fault. For all vCenter faults, Mangle talks to the mangle-vc-adapter to connect and perform the required action on VC. So it is mandatory that you install the mangle-vc-adapter container prior to adding vCenter Endpoints or running vCenter faults. To find how to install and configure the mangle-vc-adapter, please refer [here](https://app.gitbook.com/s/-LcVKiIEQZ\_SDz8uqA0g/mangle-administration/supported-deployment-models).
+vCenter Disk faults enable you to abruptly disconnect disks from a virtual machine in its inventory. It requires the VM Disk ID and VM Name to trigger the fault. For all vCenter faults, Mangle talks to the mangle-vc-adapter to connect and perform the required action on VC. So it is mandatory that you install the mangle-vc-adapter container prior to adding vCenter Endpoints or running vCenter faults. To find how to install and configure the mangle-vc-adapter, please refer [here](https://app.gitbook.com/@vmware-1/s/workspace/mangle-administration/supported-deployment-models#deploying-the-mangle-vcenter-adapter-container).
 
 **Steps to follow:**
 
@@ -445,15 +445,15 @@ vCenter Disk faults enable you to abruptly disconnect disks from a virtual machi
 10. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 11. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
+    &#x20;![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
 
 ## vCenter NIC Fault <a href="#vcenter-nic-fault" id="vcenter-nic-fault"></a>
 
-vCenter NIC faults enable you to abruptly disconnect network interface cards from a virtual machine in its inventory. It requires the VM Nic ID and VM Name to trigger the fault. For all vCenter faults, Mangle talks to the mangle-vc-adapter to connect and perform the required action on VC. So it is mandatory that you install the mangle-vc-adapter container prior to adding vCenter Endpoints or running vCenter faults. To find how to install and configure the mangle-vc-adapter, please refer [here](https://app.gitbook.com/s/-LcVKiIEQZ\_SDz8uqA0g/mangle-administration/supported-deployment-models).
+vCenter NIC faults enable you to abruptly disconnect network interface cards from a virtual machine in its inventory. It requires the VM Nic ID and VM Name to trigger the fault. For all vCenter faults, Mangle talks to the mangle-vc-adapter to connect and perform the required action on VC. So it is mandatory that you install the mangle-vc-adapter container prior to adding vCenter Endpoints or running vCenter faults. To find how to install and configure the mangle-vc-adapter, please refer [here](https://app.gitbook.com/@vmware-1/s/workspace/mangle-administration/supported-deployment-models#deploying-the-mangle-vcenter-adapter-container).
 
 **Steps to follow:**
 
@@ -471,15 +471,15 @@ vCenter NIC faults enable you to abruptly disconnect network interface cards fro
 10. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 11. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
+    &#x20;![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
 
 ## vCenter VM State Change Fault <a href="#vcenter-vm-state-change-fault" id="vcenter-vm-state-change-fault"></a>
 
-vCenter VM State Change faults enable you to abruptly power-off, reset or suspend any virtual machine in its inventory. It requires just the VM Name to trigger the fault. For all vCenter faults, Mangle talks to the mangle-vc-adapter to connect and perform the required action on VC. So it is mandatory that you install the mangle-vc-adapter container prior to adding vCenter Endpoints or running vCenter faults. To find how to install and configure the mangle-vc-adapter, please refer [here](https://app.gitbook.com/s/-LcVKiIEQZ\_SDz8uqA0g/mangle-administration/supported-deployment-models).
+vCenter VM State Change faults enable you to abruptly power-off, reset or suspend any virtual machine in its inventory. It requires just the VM Name to trigger the fault. For all vCenter faults, Mangle talks to the mangle-vc-adapter to connect and perform the required action on VC. So it is mandatory that you install the mangle-vc-adapter container prior to adding vCenter Endpoints or running vCenter faults. To find how to install and configure the mangle-vc-adapter, please refer [here](https://app.gitbook.com/@vmware-1/s/workspace/mangle-administration/supported-deployment-models#deploying-the-mangle-vcenter-adapter-container).
 
 **Steps to follow:**
 
@@ -495,11 +495,11 @@ vCenter VM State Change faults enable you to abruptly power-off, reset or suspen
 10. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 11. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
+    &#x20;![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
 
 ## AWS EC2 State Change Fault <a href="#aws-ec2-state-change-fault" id="aws-ec2-state-change-fault"></a>
 
@@ -519,11 +519,11 @@ AWS EC2 State Change fault enables you to abruptly terminate, stop or reboot any
 10. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 11. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
+    &#x20;![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
 
 ## AWS EC2 Network Fault <a href="#aws-ec2-network-fault" id="aws-ec2-network-fault"></a>
 
@@ -543,11 +543,11 @@ AWS EC2 Network fault enable you to abruptly terminate, stop or reboot any EC2 i
 10. If Mangle was able to successfully trigger the fault, the status of the task will change to "COMPLETED". The option to trigger a remediation request at anytime can be found on clicking the ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-Lead2bNkR2AZju-PTuh%2FSupportedActionsButton.png?alt=media\&token=b99be285-99bb-42ed-b6b9-9100d4664a4c) button against the task in the Processed Requests table.
 11. For monitoring purposes, log into either Wavefront or Datadog once it is configured as an active Metric provider in Mangle and refer to the Events section. Events similar to the screenshots provided below will be available on the monitoring tool for tracking purposes.
 
-    <img src="https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media&#x26;token=c6c45b44-b135-46c1-aa3f-a2901e528267" alt="" data-size="original">
+    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-LevmdQo4MfDslMhnsoh%2FDatadogEvents.png?alt=media\&token=c6c45b44-b135-46c1-aa3f-a2901e528267)
 
     ​
 
-    ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
+    &#x20;![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Levl5IlbHcOmyK0fYHd%2F-Levmptin9wtfjHLmiyM%2FWavefrontEvents.png?alt=media\&token=a519f2fd-0288-4ae8-b2f0-341c8957ccc4)​
 
 ## Relevant API Reference <a href="#relevant-api-reference" id="relevant-api-reference"></a>
 
@@ -555,4 +555,4 @@ AWS EC2 Network fault enable you to abruptly terminate, stop or reboot any EC2 i
 
 Please traverse to link ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Leac8tB-KodjFhsg2Zs%2F-LeacYoaMEsURLcmrZyl%2FHelp.png?alt=media\&token=e28a8f10-207c-4ae0-a803-2949ee85c749) -----> API Documentation from the Mangle UI or access _https:///mangle-services/swagger-ui.html#_/_fault-injection-controller_
 
-![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Lf4MfuoiFt3MIhY55fO%2F-Lf4NDyCLa267JaIctKt%2FFaultInjectionController.png?alt=media\&token=39e5a34b-f534-4f32-9fde-ad5ef9062329)
+&#x20; ![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LcVKiIEQZ\_SDz8uqA0g%2F-Lf4MfuoiFt3MIhY55fO%2F-Lf4NDyCLa267JaIctKt%2FFaultInjectionController.png?alt=media\&token=39e5a34b-f534-4f32-9fde-ad5ef9062329)
