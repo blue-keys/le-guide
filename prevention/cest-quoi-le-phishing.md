@@ -72,7 +72,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
 
 Temps estimé pour déchiffrer votre mot de passe en 2021 :
 
-![Tableau des estimations pour déchiffrer un mot de passe](<../.gitbook/assets/image (20).png>)
+![Tableau des estimations pour déchiffrer un mot de passe](<../.gitbook/assets/image (7).png>)
 
 ### Un journaliste humoristique explique en 2 minutes
 

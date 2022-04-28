@@ -14,7 +14,7 @@
 * [⚡Cybermalveillance](https://cybermalveillance.gouv.fr)
 * [🩹 Kit d'aide digital](https://digitalfirstaid.org/fr/)
 * [🚨 Infos d'urgences](../urgence/informations-numeros-urgences.md)
-* [📘 Dernier poste](../urgence/dernier-article.md)
+* [📘 Dernier poste](../dernier-article.md)
 
 ## HELP
 

@@ -10,9 +10,9 @@ description: >-
 Il existe des créateurs officiel de Brave que vous connaissez surement comme Uphold, ProtonMail, Duckduckgo, Wikipédia, comme eux notre association **Bluekeys** est créateur officiel, vous avez la possibilité de laisser un pourboire sur tout nos contenus et services web, depuis même un smartphone, merci<img src="https://discord.com/assets/1904291ab1aa5d14b2adaaff23a578dd.svg" alt=":pray:" data-size="line">
 {% endhint %}
 
-![](<../.gitbook/assets/Capture d’écran du 2021-02-14 07-02-17.png>)
+![](../.gitbook/assets/capture-decran-du-2021-02-14-07-02-17.png)
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 ## Le tutoriel vidéo
 
@@ -68,7 +68,7 @@ Passez par la procédure de vérification et commencez à recevoir des pourboire
 L'équipe qui a créé le BAT, a écrit un document scientifique complet sur le sujet (ce qu'on appelle dans la recherche un **white paper**), le **FAQ** provient de celui-ci, j'invites chacun.e à le lire c'est très instructif sur le fonctionnement de cette cryptomonnaie et de la nouvelle manière de l'utiliser :
 {% endhint %}
 
-{% file src="../.gitbook/assets/2018_BasicAttentionTokenWhitePaper-4.pdf" %}
+{% file src="../.gitbook/assets/2018_basicattentiontokenwhitepaper-4.pdf" %}
 
 Vous avez aussi un second PDF sur le **Token Economics** provenant du même groupe
 

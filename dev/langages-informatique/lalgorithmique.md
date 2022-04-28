@@ -4,14 +4,14 @@ description: Ressources en cours d'écriture à titre informatif
 
 # L'algorithmique
 
-![](<../../.gitbook/assets/web-browser (2).png>)
+![](../../.gitbook/assets/web-browser-2-.png)
 
-## Grafikart
+## Grafikart&#x20;
 
 est une ressource web déjà éprouvé qui propose une formation vidéo sur le sujet, il accompagne par exemple un néophyte (débutant ou même de 0) de façon très compréhensible.
 
 {% hint style="warning" %}
-Il faut bien vérifier quelque fois les dates et info globalement de toutes les sources et comparer suivant les versions (même ici), il y a toujours un petit travail de vérification à faire c'est pour ça que le guide existe, pour faciliter un peu l'orientation.
+Il faut bien vérifier quelque fois les dates et info globalement de toutes les sources et comparer suivant les versions (même ici), il y a toujours un petit travail de vérification à faire c'est pour ça que le guide existe, pour faciliter un peu l'orientation.&#x20;
 
 Vous pouvez rapidement consulter un contenu, tutoriel par exemple avec des termes obsolètes ou un contenu avec des mauvaises informations.
 {% endhint %}
@@ -22,6 +22,7 @@ Vous pouvez rapidement consulter un contenu, tutoriel par exemple avec des terme
 
 {% embed url="https://www.grafikart.fr/formations/apprendre-algorithmique" %}
 
-## :link:Complément si besoin :
+## :link:Complément si besoin :&#x20;
 
 {% embed url="https://algo.developpez.com/tutoriels/initiation/#LI" %}
+

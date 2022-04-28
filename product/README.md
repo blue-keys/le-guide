@@ -27,6 +27,8 @@ Tous les articles du présent guide écrits pas nos différents contributeurs (b
 
 
 
+{% embed url="https://docs.bluekeys.org/guide/cryptomonnaie/tips-navigateur-brave-or-laisser-un-pourboire" %}
+
 ![Vous pouvez nous laisser un pourboire directement sur nos sites web depuis le navigateur Brave.](../.gitbook/assets/brave-logo.svg)
 {% endtab %}
 

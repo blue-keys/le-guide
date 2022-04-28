@@ -15,7 +15,7 @@ _Pour pouvoir RP, il vous suffit simplement de créer un personnage imaginaire a
 
 _Exemple d’une fiche de rp basique :_
 
-![](<../.gitbook/assets/image (16).png>)
+![](../.gitbook/assets/image.png)
 
 ## Évidemment, même le RP à ses règles ! <a href="#52e0" id="52e0"></a>
 
@@ -23,7 +23,7 @@ _Par exemple, ne pas jouer un personnage surpuissant, il a faiblesses et avantag
 
 _Exemple de règles d’un RP :_
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ## Un serveur Discord ? <a href="#0aff" id="0aff"></a>
 
@@ -35,7 +35,7 @@ _Dans les serveurs RPs, il devient donc possible d’incarner un personnage (hum
 
 _Sur_ [_DISBOARD | Liste de serveurs Discord publics_](https://disboard.org/fr) _vous pouvez par exemple chercher un serveur Discord RP sur le thème de La Guerre de Clans (LGDC) et commencer votre nouvelle aventure dans de nouveaux mondes !_
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (15).png>)
 
 ## Un petit mot pour la fin <a href="#774c" id="774c"></a>
 

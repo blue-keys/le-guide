@@ -2,9 +2,7 @@
 description: Twitter nous permet de suivre les derniers articles publiés !
 ---
 
-# 📘 Dernier article
+# 📘 Dernier poste
 
 {% embed url="https://twitter.com/bluekeys0" %}
-
-
 
