@@ -2,15 +2,15 @@
 description: Une association qui fait de l'orientation numérique une priorité
 ---
 
-# ℹ️ Qui sommes-nous ?
+# 📖 ℹ️ Qui sommes-nous ?
 
-![](<.gitbook/assets/logox200 (2) (3) (3) (3) (3).png>)
+![](<.gitbook/assets/logox200 (2) (3) (3) (3) (3) (1).png>)
 
-**BlueKeys** est une **association** créée le 23 février 2021 en Gironde qui se propose d'être un pont entre les  jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques (leurs professeurs, parents ...). Afin d'apporter aux uns comme aux autres une meilleure compréhension des comportements et des risques numérique ainsi que des informations et des solutions appropriées.
+**BlueKeys** est une **association** créée le 23 février 2021 en Gironde qui se propose d'être un pont entre les jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques (leurs professeurs, parents ...). Afin d'apporter aux uns comme aux autres une meilleure compréhension des comportements et des risques numérique ainsi que des informations et des solutions appropriées.
 
-L'association élabore aussi des formations en génie logiciel pour ses stagiaires ainsi que des services informatiques émanant directement des différents besoins identifiés sur les réseaux auxquels elle est connectée.&#x20;
+L'association élabore aussi des formations en génie logiciel pour ses stagiaires ainsi que des services informatiques émanant directement des différents besoins identifiés sur les réseaux auxquels elle est connectée.
 
-De plus, **Bluekeys** ambitionne de développer la prévention contre la cybermalveillances (réelle et/ou supposée), sur les réseaux.&#x20;
+De plus, **Bluekeys** ambitionne de développer la prévention contre la cybermalveillances (réelle et/ou supposée), sur les réseaux.
 
 ### Citations
 
@@ -35,7 +35,7 @@ Vous pouvez nous laisser un pourboire directement sur nos sites web depuis le na
 
 {% embed url="https://docs.bluekeys.org/guide/cryptomonnaie/tips-navigateur-brave-or-laisser-un-pourboire" %}
 
-![](<.gitbook/assets/image (3) (1).png>)
+![](<.gitbook/assets/image (11).png>)
 
 ## 🔗En savoir +
 

@@ -6,7 +6,7 @@ description: >-
 
 # 📖 Synopsis
 
-![](../.gitbook/assets/lighthouse-1-.png)
+![](<../.gitbook/assets/lighthouse (1).png>)
 
 ## :bulb: Pourquoi un guide ?
 
@@ -30,5 +30,4 @@ Vous pouvez nous laisser un pourboire directement sur nos sites web depuis le na
 
 {% embed url="https://docs.bluekeys.org/guide/cryptomonnaie/tips-navigateur-brave-or-laisser-un-pourboire" %}
 
-![](<../.gitbook/assets/image (3) (1).png>)
-
+![](<../.gitbook/assets/image (11).png>)

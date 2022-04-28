@@ -51,8 +51,7 @@ Votre serveur vous demandera ensuite de sélectionner et de confirmer un mot de 
 
 Pour le reste des questions, appuyez sur `Y` et appuyez sur la touche `ENTRÉE à chaqu`e invite.
 
-**Note :** Au moment de la rédaction de ce document, la bibliothèque MySQL PHP native `mysqlnd` [ne prend pas en charge](https://www.php.net/manual/en/ref.pdo-mysql.php) `caching_sha2_authentification`,la méthode d'authentification par défaut pour MySQL 8. Pour cette raison, lorsque vous créez des utilisateurs de base de données pour des applications PHP sur MySQL 8, vous devez vous assurer qu'ils sont configurés pour utiliser le mot de passe `mysql_native_password` à la place. Veuillez vous référer à [l'étape 6 de notre guide détaillé LEMP sur Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-20-04#step-6-%E2%80%94-testing-database-connection-from-php-\(optional\)) pour apprendre comment le faire.\
-
+**Note :** Au moment de la rédaction de ce document, la bibliothèque MySQL PHP native `mysqlnd` [ne prend pas en charge](https://www.php.net/manual/en/ref.pdo-mysql.php) `caching_sha2_authentification`,la méthode d'authentification par défaut pour MySQL 8. Pour cette raison, lorsque vous créez des utilisateurs de base de données pour des applications PHP sur MySQL 8, vous devez vous assurer qu'ils sont configurés pour utiliser le mot de passe `mysql_native_password` à la place. Veuillez vous référer à [l'étape 6 de notre guide détaillé LEMP sur Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-on-ubuntu-20-04#step-6-%E2%80%94-testing-database-connection-from-php-\(optional\)) pour apprendre comment le faire.\\
 
 ## Étape 3 – Installer PHP <a href="#etape-3-installer-php" id="etape-3-installer-php"></a>
 
@@ -113,7 +112,6 @@ server {
 
 }
 
-
 ```
 
 Une fois que vous avez terminé vos modifications, enregistrez et fermez le fichier. Si vous utilisez `nano`, vous pouvez le faire en appuyant sur `CTRL + X`, puis `y` et `ENTER` pour confirmer.
@@ -149,7 +147,6 @@ Incluez le contenu suivant dans ce dossier :
 /var/www/your\_domain/index.html
 
 ```
-
   
     <span class="highlight">your_domain</span> website
   
@@ -158,7 +155,6 @@ Incluez le contenu suivant dans ce dossier :
 
     This is the landing page of your_domain.
   
-
 ```
 
 Maintenant, allez dans votre navigateur et accédez au nom de domaine ou à l'adresse IP de votre serveur, comme indiqué dans la directive `server_name` de votre fichier de configuration de bloc de serveur :

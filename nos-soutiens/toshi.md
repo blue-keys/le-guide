@@ -6,7 +6,7 @@ description: >-
 
 # Toshi
 
-![](../.gitbook/assets/grapic\_service.png)
+![](<../.gitbook/assets/Grapic\_Service (1).png>)
 
 Je me présente Toshinorie, âgé de 16 ans et étudiant d'un bac professionnel métiers de l'enseigne et de la signalétique, cela fait partie du domaine des enseignes lumineuses, décoration d'intérieur comme d'extérieur, des habilages de véhicule et design de vêtements. Je travaille vraiment sur beaucoup de choses.
 

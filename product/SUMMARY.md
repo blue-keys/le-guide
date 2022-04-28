@@ -1,7 +1,7 @@
 # Table of contents
 
 * [📖 Synopsis](README.md)
-* [ℹ️ Qui sommes-nous ?](../presentation.md)
+* [📖 ℹ️ Qui sommes-nous ?](../presentation.md)
 * [💕Nous soutenons](../nos-soutiens/README.md)
   * [💻 Azales](../nos-soutiens/azales.md)
   * [Papi Uzumaki](../nos-soutiens/papi-uzumaki.md)
@@ -24,7 +24,7 @@
 
 ## prévention
 
-* [👁️‍🗨️ C'est quoi le phishing ?](../prevention/cest-quoi-le-phishing.md)
+* [👀 👁️‍🗨️ C'est quoi le phishing ?](../prevention/cest-quoi-le-phishing.md)
 * [🌐 Que peut-on faire avec une IP ?](../prevention/que-peut-on-faire-avec-une-ip.md)
 * [📱 Les dangers des réseaux sociaux](../prevention/les-dangers-des-reseaux-sociaux.md)
 * [Comment se rétracter lors d'un achat (ecommerce) ?](../prevention/comment-se-retracter-lors-dun-achat-ecommerce.md)

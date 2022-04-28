@@ -4,7 +4,7 @@ description: Il lance une chaîne YouTube sur l'univers du langage RUST
 
 # 💻 Azales
 
-![](../.gitbook/assets/logox268.png)
+![](../.gitbook/assets/logoX268.png)
 
 Passionné de l'univers informatique plus particulièrement du développement. J'ai décidé de monter une chaîne YouTube afin d'aborder le très jeune langage **RUST**, qui devient de plus en plus populaire. Au cours de mon autodidaxie, j'ai développé un certain nombre de pratique du langage et je souhaitais les restituer, parce-qu'il existe très peu d'informations sur ce langage en français. Au fur et à mesure, je montrerai d'autre choses et des concepts plus avancés.
 
@@ -27,4 +27,3 @@ Je suis en train de créer une langue
 {% embed url="https://azalesdoragon.alwaysdata.net/infos.php" %}
 Mon site web avec mes informations et mon manga Black screen !
 {% endembed %}
-

@@ -4,11 +4,11 @@ description: Petit tutoriel suite à des erreurs d'installation sur Windows 10
 
 # Installation Sqlite3 avec NPM ou Yarn
 
-![](../../.gitbook/assets/sqlite370.svg.png)
+![](../../.gitbook/assets/SQLite370.svg.png)
 
 Le but de cet article est de résoudre les erreurs rencontrés sur Windows 10 à l'installation de Sqlite3 le 10 janvier 2021
 
-Contrairement aux serveurs de bases de données traditionnels, comme MySQL ou PostgreSQL, sa particularité est de ne pas reproduire le schéma habituel client-serveur mais d'être directement intégrée aux programmes. L'intégralité de la base de données (déclarations, tables, index et données) est stockée dans un fichier indépendant de la plateforme.&#x20;
+Contrairement aux serveurs de bases de données traditionnels, comme MySQL ou PostgreSQL, sa particularité est de ne pas reproduire le schéma habituel client-serveur mais d'être directement intégrée aux programmes. L'intégralité de la base de données (déclarations, tables, index et données) est stockée dans un fichier indépendant de la plateforme.
 
 **SQLite** est le moteur de base de données le plus distribué au monde, grâce à son utilisation dans de nombreux logiciels grand public comme Firefox, Skype, Google Gears, dans certains produits d'Apple, d'Adobe et de McAfee et dans les bibliothèques standards de nombreux langages comme PHP ou Python. De par son extrême légèreté (moins de 300 Kio), il est également très populaire sur les systèmes embarqués, notamment sur la plupart des smartphones modernes : l'iPhone ainsi que les systèmes d'exploitation mobiles Symbian et Android l'utilisent comme base de données embarquée.
 
@@ -91,21 +91,21 @@ Effectivement y a bien un soucis, je vient d'ouvrir le fichier de debug log, j'a
 
 Le problème est clairement Python, j'ai pas installé Python pour voir si c'était volontairement le soucis en installant uniquement les mêmes versions de NPM et NodeJS que celle sur Ubuntu 20.04 LTS sachant que Python est déjà bien gérer de base par Ubuntu.
 
-![Première trace d'erreur](<../../.gitbook/assets/image (20).png>)
+![Première trace d'erreur](<../../.gitbook/assets/image (2).png>)
 
 Il explique ici qu'il te faut Python mais qu'il n'a pas trouvé de dossier d'installation pour l'utiliser, sur une version spécifique pour installe **node-gyp**
 
 Cette fois j'ai installé Python et l'erreur à disparu [https://www.python.org/downloads/](https://www.python.org/downloads/) :
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
-Maintenant l'erreur est corrigé, il me dit que je n'ai pas d'installation trouvé de visual studio pour qu'il puisse faire des traitements, go installer**.**
+Maintenant l'erreur est corrigé, il me dit que je n'ai pas d'installation trouvé de visual studio pour qu'il puisse faire des traitements, go installer\*\*.\*\*
 
 **VS 2015 et pour nodeJS 8 => VS2013** [https://visualstudio.microsoft.com/fr/vs/older-downloads/](https://visualstudio.microsoft.com/fr/vs/older-downloads/) Je vais tenter la 2019 pour voir. (_malgré un ordi très puissant avec un super processeur, 12Go de mémoire vive l'installe est très longue_)
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (4).png>)
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (5).png>)
 
 ça ne lui convient toujours pas mais il trouve cette fois VS2019 et il demande le VS C++ core en plus. De mémoire NodeJs utilise du C++ avec le V8 à coté du coup, je ne suis pas du tout étonné Je vais revoir l'installation pour check si je peux pas l'inclure en retournant voir visual studio installer et cette fois je coche développement web ASP.NET peut être qu'il va m'inclure le VS C++ core cette fois.
 
@@ -117,20 +117,20 @@ npm install --global windows-build-tools
 
 \[05:48]Parfait ça fonctionne il à ajouté à NPM un supplément de façon global à la conf du Binaire pour l'avoir en dépendance partout. Mais j'ai toujours le soucis qu'il n'arrive pas à trouver l'installation de VS à utiliser :
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (6).png>)
 
 D'après un forum il faut que j'ajoute autre chose :
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 Résultat pour installer Sqlite3 sur Windows 10, il m'aura fallut 1h, quelque recherches et aussi attendre le téléchargement et l'installation sur l'installer VS 2019.
 
 {% hint style="info" %}
 Il faut installer :
 
-&#x20;**Node**, **Npm** ou **Yarn**, **Python** latest, **Visual Studio 2019** latest,**`npm install --global windows-build-tools`**et **cocher** dans l'installer de VS2019 le developpement c++&#x20;
+**Node**, **Npm** ou **Yarn**, **Python** latest, **Visual Studio 2019** latest,\*\*`npm install --global windows-build-tools`\*\*et **cocher** dans l'installer de VS2019 le developpement c++
 {% endhint %}
 
 {% hint style="success" %}
@@ -138,7 +138,7 @@ Il faut installer :
 {% endhint %}
 
 {% hint style="danger" %}
-&#x20;Pense à chaque début de projet à faire un : `npm init` pour créer ton fichier package.json à la racine de ton projet dans le dossier de celui-ci.
+Pense à chaque début de projet à faire un : `npm init` pour créer ton fichier package.json à la racine de ton projet dans le dossier de celui-ci.
 {% endhint %}
 
 Une fois l'installation terminé mon fichier de dépendances package.json ressemble à ça :
@@ -160,7 +160,6 @@ Une fois l'installation terminé mon fichier de dépendances package.json ressem
   "author": "",
   "license": "ISC"
 }
-
 ```
 
 :two\_hearts: Si on me demande **pourquoi je préféré Unix** pour le développement maintenant vous savez <img src="https://discord.com/assets/2e41bfdeba797283ee9da9bb439c3ece.svg" alt=":wink:" data-size="line">

@@ -6,12 +6,12 @@ description: >-
 
 # Apprendre la cybersécurité
 
-Cet article va vous permettre d'apprendre la cybersécurité en vous donnant des ressources, conseils et différentes informations. Cependant cet article n'est pas la Bible de la cybersécurité ! Vous n'êtes en aucun cas obligé de suivre ce que l'on vous conseille. Si vous avez des recommendations d'ajouts ou d'éléments à retirer, n'hésitez pas à nous contacter sur notre Discord ! Bonne lecture, et bon apprentissage ! :-\)
+Cet article va vous permettre d'apprendre la cybersécurité en vous donnant des ressources, conseils et différentes informations. Cependant cet article n'est pas la Bible de la cybersécurité ! Vous n'êtes en aucun cas obligé de suivre ce que l'on vous conseille. Si vous avez des recommendations d'ajouts ou d'éléments à retirer, n'hésitez pas à nous contacter sur notre Discord ! Bonne lecture, et bon apprentissage ! :-)
 
 {% hint style="danger" %}
 Pas de panique, cette page est là pour vous orienter avec toutes les informations ! Mais avant ça, même si c'est chiant, on doit parler un peu de lois, parce-que nul n'est censé l'ignorer. Il va sans dire que si le piratage peut être fait de manière éthique, il existe de nombreuses personnes qui jugent superflu le fait de rester dans un cadre légal... dans l'éventualité où vous souhaitiez vous abstenir de suivre la loi, laissez-moi vous rappeler les risques auxquels vous seriez exposés.
 
-La France dispose de lois contre le piratage depuis la [loi Godfrain](https://www.securiteinfo.com/legal/loi88-19.shtml) \(en 1988 !\). Déjà à l'époque, la loi prévoyait des peines de prison jusqu'à 2 ans et des amendes jusqu'à 25300€ en comptant l'inflation.
+La France dispose de lois contre le piratage depuis la [loi Godfrain](https://www.securiteinfo.com/legal/loi88-19.shtml) (en 1988 !). Déjà à l'époque, la loi prévoyait des peines de prison jusqu'à 2 ans et des amendes jusqu'à 25300€ en comptant l'inflation.
 
 Depuis, les textes de lois ont été modifiés et amendés à plusieurs reprises, prévoyant maintenant des peines beaucoup plus sévères, allant de deux à cinq ans d'emprisonnement et jusqu'à 150000€ d'amende [**Article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/)
 
@@ -19,9 +19,9 @@ Depuis, les textes de lois ont été modifiés et amendés à plusieurs reprises
 {% endhint %}
 
 {% hint style="info" %}
-### Ce qui est interdit et ce qui ne l'est pas
+#### Ce qui est interdit et ce qui ne l'est pas
 
-La loi reste vague à ce sujet, en effet [**l’article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/) punit "tout accès non autorisé à un système de traitement d'informations". Les outils de piratage, leurs partages et utilisations restent autorisés. Il est donc légal de pratiquer le piratage tant que vous avez l'autorisation du propriétaire du système, par exemple le vôtre, un autre mis à disposition ou bien une plateforme dédiée comme celle pour les _CTF_ \(des explications sur les CTF sont fournies plus bas\).
+La loi reste vague à ce sujet, en effet [**l’article 323 du code pénal**](https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149839/2013-06-05/) punit "tout accès non autorisé à un système de traitement d'informations". Les outils de piratage, leurs partages et utilisations restent autorisés. Il est donc légal de pratiquer le piratage tant que vous avez l'autorisation du propriétaire du système, par exemple le vôtre, un autre mis à disposition ou bien une plateforme dédiée comme celle pour les _CTF_ (des explications sur les CTF sont fournies plus bas).
 
 Attention, si la possession et l'utilisation d'outil n'est pas illégale, la possession et le partage de données obtenues illégalement sont techniquement du recel.
 
@@ -34,7 +34,7 @@ Maintenant que vous êtes au courant de ce qui est interdit et de ce qui ne l'es
 
 Suivez les experts influents de la cybersécurité sur Twitter. Ceux qui ont le plus de succès ne se font probablement pas appeler experts de la cybersécurité. Ils se contentent de lâcher constamment des bombes de connaissances, des conseils et des astuces qui peuvent aider votre carrière. Voici une courte liste pour vous aider :
 
-```text
+```
 @bammv, @cyb3rops, @InfoSecSherpa, @InfoSystir, @JohnLaTwC, @armitagehacker, @danielhbohannon, @_devonkerr_, @enigma0x3, @gentilkiwi, @hacks4pancakes, @hasherezade, @indi303, @jackcr, @jenrweedon, @jepayneMSFT, @jessysaurusrex, @k8em0, @lnxdork, @mattifestation, @mubix, @pwnallthethings, @pyrrhl, @RobertMLee, @ryankaz42, @_sn0ww, @sroberts, @spacerog, @subtee, @taosecurity
 ```
 
@@ -44,7 +44,7 @@ Il existe plusieurs entreprises qui produisent régulièrement du contenu de qua
 
 Il existe aussi des _CTF_, il s'agit de compétitions en solo ou en équipe, généralement des challenges lié à la sécurité où il est nécessaire de retrouver un mot de passe qu'on appel le flag, plus d'info sur les CTF:
 
-{% embed url="https://medium.com/prohacktive/quest-ce-qu-un-ctf-capture-the-flag-26af33219c90" caption="" %}
+{% embed url="https://medium.com/prohacktive/quest-ce-qu-un-ctf-capture-the-flag-26af33219c90" %}
 
 Ce qui est génial, c'est qu'après, les compétiteurs font ce qu'on appelle des write up. Il s'agit de documents qui expliquent pas à pas comment un challenge a été réussi. C'est une vraie mine d'or d'informations ! Nous recommandons vivement que vous en lisiez ou regardiez, car oui, il y en a même sur YouTube!
 
@@ -54,15 +54,15 @@ Pour l'apprentissage du **Forensic**, vous ne pouvez probablement pas obtenir de
 
 #### Vous n'avez pas assez de temps ?
 
-Envisagez d'investir. Le "Blue Team Field Manual" et le "Red Team Field Manual" complètent nos recommandations à ce sujet. En parallèle, mettez en place un laboratoire avec des postes de travail Windows 7 \(ou ultérieur\) reliés à un domaine. Compromettez le poste de travail en utilisant certaines des techniques les plus simples, puis explorez l'activité post-exploitation. Votre objectif est de vous faire une idée aussi bien du côté de l'attaque que de la défense.
+Envisagez d'investir. Le "Blue Team Field Manual" et le "Red Team Field Manual" complètent nos recommandations à ce sujet. En parallèle, mettez en place un laboratoire avec des postes de travail Windows 7 (ou ultérieur) reliés à un domaine. Compromettez le poste de travail en utilisant certaines des techniques les plus simples, puis explorez l'activité post-exploitation. Votre objectif est de vous faire une idée aussi bien du côté de l'attaque que de la défense.
 
 En ce qui concerne le réseau, pensez à :
 
 * "The Practice of Network Security Monitoring" ;
 * "Practical Packet Analysis" ;
-* "Applied Network Security Monitoring". 
+* "Applied Network Security Monitoring".
 
-Lorsque le moment est venu de mettre en pratique ce que vous avez appris dans les livres, utilisez des ressources telles que le blog sur l'analyse du trafic des logiciels malveillants et la consultation de PacketTotal pour vous faire une idée de ce qui est "normal" et de ce qui ne l'est pas. Votre objectif ici devrait être de comprendre les sources de données \(preuves réseau\) qui peuvent être utilisées pour détecter et expliquer l'activité. Pour affiner vos processus d'investigation sur le réseau, pensez à Security Onion. Installez quelques capteurs réseau, surveillez le trafic et créez des signatures Snort/Suricata pour signaler le trafic illicite. Votre objectif est d'établir un processus d'enquête de base et, comme pour les points d'accès, de comprendre les côtés attaque et défense de l'équation.
+Lorsque le moment est venu de mettre en pratique ce que vous avez appris dans les livres, utilisez des ressources telles que le blog sur l'analyse du trafic des logiciels malveillants et la consultation de PacketTotal pour vous faire une idée de ce qui est "normal" et de ce qui ne l'est pas. Votre objectif ici devrait être de comprendre les sources de données (preuves réseau) qui peuvent être utilisées pour détecter et expliquer l'activité. Pour affiner vos processus d'investigation sur le réseau, pensez à Security Onion. Installez quelques capteurs réseau, surveillez le trafic et créez des signatures Snort/Suricata pour signaler le trafic illicite. Votre objectif est d'établir un processus d'enquête de base et, comme pour les points d'accès, de comprendre les côtés attaque et défense de l'équation.
 
 ## 3. Cherchez à pratiquer plus qu'à lire
 
@@ -72,11 +72,11 @@ Pour y remédier, en plus de combiner lecture et pratique, pensez à la techniqu
 
 ## 4. Développer un état d'esprit malveillant
 
-Il y a quelques années, un spécialiste de la sécurité expliquait comment devenir un meilleur défenseur en pensant comme un adversaire. L'histoire s'accompagnait d'échanges maladroits \(et humoristiques\). Il est entré dans une chambre d'hôtel avec sa famille pendant ses vacances, a vu le distributeur de savon non sécurisé installé dans le mur de la douche et a dit à haute voix : "Wow, ce serait si facile de remplacer le shampoing par du Nair ! \(produit d'épilation\)" Sa famille était horrifiée.
+Il y a quelques années, un spécialiste de la sécurité expliquait comment devenir un meilleur défenseur en pensant comme un adversaire. L'histoire s'accompagnait d'échanges maladroits (et humoristiques). Il est entré dans une chambre d'hôtel avec sa famille pendant ses vacances, a vu le distributeur de savon non sécurisé installé dans le mur de la douche et a dit à haute voix : "Wow, ce serait si facile de remplacer le shampoing par du Nair ! (produit d'épilation)" Sa famille était horrifiée.
 
 Soyons clairs : nous ne préconisons pas que vous remplaciez le shampoing par du Nair, ou tout autre produit anti-capillaire. Et le concept de penser comme un agresseur n'est pas nouveau. Il y a huit ans, lorsqu'on a demandé à Lance Cottrell ce qui faisait un bon professionnel de la cybersécurité, il a répondu qu'il se mettait "à la place de l'attaquant et regardait le réseau comme l'ennemi le regarderait, puis réfléchissait à la manière de le protéger".
 
-La meilleure façon d'y parvenir aujourd'hui est de se familiariser avec le cadre **ATTACK de MITRE**. Il devient rapidement le modèle de référence pour structurer le développement d'un processus d'investigation et comprendre où \(et comment\) vous pouvez appliquer la détection et l'investigation. Vous pouvez vous familiariser avec ce cadre avant d'entreprendre des lectures approfondies, puis y revenir de temps en temps si nécessaire.
+La meilleure façon d'y parvenir aujourd'hui est de se familiariser avec le cadre **ATTACK de MITRE**. Il devient rapidement le modèle de référence pour structurer le développement d'un processus d'investigation et comprendre où (et comment) vous pouvez appliquer la détection et l'investigation. Vous pouvez vous familiariser avec ce cadre avant d'entreprendre des lectures approfondies, puis y revenir de temps en temps si nécessaire.
 
 ## 5. Soyez intrépide
 
@@ -84,7 +84,7 @@ Ne laissez pas votre manque de connaissances vous arrêter. Il existe des organi
 
 Bonne chance, bonne chasse ! Enfin... à ceux qui disent "une formation en informatique et des compétences techniques approfondies vous aideront à trouver un emploi dans la sécurité", nous répondons : "Nous sommes d'accord !" Et à ceux qui disent que "les rôles dans la sécurité peuvent être larges et que vous pouvez les utiliser pour développer une expertise technique au fil du temps", nous répondons : "Nous sommes également d'accord !"
 
-Ce que nous ne croyons pas, c'est de dire à des gens que nous ne connaissons pas qu'ils ne peuvent pas faire quelque chose sans comprendre leur situation unique. Il peut y avoir des chemins qui sont généralement plus faciles, ou généralement plus difficiles. Mais supposer que vous ne pouvez pas faire quelque chose est un vent contraire dont vous n'avez pas besoin. Nous espérons que vous avez trouvé ici des conseils qui vous donneront l'impulsion nécessaire pour envisager un emploi de sécurité de premier échelon \(ou plus\) et que vous postulerez. À cette fin, nous vous souhaitons... bonne chance !
+Ce que nous ne croyons pas, c'est de dire à des gens que nous ne connaissons pas qu'ils ne peuvent pas faire quelque chose sans comprendre leur situation unique. Il peut y avoir des chemins qui sont généralement plus faciles, ou généralement plus difficiles. Mais supposer que vous ne pouvez pas faire quelque chose est un vent contraire dont vous n'avez pas besoin. Nous espérons que vous avez trouvé ici des conseils qui vous donneront l'impulsion nécessaire pour envisager un emploi de sécurité de premier échelon (ou plus) et que vous postulerez. À cette fin, nous vous souhaitons... bonne chance !
 
 ## 6. Un diplôme universitaire est-il nécessaire pour faire carrière dans la cybersécurité ?
 
@@ -102,9 +102,9 @@ Le domaine de la cybersécurité est très vaste et comporte de nombreuses spéc
 
 Il existe de nombreuses ressources gratuites disponibles en ligne et dans les bibliothèques locales, qui peuvent fournir une grande quantité d'informations sur la cybersécurité. À un moment donné dans tout parcours d'apprentissage, il sera probablement nécessaire d'investir dans des connaissances supplémentaires. Cependant, si vous souhaitez vous entrainer sans avoir à payer des serveurs, nous pouvons vous conseiller différents sites gratuits.
 
-* [Root-Me](https://www.root-me.org/): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
-* [HackTheBox](https://www.hackthebox.eu/): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateurs sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficiles, on le recommande donc peu si vous débutez!
-* [TryHackMe](https://tryhackme.com/): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
+* [Root-Me](https://www.root-me.org): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
+* [HackTheBox](https://www.hackthebox.eu): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateurs sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficiles, on le recommande donc peu si vous débutez!
+* [TryHackMe](https://tryhackme.com): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
 
 ## 10. Parler anglais
 
@@ -112,24 +112,24 @@ Bien qu'il existe de nombreuses ressources en français, il en existe encore plu
 
 ## 11. Linux et les VM
 
-Une machine virtuelle ou VM est un environnement entièrement virtualisé qui fonctionne sur une machine physique. Elle exécute son propre système d’exploitation \(OS\) et bénéficie des mêmes équipement qu’une machine physique : CPU, mémoire RAM, disque dur et carte réseau. Plusieurs machines virtuelles avec des OS différents peuvent coexister sur le même serveur physique : Linux, MacOS, Windows… Ce qui est important, c'est Linux! Si vous ne connaissez pas, nous vous conseillons vivement de rechercher comment créer une VM Linux et comment utiliser Linux. Il s'agit d'un puissant outil, mais il peut paraître compliqué quand vous débutez. Pas besoin de s'inquiéter : vous y arriverez vite !
+Une machine virtuelle ou VM est un environnement entièrement virtualisé qui fonctionne sur une machine physique. Elle exécute son propre système d’exploitation (OS) et bénéficie des mêmes équipement qu’une machine physique : CPU, mémoire RAM, disque dur et carte réseau. Plusieurs machines virtuelles avec des OS différents peuvent coexister sur le même serveur physique : Linux, MacOS, Windows… Ce qui est important, c'est Linux! Si vous ne connaissez pas, nous vous conseillons vivement de rechercher comment créer une VM Linux et comment utiliser Linux. Il s'agit d'un puissant outil, mais il peut paraître compliqué quand vous débutez. Pas besoin de s'inquiéter : vous y arriverez vite !
 
 ## 12. Ressources
 
 Il est important d'apprendre en utilisant de bonnes bases, pour cela nous vous avons fait une liste de ressources intéressantes !
 
-| Sources | Définition |
-| :--- | :--- |
+| Sources                                                                       | Définition                                                                                                              |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | [Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings) | Compilation d'outils et de commandes intéressantes, vous trouverez des informations sur toutes les principales failles. |
-| [Rustscan](https://github.com/RustScan/RustScan) | Outil de scan de machine, comme nmap |
-| [GTFObins](https://gtfobins.github.io/) | Collection d'exploits visant à escalader ses privilèges |
-| [Nishang](https://github.com/samratashok/nishang) | Collection d'exploits visant à escalader ses privilèges |
-| [Security idiots](http://www.securityidiots.com/) | Très bon blog plein d'information sur l'infosec |
+| [Rustscan](https://github.com/RustScan/RustScan)                              | Outil de scan de machine, comme nmap                                                                                    |
+| [GTFObins](https://gtfobins.github.io)                                        | Collection d'exploits visant à escalader ses privilèges                                                                 |
+| [Nishang](https://github.com/samratashok/nishang)                             | Collection d'exploits visant à escalader ses privilèges                                                                 |
+| [Security idiots](http://www.securityidiots.com)                              | Très bon blog plein d'information sur l'infosec                                                                         |
 
 ## 13. Sources
 
-[Expel.io: a beginners guide to getting started in cybersecurity](https://expel.io/blog/a-beginners-guide-to-getting-started-in-cybersecurity/)  
-[StartACyberCareer.com: how to learn cyber-security on your own](https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/)  
+[Expel.io: a beginners guide to getting started in cybersecurity](https://expel.io/blog/a-beginners-guide-to-getting-started-in-cybersecurity/)\
+[StartACyberCareer.com: how to learn cyber-security on your own](https://startacybercareer.com/how-to-learn-cyber-security-on-your-own/)\
 [LearnToCodeWith.me: how to get started in cybersecurity](https://learntocodewith.me/posts/cybersecurity/#how-to-get-started-in-cybersecurity)
 
 ## 14. Une suite par Bluekeys ?
@@ -137,4 +137,3 @@ Il est important d'apprendre en utilisant de bonnes bases, pour cela nous vous a
 {% hint style="info" %}
 Suivez nous sur [Discord](https://discord.gg/2XGRFKDWeC) ainsi que notre future chaîne twitch pour plus d'informations, la bienveillance amène la bienveillance !
 {% endhint %}
-
