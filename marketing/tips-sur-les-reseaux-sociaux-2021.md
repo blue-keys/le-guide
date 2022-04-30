@@ -8,7 +8,9 @@ description: Quel community manager n'a jamais rêvé de connaitre toutes ces in
 
 L'entreprise Européen **E-Commerce Nation** à mis en ligne plusieurs informations dont un pdf de l'étude complète sur les réseaux sociaux avec un top 100 des e-boutiques, en plus des informations très utile à connaitre lorsqu'on utilise les réseau régulièrement en tant que publieur.
 
-{% file src="../.gitbook/assets/etude-des-reseaux-sociaux-top-100-e-commerce.pdf" caption="Etude des reseaux sociaux top 100 Ecommerce" %}
+{% file src="../.gitbook/assets/etude-des-reseaux-sociaux-top-100-e-commerce.pdf" %}
+Etude des reseaux sociaux top 100 Ecommerce
+{% endfile %}
 
 ## Facebook
 
@@ -28,7 +30,7 @@ L'entreprise Européen **E-Commerce Nation** à mis en ligne plusieurs informati
 
 ## Pinterest
 
-![](../.gitbook/assets/1614240915351%20%281%29%20%281%29.jpeg)
+![](<../.gitbook/assets/1614240915351 (1) (1) (1).jpeg>)
 
 ## Snapchat
 
@@ -38,7 +40,7 @@ L'entreprise Européen **E-Commerce Nation** à mis en ligne plusieurs informati
 
 ![](../.gitbook/assets/1614240916977.jpeg)
 
-## Whatsapp \( complémentaire \)
+## Whatsapp ( complémentaire )
 
 ![](../.gitbook/assets/1614240916906.jpeg)
 
@@ -51,8 +53,6 @@ L'entreprise Européen **E-Commerce Nation** à mis en ligne plusieurs informati
 ## Pour en savoir plus et aller plus loin :
 
 {% embed url="https://www.ecommerce-nation.fr/infographie-utiliser-les-reseaux-sociaux-pour-votre-site-e-commerce/" %}
-
-
 
 
 

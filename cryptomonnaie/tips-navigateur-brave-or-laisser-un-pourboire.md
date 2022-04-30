@@ -12,7 +12,7 @@ Il existe des créateurs officiel de Brave que vous connaissez surement comme Up
 
 ![](../.gitbook/assets/capture-decran-du-2021-02-14-07-02-17.png)
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 ## Le tutoriel vidéo
 

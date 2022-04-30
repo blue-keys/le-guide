@@ -5,13 +5,11 @@ layout: landing
 
 # 📖 Qui sommes-nous ?
 
-![](<../.gitbook/assets/logox200 (2) (3) (3) (3) (3).png>)
+![](<../.gitbook/assets/logox200 (2) (3) (3) (3) (1) (2).png>)
 
 {% tabs %}
 {% tab title="🔖 Notre histoire" %}
-**BlueKeys** est une **association** créée le 23 février 2021 en Gironde qui se propose d'être un pont entre les  jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques (leurs professeurs, parents ...). Afin d'apporter une meilleure compréhension des comportements et des risques numériques ainsi que des informations et des solutions appropriées.
-
-L'association élabore aussi des formations en génie logiciel, de l'accompagnement en stratégie et gestion entreprise, elle dispose de services numériques et informatiques par son partenaire NovationTech,  afin d'être bien équipé.
+**Bluekeys** est une **association** créée le 23 février 2021 en Gironde. Elle se propose d'être un pont entre les jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques (leurs professeurs, parents ...). Pour une meilleure compréhension des informations et comportements à risques numériques, des solutions appropriées sont proposées. Elle dispose d'outils et de services numériques pour ses adhérents et partenaires.
 {% endtab %}
 
 {% tab title="💡Pourquoi un guide ?" %}
