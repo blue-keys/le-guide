@@ -31,9 +31,9 @@ Tous les articles du présent guide écrits pas nos différents contributeurs (b
 {% endtab %}
 
 {% tab title="✍🏻 Nos partenaires" %}
-**Dom'Micro** situé à Villegouge en France depuis 2004, à l’origine dans le dépannage et le service informatique aux particuliers et entreprises. En 2022, vers une croissance B to B en infogérance à travers la gironde, l'entreprise composé de deux personnes passionnées par l’informatique, le numérique et la technologie. Mettant notre savoir faire au service de nos clients.
+****[**Dom'Micro**](https://dommicro.fr) **** situé à Villegouge en France depuis 2004, à l’origine dans le dépannage et le service informatique aux particuliers et entreprises. En 2022, vers une croissance B to B en infogérance à travers la gironde, l'entreprise composé de deux personnes passionnées par l’informatique, le numérique et la technologie. Mettant notre savoir faire au service de nos clients.
 
-{% embed url="https://docs.dommicro.fr" %}
+
 
 **NovationTech** est une entreprise dans l'innovation technologique. Ils mesurent les contraintes d'un domaine X ou Y et amène une valeur ajoutée, ils offrent des solutions diminuant la pénibilité salariale. La devise est : _"L'effort qui rapporte"_.
 {% endtab %}
