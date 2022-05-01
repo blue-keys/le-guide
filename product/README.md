@@ -31,7 +31,7 @@ Tous les articles du présent guide écrits pas nos différents contributeurs (b
 {% endtab %}
 
 {% tab title="✍🏻 Nos partenaires" %}
-****[**Dom'Micro**](https://dommicro.fr) **** situé à Villegouge en France depuis 2004, à l’origine dans le dépannage et le service informatique aux particuliers et entreprises. En 2022, vers une croissance B to B en infogérance à travers la gironde, l'entreprise composé de deux personnes passionnées par l’informatique, le numérique et la technologie. Mettant leurs savoir-faire au service des clients.
+****[<mark style="color:blue;">**Dom'Micro**</mark>](https://docs.dommicro.fr) **** situé à Villegouge en France depuis 2004, à l’origine dans le dépannage et le service informatique aux particuliers et entreprises. En 2022, vers une croissance B to B en infogérance à travers la gironde, l'entreprise composé de deux personnes passionnées par l’informatique, le numérique et la technologie. Mettant leurs savoir-faire au service des clients.
 
 
 
