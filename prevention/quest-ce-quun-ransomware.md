@@ -10,11 +10,7 @@ Savons-nous réellement ce que c'est et comment s'en protéger ?
 
 ### **Introduction**&#x20;
 
-Dans cette article, nous allons aborder les ransomware qui sont en constante augementation d'années.&#x20;
-
-**Définition d'attaque par ransomware**&#x20;
-
-Selon l' [ANSSI](https://www.ssi.gouv.fr/) (Agence nationale de la sécurité des systèmes d'informations), une attaque par ransomware, est une technique d'attaque courante de la cybercriminalité, le rançongiciel ou ransomware consiste en l'envoi à la victime d'un logiciel malveillant qui chiffre l'ensemble de ses données et lui demande une rançon en échange du mot de passe de déchiffrement (Qui est rarement données à l'uttilisateur après le paiement de la rançon. )
+Dans cette article, nous allons aborder les ransomware qui sont en constante augementation d'années. Selon l' [ANSSI](https://www.ssi.gouv.fr/) (Agence nationale de la sécurité des systèmes d'informations), une attaque par ransomware, est une technique d'attaque courante de la cybercriminalité, le rançongiciel ou ransomware consiste en l'envoi à la victime d'un logiciel malveillant qui chiffre l'ensemble de ses données et lui demande une rançon en échange du mot de passe de déchiffrement (Qui est rarement données à l'uttilisateur après le paiement de la rançon. )
 
 ### **Qui est visée ?**&#x20;
 
