@@ -24,7 +24,7 @@ Source  : Discord Shadow
 
 Shadow is compatible with the following OS and their more recent versions:
 
-[Ubuntu 18.04](https://ubuntu.com), [Linux Mint 19](https://www.linuxmint.com), [Debian 10](https://www.debian.org), [Arch Linux](https://www.archlinux.org), [Solus](https://getsol.us), [Fedora 28](https://getfedora.org), [GalliumOS 3.0](https://galliumos.org).
+[Ubuntu 18.04](https://ubuntu.com/), [Linux Mint 19](https://www.linuxmint.com/), [Debian 10](https://www.debian.org/), [Arch Linux](https://www.archlinux.org/), [Solus](https://getsol.us/), [Fedora 28](https://getfedora.org/), [GalliumOS 3.0](https://galliumos.org/).
 
 If your OS meets the minimum version, lets get started! Please [download the official AppImage](https://nicolasguilloux.github.io/blade-shadow-beta/index#appimage).
 

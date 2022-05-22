@@ -8,22 +8,22 @@ description: Apprendre des technologies pour l'infra et savoir le faire avec qua
 
 Le but de ce TP est de monter une pipeline de test d'infra et de code d'infra (Ansible) maison. Le tp permet de vous apprendre certaine technologie, au menu :
 
-* [git](https://git-scm.com)
+* [git](https://git-scm.com/)
   * outil de versioning (SCM)
 * [Gitea](https://gitea.io/en-us/)
   * application permettant d'héberger des dépôtss Git
   * léger
   * expose une WebUI
-* [Drone](https://drone.io)
+* [Drone](https://drone.io/)
   * application permettant de mettre en place des pipelines de test/build
   * s'intègre nativement avec Gitea
-* [Ansible](https://www.ansible.com)
+* [Ansible](https://www.ansible.com/)
   * outil de gestion et déploiement de configuration
   * très utilisé aujourd'hui, c'est l'outil de référence en la matière
 * [Molecule](https://molecule.readthedocs.io/en/latest/)
   * outil qui se couple à Ansible pour effectuer des tests sur les playbooks
   * en particulier des tests de conformité
-* [Docker](https://www.docker.com)
+* [Docker](https://www.docker.com/)
   * application de conteneurisation
   * permet de créer des environnements légers et autonomes
 * [0. Setup environment](broken-reference)
@@ -50,7 +50,7 @@ En soit aucun pb pour utiliser un autre OS, il faut simplement être à l'aise p
 
 ### Machines virtuelles
 
-L'OS conseillé pour les VMs en cours est CentOS7. Afin de faciliter et accélérer le déploiement, on va utiliser [Vagrant](https://www.vagrantup.com).
+L'OS conseillé pour les VMs en cours est CentOS7. Afin de faciliter et accélérer le déploiement, on va utiliser [Vagrant](https://www.vagrantup.com/).
 
 Téléchargez Vagrant pour votre OS, puis initialisez une box `centos/7` :
 
@@ -248,7 +248,7 @@ Loin d'être fully-featured comme un Gitlab, Gitea opte plutôt pour un aspect m
 
 ## II. Mise en place de Drone
 
-[Drone](https://drone.io) est un outil léger permettant de mettre en place des pipelines de build et de test. Il se couple nativement très bien avec Gitea.
+[Drone](https://drone.io/) est un outil léger permettant de mettre en place des pipelines de build et de test. Il se couple nativement très bien avec Gitea.
 
 Comme beaucoup d'outils en son genre, il fonctionne sur un principe de master/runner :
 
@@ -451,7 +451,7 @@ Par "vérifier le bon déroulement du playbook", on entend : vérifier que le pl
 
 Afin de prendre en main Molecule, il peut être bon de tester quelques commandes à la main.
 
-**TO DO** : [Installer Molecule](https://molecule.readthedocs.io/en/latest/installation.html#) (je vous recommande l'installation avec `pip`).
+**TO DO** : [Installer Molecule](https://molecule.readthedocs.io/en/latest/installation.html) (je vous recommande l'installation avec `pip`).
 
 Molecule va nous permettre ici de tester le rôle `nginx` que nous venions d'écrire. Pour que Molecule accepte de tester notre rôle, il est nécessaire d'y ajouter quelques fichiers. Molecule permet de créer un rôle possédant une structure qui correspond aux bonnes pratiques Ansible, afin d'être testé correctement. Pour ce faire :
 

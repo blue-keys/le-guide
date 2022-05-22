@@ -5,7 +5,7 @@ layout: landing
 
 # 📖 Qui sommes-nous ?
 
-![](<../.gitbook/assets/logox200 (2) (3) (3) (3) (1) (2).png>)
+![](<../.gitbook/assets/logox200 (2) (3) (3) (3) (3).png>)
 
 {% tabs %}
 {% tab title="🔖 Notre histoire" %}
@@ -31,7 +31,7 @@ Tous les articles du présent guide écrits pas nos différents contributeurs (b
 {% endtab %}
 
 {% tab title="✍🏻 Nos partenaires" %}
-****[<mark style="color:blue;">**Dom'Micro**</mark>](https://docs.dommicro.fr) **** situé à Villegouge en France depuis 2004, à l’origine dans le dépannage et le service informatique aux particuliers et entreprises. En 2022, vers une croissance B to B en infogérance à travers la gironde, l'entreprise composé de deux personnes passionnées par l’informatique, le numérique et la technologie. Mettant leurs savoir-faire au service des clients.
+****[<mark style="color:blue;">**Dom'Micro**</mark>](https://docs.dommicro.fr/) **** situé à Villegouge en France depuis 2004, à l’origine dans le dépannage et le service informatique aux particuliers et entreprises. En 2022, vers une croissance B to B en infogérance à travers la gironde, l'entreprise composé de deux personnes passionnées par l’informatique, le numérique et la technologie. Mettant leurs savoir-faire au service des clients.
 
 
 
@@ -51,10 +51,6 @@ Tous les articles du présent guide écrits pas nos différents contributeurs (b
 > “Je n’ai pas échoué. J’ai simplement trouvé 10.000 solutions qui ne fonctionnent pas.”
 >
 > **Thomas Edison** 💕
->
-> [https://docs.dommicro.fr/](https://docs.dommicro.fr)
->
->
 {% endtab %}
 {% endtabs %}
 

@@ -97,7 +97,7 @@ mvn clean install –P vcenter-adapterORmvn clean install --activate-profiles vc
 #### Java <a href="#java" id="java"></a>
 
 * Java 8 JDK installed on your OS of choice (Mac OSX, Linux variants, Windows are all supported hosts)
-* ​[Eclipse Luna](http://eclipse.org) or a modern IDE of your choice. Make sure to apply the same formatting profile for code.
+* ​[Eclipse Luna](http://eclipse.org/) or a modern IDE of your choice. Make sure to apply the same formatting profile for code.
 * Git for source code management.
 
 #### Maven <a href="#maven" id="maven"></a>

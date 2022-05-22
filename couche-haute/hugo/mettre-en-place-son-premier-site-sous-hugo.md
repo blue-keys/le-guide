@@ -1,12 +1,12 @@
 # Mettre en place son premier site sous Hugo
 
-10 MARS 2018 • [HUGO](https://jamstatic.fr/categories/hugo) • 9 MIN • [FRANK TAILLANDIER](https://frank.taillandier.me)\
+10 MARS 2018 • [HUGO](https://jamstatic.fr/categories/hugo) • 9 MIN • [FRANK TAILLANDIER](https://frank.taillandier.me/)\
 \
 _Source :_ [_https://jamstatic.fr/2018/03/10/mettre-en-place-son-premier-site-sous-hugo/#mettre-%C3%A0-jour-un-article_](https://jamstatic.fr/2018/03/10/mettre-en-place-son-premier-site-sous-hugo/#mettre-%C3%A0-jour-un-article)__
 
-Pour créer un nouveau projet avec Hugo, [Forestry](https://forestry.io) propose un kit de démarrage en libre téléchargement. Que vous ayez déjà utilisé le générateur de site statique Hugo ou pas, ce kit est intéressant, car il propose une configuration complète et un workflow de développement moderne basé sur les outils de l’écosystème de `npm`. [Chris Macrae](https://twitter.com/chrisdmacrae) nous montre comment s’en servir pour créer votre premier site en moins de 30 minutes.
+Pour créer un nouveau projet avec Hugo, [Forestry](https://forestry.io/) propose un kit de démarrage en libre téléchargement. Que vous ayez déjà utilisé le générateur de site statique Hugo ou pas, ce kit est intéressant, car il propose une configuration complète et un workflow de développement moderne basé sur les outils de l’écosystème de `npm`. [Chris Macrae](https://twitter.com/chrisdmacrae) nous montre comment s’en servir pour créer votre premier site en moins de 30 minutes.
 
-[Hugo](https://gohugo.io), le générateur de site statique écrit en Go, a pris la communauté de vitesse. Il présente tous les avantages d’un générateur de site statique — 100% flexible, sécurisé et rapide — mais il vole également la vedette quand on [compare ses performances avec celles de Jekyll](https://forestry.io/blog/hugo-vs-jekyll-benchmark/). Le site de [Forestry.io](https://forestry.io) est d’ailleurs développé avec Hugo.
+[Hugo](https://gohugo.io/), le générateur de site statique écrit en Go, a pris la communauté de vitesse. Il présente tous les avantages d’un générateur de site statique — 100% flexible, sécurisé et rapide — mais il vole également la vedette quand on [compare ses performances avec celles de Jekyll](https://forestry.io/blog/hugo-vs-jekyll-benchmark/). Le site de [Forestry.io](https://forestry.io/) est d’ailleurs développé avec Hugo.
 
 Nous allons voir comment configurer Hugo sur votre ordinateur, comment installer et personnaliser un thème, en ajoutant nos propres fichiers CSS et JavaScript.
 
@@ -26,7 +26,7 @@ Quelle différence avec le guide de démarrage rapide de la documentation d’Hu
 
 ## 1. Configurer Hugo <a href="#1-configurer-hugo" id="1-configurer-hugo"></a>
 
-Pou commencer, clonez ou [téléchargez notre kit de démarrage pour Hugo](https://github.com/forestryio/hugo-boilerplate/archive/master.zip), et décompressez l’archive quelque part sur votre ordinateur. Vous avez aussi besoin de [Node.js](https://nodejs.org) et d’[NPM](https://www.npmjs.com), il vous suffit de suivre les indications sur la [page de téléchargement de Node](https://nodejs.org/fr/download/) si vous ne les avez pas déjà installés.
+Pou commencer, clonez ou [téléchargez notre kit de démarrage pour Hugo](https://github.com/forestryio/hugo-boilerplate/archive/master.zip), et décompressez l’archive quelque part sur votre ordinateur. Vous avez aussi besoin de [Node.js](https://nodejs.org/) et d’[NPM](https://www.npmjs.com/), il vous suffit de suivre les indications sur la [page de téléchargement de Node](https://nodejs.org/fr/download/) si vous ne les avez pas déjà installés.
 
 Vous bénéficiez ainsi automatiquement d’une structure de départ pour Hugo. Dans notre kit, elle est stockée dans le dossier `hugo`. À l’intérieur se trouvent divers dossiers qui abritent le contenu de votre site, les gabarits de page et les fichiers CSS, JS, images, etc. L’arborescence de la structure de base ressemble à ceci — j’ai laissé quelques fichiers et dossiers de côté de façon à ce que ce soit plus clair :
 
@@ -78,7 +78,7 @@ Cet article n’a pas de date ! Essayez d’en définir une en ajoutant l’en
 
 _Remplacez_ `YYYY-MM-DDTHH:MM:SS-00:00` avec une date valide, comme… `2018-01-01T12:42:00-00:00`. Si votre date se situe dans le futur, Hugo ne générera pas cet article en production.
 
-Sauvegardez vos changements puis affichez l’article mis à jour dans votre navigateur à l’adresse [http://localhost:3000/](http://localhost:3000). La date affichée devant le titre de l’article devrait avoir été mise à jour.
+Sauvegardez vos changements puis affichez l’article mis à jour dans votre navigateur à l’adresse [http://localhost:3000/](http://localhost:3000/). La date affichée devant le titre de l’article devrait avoir été mise à jour.
 
 ### Créer un nouvel article <a href="#creer-un-nouvel-article" id="creer-un-nouvel-article"></a>
 
@@ -113,7 +113,7 @@ Vous pouvez voir l’article mis à jour dans votre navigateur à l’adresse [h
 
 ### Utiliser un thème <a href="#utiliser-un-theme" id="utiliser-un-theme"></a>
 
-Pour le moment votre nouveau site n’est pas très beau. Remédions à cela en ajoutant un thème issu de [la galerie de thèmes de Hugo](https://themes.gohugo.io), développé par un des meilleurs contributeurs de la communauté.![Le thème Casper de @vjeantet](https://res.cloudinary.com/jamstatic/image/upload/f\_auto,q\_auto/v1523346998/up\_running\_w\_hugo\_I\_1.jpg)
+Pour le moment votre nouveau site n’est pas très beau. Remédions à cela en ajoutant un thème issu de [la galerie de thèmes de Hugo](https://themes.gohugo.io/), développé par un des meilleurs contributeurs de la communauté.![Le thème Casper de @vjeantet](https://res.cloudinary.com/jamstatic/image/upload/f\_auto,q\_auto/v1523346998/up\_running\_w\_hugo\_I\_1.jpg)
 
 Le thème Casper de @vjeantet
 

@@ -102,9 +102,9 @@ Le domaine de la cybersécurité est très vaste et comporte de nombreuses spéc
 
 Il existe de nombreuses ressources gratuites disponibles en ligne et dans les bibliothèques locales, qui peuvent fournir une grande quantité d'informations sur la cybersécurité. À un moment donné dans tout parcours d'apprentissage, il sera probablement nécessaire d'investir dans des connaissances supplémentaires. Cependant, si vous souhaitez vous entrainer sans avoir à payer des serveurs, nous pouvons vous conseiller différents sites gratuits.
 
-* [Root-Me](https://www.root-me.org): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
-* [HackTheBox](https://www.hackthebox.eu): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateurs sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficiles, on le recommande donc peu si vous débutez!
-* [TryHackMe](https://tryhackme.com): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
+* [Root-Me](https://www.root-me.org/): Root-Me est un site qui vous permettra de vous entrainer dans divers domaines, et ce de façon entièrement gratuite. Il vous suffit de créer un compte et de démarrer un challenge !
+* [HackTheBox](https://www.hackthebox.eu/): HackTheBox est un site qui vous met à disposition des "box". Il s'agit d'ordinateurs sur lesquels vous pourrez vous entrainer, afin d'obtenir un accès admin. Attention, ce site propose avant tout des box plus difficiles, on le recommande donc peu si vous débutez!
+* [TryHackMe](https://tryhackme.com/): TryHackMe est un site similaire à HackTheBox, cependant celui-ci est plus adéquat pour des débutants, et en plus il contient plusieurs excellents petits "cours"!
 
 ## 10. Parler anglais
 
@@ -122,9 +122,9 @@ Il est important d'apprendre en utilisant de bonnes bases, pour cela nous vous a
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | [Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings) | Compilation d'outils et de commandes intéressantes, vous trouverez des informations sur toutes les principales failles. |
 | [Rustscan](https://github.com/RustScan/RustScan)                              | Outil de scan de machine, comme nmap                                                                                    |
-| [GTFObins](https://gtfobins.github.io)                                        | Collection d'exploits visant à escalader ses privilèges                                                                 |
+| [GTFObins](https://gtfobins.github.io/)                                       | Collection d'exploits visant à escalader ses privilèges                                                                 |
 | [Nishang](https://github.com/samratashok/nishang)                             | Collection d'exploits visant à escalader ses privilèges                                                                 |
-| [Security idiots](http://www.securityidiots.com)                              | Très bon blog plein d'information sur l'infosec                                                                         |
+| [Security idiots](http://www.securityidiots.com/)                             | Très bon blog plein d'information sur l'infosec                                                                         |
 
 ## 13. Sources
 

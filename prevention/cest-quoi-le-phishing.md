@@ -49,7 +49,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
 * Ne pas fournir ses données ;
 * Ne cliquez pas sur les liens ;
 * Supprimez le mail et videz la corbeille ;
-* Signalez le mail frauduleux sur [https://www.signal-spam.fr/](https://www.signal-spam.fr) ;
+* Signalez le mail frauduleux sur [https://www.signal-spam.fr/](https://www.signal-spam.fr/) ;
 * Rendez-vous sur le site officiel depuis votre navigateur web, pour vérifier la fiabilité du contenu (Exemple : facture impayée).
 {% endhint %}
 
@@ -58,7 +58,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
 
 * Changez votre mot de passe (12 caractères minimum) ;
 * Vérifiez que le mot de passe donné à l'arnaqueur ne soit pas utilisé pour d'autres services (mail, réseau social, assurances, etc.. ) ;
-* Signalez le mail frauduleux sur [https://www.signal-spam.fr/](https://www.signal-spam.fr)
+* Signalez le mail frauduleux sur [https://www.signal-spam.fr/](https://www.signal-spam.fr/)
 {% endhint %}
 
 ### Penser à **:**
@@ -68,7 +68,7 @@ Lorsque vous faites face à une situation douteuse, plusieurs méthodes s’offr
 * Si vous avez la possibilité d'activer l'authentification à deux facteurs, faites-le cela permet d'avoir un code temporaire à chaque connexion, comme ça l'attaquant qui possède votre identifiant et mot de passe ne pourra jamais ce que connecter sans le code complémentaire ;
 * Maintenez vos programmes à jour ;
 * Possédez un outil pour scanner les fichiers ;
-* Si vous avez besoin d'une assistance : [https://www.cybermalveillance.gouv.fr/](https://www.cybermalveillance.gouv.fr) ou notre Discord ;
+* Si vous avez besoin d'une assistance : [https://www.cybermalveillance.gouv.fr/](https://www.cybermalveillance.gouv.fr/) ou notre Discord ;
 
 Temps estimé pour déchiffrer votre mot de passe en 2021 :
 

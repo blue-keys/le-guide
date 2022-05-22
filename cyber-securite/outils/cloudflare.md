@@ -1,8 +1,8 @@
 # 🇬🇧 Bypassing Cloudflare WAF with the origin server IP address | Detectify Blog
 
-**This is a guest blog post from** [**Detectify Crowdsource**](https://cs.detectify.com) **hacker, Gwendal Le Coguic. This is a tutorial on how to bypass Cloudflare WAF with the origin server IP address.**
+**This is a guest blog post from** [**Detectify Crowdsource**](https://cs.detectify.com/) **hacker, Gwendal Le Coguic. This is a tutorial on how to bypass Cloudflare WAF with the origin server IP address.**
 
-[_Detectify_](https://detectify.com) _collaborates with trusted ethical hackers to crowdsource vulnerability research that powers our cutting-edge web application security scanner. The Crowdsource community of hackers help us keep our ears to the ground in the security community to bring us details on active exploits in the wild._
+[_Detectify_](https://detectify.com/?utm\_source=blog\&utm\_campaign=Gwendal\_Cloudflare) _collaborates with trusted ethical hackers to crowdsource vulnerability research that powers our cutting-edge web application security scanner. The Crowdsource community of hackers help us keep our ears to the ground in the security community to bring us details on active exploits in the wild._
 
 [![](https://blog.detectify.com/wp-content/uploads/2019/07/Guest-Blog-Gwendal2-1024x683.png)](http://blog.detectify.com/wp-content/uploads/2019/07/Guest-Blog-Gwendal2.png)
 
@@ -32,7 +32,7 @@ In this in this article, I’m going to focus on the last option and how to achi
 
 ## But first, Recon! <a href="#recon-recon-recon" id="recon-recon-recon"></a>
 
-The idea is to start your normal recon process and grab as many IP addresses as you can (host, nslookup, whois, [ranges](https://bgp.he.net)…), then check which of those servers have a web server enabled (netcat, nmap, masscan). Once you have a list of web server IP, the next step is to check if the protected domain is configured on one of them as a [virtual host](https://httpd.apache.org/docs/2.4/en/vhosts/examples.html). If not, you’ll get the default server page or the default website configured. If yes then you found the entry point! Using Burp:
+The idea is to start your normal recon process and grab as many IP addresses as you can (host, nslookup, whois, [ranges](https://bgp.he.net/)…), then check which of those servers have a web server enabled (netcat, nmap, masscan). Once you have a list of web server IP, the next step is to check if the protected domain is configured on one of them as a [virtual host](https://httpd.apache.org/docs/2.4/en/vhosts/examples.html). If not, you’ll get the default server page or the default website configured. If yes then you found the entry point! Using Burp:
 
 **This show the subdomain I’m looking for but with the wrong IP address:**\
 &#x20;[![](https://blog.detectify.com/wp-content/uploads/2019/07/cloudflare-bs-wrong-ip.jpg)](http://blog.detectify.com/wp-content/uploads/2019/07/cloudflare-bs-wrong-ip.jpg)
@@ -129,6 +129,6 @@ Note, that none of these methods are 100% reliable as all targets are different 
 **** Bug Bounty Hunter
 
 **Twitter:** [@gwendallecoguic](https://twitter.com/gwendallecoguic)\
-&#x20;**Blog:** [http://10degres.net](http://10degres.net)
+&#x20;**Blog:** [http://10degres.net](http://10degres.net/)
 
-**Detectify collaborates with 150 handpicked white hat hackers like Gwendal Le Conguic to** [**crowdsource**](https://cs.detectify.com) **vulnerability research for our automated web application scanner. Check the security status of your websites using our test bed of 1500+ known vulnerabilities.** [**Sign up for Detectify and start your free 14-day trial today!**](https://detectify.com/createaccount)
+**Detectify collaborates with 150 handpicked white hat hackers like Gwendal Le Conguic to** [**crowdsource**](https://cs.detectify.com/?utm\_source=blog\&utm\_campaign=Gwendal\_Cloudflare) **vulnerability research for our automated web application scanner. Check the security status of your websites using our test bed of 1500+ known vulnerabilities.** [**Sign up for Detectify and start your free 14-day trial today!**](https://detectify.com/createaccount?utm\_source=blog\&utm\_campaign=Gwendal\_Cloudflare)

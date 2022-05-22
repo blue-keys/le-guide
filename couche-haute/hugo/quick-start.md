@@ -16,7 +16,7 @@ The above will create a new Hugo site in a folder named `quickstart`.
 
 ## Step 3: Add a Theme  <a href="#step-3-add-a-theme" id="step-3-add-a-theme"></a>
 
-See [themes.gohugo.io](https://themes.gohugo.io) for a list of themes to consider. This quickstart uses the beautiful [Ananke theme](https://themes.gohugo.io/gohugo-theme-ananke/).
+See [themes.gohugo.io](https://themes.gohugo.io/) for a list of themes to consider. This quickstart uses the beautiful [Ananke theme](https://themes.gohugo.io/gohugo-theme-ananke/).
 
 First, download the theme from GitHub and add it to your site’s `themes` directory:
 
@@ -85,7 +85,7 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
 
-**Navigate to your new site at** [**http://localhost:1313/**](http://localhost:1313)**.**
+**Navigate to your new site at** [**http://localhost:1313/**](http://localhost:1313/)**.**
 
 Feel free to edit or add new content and simply refresh in browser to see changes quickly (You might need to force refresh in webbrowser, something like Ctrl-R usually works).
 

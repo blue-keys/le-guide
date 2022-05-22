@@ -44,9 +44,9 @@ Voilà ! Notre Burp Proxy est configuré. Maintenant si vous lancez une requête
 
 [![pgn.6](https://user-images.githubusercontent.com/38256925/71327322-618f4700-2507-11ea-845a-89fae0096a48.png)](https://user-images.githubusercontent.com/38256925/71327322-618f4700-2507-11ea-845a-89fae0096a48.png)
 
-Oh wait ! On ne pourra pas se rendre sur des sites en HTTPS à cause des règles HSTS ! Eh oui, nous essayons de contacter le site [http://www.facebook.com](http://www.facebook.com) mais le certificat que nous recevons est celui de Burpsuite donc notre navigateur bloque la connexion!
+Oh wait ! On ne pourra pas se rendre sur des sites en HTTPS à cause des règles HSTS ! Eh oui, nous essayons de contacter le site [http://www.facebook.com](http://www.facebook.com/) mais le certificat que nous recevons est celui de Burpsuite donc notre navigateur bloque la connexion!
 
-Pour régler ce problème on va devoir télécharger le certificat d’autorité de Burp et l’installer dans Firefox. Pour cela rendez vous [ici](http://burp) en ayant le proxy activé. Puis cliquez sur CA Certificate et téléchargez le certificat.
+Pour régler ce problème on va devoir télécharger le certificat d’autorité de Burp et l’installer dans Firefox. Pour cela rendez vous [ici](http://burp/) en ayant le proxy activé. Puis cliquez sur CA Certificate et téléchargez le certificat.
 
 Maintenant rendez vous dans l’onglet « Avancées » puis « Certificats » dans les paramètres Firefox. Cliquez sur «**Voir les certificats**». Un onglet va s’ouvrir, allez dans «**Autorités**»:
 
@@ -118,7 +118,7 @@ Je ne vais pas vous expliquer comment il fonctionne, je pense que c’est assez 
 
 [![alt tag](https://user-images.githubusercontent.com/38256925/70809308-d05ef880-1dc1-11ea-9244-3355f0e741d9.jpg)](https://user-images.githubusercontent.com/38256925/70809308-d05ef880-1dc1-11ea-9244-3355f0e741d9.jpg)
 
-[Burp Suite](https://fr.wikipedia.org/wiki/Burp\_suite) de [Portswigger](https://portswigger.net) est l'un de mes outils préférés à utiliser lors de l'exécution d'un test de pénétration Web. Ce qui suit est un tutoriel Burp Suite étape par étape. Je vais vous montrer comment configurer et utiliser correctement de nombreuses fonctionnalités de Burp Suite. Après avoir lu ceci, vous devriez pouvoir effectuer un test de pénétration Web approfondi. Ce sera le premier d'une série d'articles en deux parties.
+[Burp Suite](https://fr.wikipedia.org/wiki/Burp\_suite) de [Portswigger](https://portswigger.net/) est l'un de mes outils préférés à utiliser lors de l'exécution d'un test de pénétration Web. Ce qui suit est un tutoriel Burp Suite étape par étape. Je vais vous montrer comment configurer et utiliser correctement de nombreuses fonctionnalités de Burp Suite. Après avoir lu ceci, vous devriez pouvoir effectuer un test de pénétration Web approfondi. Ce sera le premier d'une série d'articles en deux parties.
 
 ### Sommaire
 
@@ -153,7 +153,7 @@ Accédez à l'onglet Options situé à l'extrême droite du menu supérieur dans
 
 [![alt tag](https://user-images.githubusercontent.com/38256925/70810526-3a789d00-1dc4-11ea-8ff3-ddb33a571135.png)](https://user-images.githubusercontent.com/38256925/70810526-3a789d00-1dc4-11ea-8ff3-ddb33a571135.png)
 
-Désormais, Burp Suite est configuré pour acheminer le trafic via votre tunnel SSH sortant. Configurez les paramètres proxy de votre navigateur pour utiliser Burp Suite. Accédez à [www.whatismyip.com](https://www.whatismyip.com) et assurez-vous que votre adresse IP provient de votre environnement de test.
+Désormais, Burp Suite est configuré pour acheminer le trafic via votre tunnel SSH sortant. Configurez les paramètres proxy de votre navigateur pour utiliser Burp Suite. Accédez à [www.whatismyip.com](https://www.whatismyip.com/) et assurez-vous que votre adresse IP provient de votre environnement de test.
 
 **Conseil:** J'utilise un navigateur séparé pour les tests d'applications Web. Cela garantit que je ne transmets accidentellement aucune donnée personnelle à l'un des sites de mes clients, comme le mot de passe de mon compte gmail par exemple.
 
@@ -185,7 +185,7 @@ Si vous tombez sur des formulaires de saisie, assurez-vous de faire quelques tes
 
 Maintenant que vous avez une bonne idée du fonctionnement de votre application cible, il est temps de commencer à analyser certains GETs et publications. Cependant, avant de faire des tests avec Burp Suite, il est judicieux de définir correctement votre portée cible. Cela garantira que vous n'envoyez pas de trafic potentiellement malveillant vers des sites Web que vous n'êtes pas autorisé à tester.
 
-**Conseil:** Je suis autorisé à tester [www.pentestgeek.com](https://www.pentestgeek.com) Tu ne l'es pas.
+**Conseil:** Je suis autorisé à tester [www.pentestgeek.com](https://www.pentestgeek.com/) Tu ne l'es pas.
 
 Rendez-vous sur l'onglet `Target` puis sur le sous-onglet `Site map`. Sélectionnez votre site Web cible dans le volet d'affichage de gauche. Faites un clic droit et choisissez `Add to scope`. Sélectionnez ensuite tous les autres sites dans le volet d'affichage, cliquez avec le bouton droit et sélectionnez Supprimer de la portée. Si vous l'avez fait correctement, votre onglet de portée Burp Suite devrait ressembler à l'image ci-dessous.
 

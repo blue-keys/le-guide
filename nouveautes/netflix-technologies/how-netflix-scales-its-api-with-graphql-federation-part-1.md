@@ -140,7 +140,7 @@ Our Studio Ecosystem architecture has evolved in distinct phases, all motivated 
 
 Over the past year we’ve implemented the federated API architecture components in our Studio Edge. Getting here required rapid iteration, lots of cross-functional collaborations, a few pivots, and ongoing investment. We’re live with 70 DGSes and hundreds of developers contributing to and using the Studio Edge architecture. In our next Netflix Tech Blog post, we’ll share what we learned along the way, including the cross-cutting concerns necessary to build a holistic solution.
 
-We want to thank the entire GraphQL open-source community for all the generous contributions and paving the path towards the promise of GraphQL. If you’d like to be a part of solving complex and interesting problems like this at Netflix scale, check out [our jobs page](https://jobs.netflix.com) or reach out to us directly.
+We want to thank the entire GraphQL open-source community for all the generous contributions and paving the path towards the promise of GraphQL. If you’d like to be a part of solving complex and interesting problems like this at Netflix scale, check out [our jobs page](https://jobs.netflix.com/) or reach out to us directly.
 
 _By_ [_Tejas Shikhare_](https://www.linkedin.com/in/tejas-shikhare-81027b19/)
 

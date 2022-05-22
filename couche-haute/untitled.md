@@ -29,7 +29,7 @@ The easiest way to install Deno is to use the `deno_install` scripts. You can do
 
 `curl -fsSL https://deno.land/x/install/install.sh | sh`
 
-Windows users can leverage [Chocolatey](https://chocolatey.org):
+Windows users can leverage [Chocolatey](https://chocolatey.org/):
 
 `choco install deno`
 
@@ -122,7 +122,7 @@ for await (const server_request of server) {
 
 1. Run the code from the terminal.\
    &#x20;`deno run --allow-net server.js`
-2. Open your favorite browser and visit [http://localhost:5000/](http://localhost:5000)
+2. Open your favorite browser and visit [http://localhost:5000/](http://localhost:5000/)
 
 In this example,  `--allow-net` provides network access permission to our program, otherwise Deno will throw a `PermissionDenied` error. This example:
 
@@ -279,7 +279,7 @@ console.log(await Deno.readTextFile('./sample1.txt'));
 
 ## Formatting Code
 
-Unlike Node.js which uses formatter libraries like [Prettier](https://prettier.io),  Deno includes an automatic formatter with the `deno fmt` command.
+Unlike Node.js which uses formatter libraries like [Prettier](https://prettier.io/),  Deno includes an automatic formatter with the `deno fmt` command.
 
 #### To format all JS/TS files in the current directory including nested directories
 

@@ -1,6 +1,6 @@
 # Comment installer et utiliser Docker sur Ubuntu 20.04 | DigitalOcean
 
-[Docker](https://www.docker.com) est une application qui simplifie le processus de gestion des processus d'application dans les _conteneurs_. Les conteneurs vous permettent d'exécuter vos applications dans des processus isolés des ressources. Ils sont similaires aux machines virtuelles, mais les conteneurs sont plus portables, plus respectueux des ressources et plus dépendants du système d'exploitation hôte.
+[Docker](https://www.docker.com/) est une application qui simplifie le processus de gestion des processus d'application dans les _conteneurs_. Les conteneurs vous permettent d'exécuter vos applications dans des processus isolés des ressources. Ils sont similaires aux machines virtuelles, mais les conteneurs sont plus portables, plus respectueux des ressources et plus dépendants du système d'exploitation hôte.
 
 Pour une introduction détaillée aux différents composants d'un conteneur Docker, consultez [l'Écosystème Docker : Une introduction aux composants communs](https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components).
 
@@ -11,7 +11,7 @@ Dans ce tutoriel, vous allez installer et utiliser Docker Community Edition (CE)
 Pour suivre ce tutoriel, vous aurez besoin des éléments suivants :
 
 * Un serveur Ubuntu 20.04 configuré en suivant [le guide de configuration initiale de serveur Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20.04), comprenant un utilisateur non root avec privilèges sudo et un pare-feu.
-* Un compte sur [Docker Hub](https://hub.docker.com) si vous souhaitez créer vos propres images et les pousser vers Docker Hub, comme indiqué dans les Étapes 7 et 8.
+* Un compte sur [Docker Hub](https://hub.docker.com/) si vous souhaitez créer vos propres images et les pousser vers Docker Hub, comme indiqué dans les Étapes 7 et 8.
 
 ## Étape 1 — Installation de Docker <a href="#etape-1-installation-de-docker" id="etape-1-installation-de-docker"></a>
 
@@ -216,7 +216,7 @@ Examinons certaines de ces commandes. Nous allons commencer par travailler avec 
 
 ## Étape 4 — Travailler avec des images Docker <a href="#etape-4-travailler-avec-des-images-docker" id="etape-4-travailler-avec-des-images-docker"></a>
 
-Les conteneurs Docker sont construits à partir d'images Docker. Par défaut, Docker tire ces images de [Docker Hub](https://hub.docker.com), un registre Docker géré par Docker, l'entreprise à l'origine du projet Docker. Tout le monde peut héberger ses images Docker sur Docker Hub, de sorte que la plupart des applications et des distributions Linux dont vous aurez besoin y auront des images hébergées.
+Les conteneurs Docker sont construits à partir d'images Docker. Par défaut, Docker tire ces images de [Docker Hub](https://hub.docker.com/), un registre Docker géré par Docker, l'entreprise à l'origine du projet Docker. Tout le monde peut héberger ses images Docker sur Docker Hub, de sorte que la plupart des applications et des distributions Linux dont vous aurez besoin y auront des images hébergées.
 
 Pour vérifier si vous pouvez accéder et télécharger des images de Docker Hub, tapez :
 

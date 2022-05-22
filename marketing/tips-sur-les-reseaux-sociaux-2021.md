@@ -30,7 +30,7 @@ Etude des reseaux sociaux top 100 Ecommerce
 
 ## Pinterest
 
-![](<../.gitbook/assets/1614240915351 (1) (1) (1).jpeg>)
+![](<../.gitbook/assets/1614240915351 (1) (1).jpeg>)
 
 ## Snapchat
 

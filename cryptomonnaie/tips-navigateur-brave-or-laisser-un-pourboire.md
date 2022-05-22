@@ -12,7 +12,7 @@ Il existe des créateurs officiel de Brave que vous connaissez surement comme Up
 
 ![](../.gitbook/assets/capture-decran-du-2021-02-14-07-02-17.png)
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 ## Le tutoriel vidéo
 
@@ -29,12 +29,12 @@ Le Web est rempli de contenu de qualité sous forme de sites Web, de blogs, de m
 
 Si vous êtes nouvel utilisateur il faut attendre 1 mois pour cumuler des BAT
 
-Lorsque vous laissez un pourboire à un créateur de contenu vérifié, votre pourboire est instantanément envoyé au compte Brave Rewards de ce créateur. Si vous laissez un pourboire à un créateur n’étant pas encore passé par la procédure de vérification, votre pourboire sera conservé localement au sein de votre navigateur jusqu’à ce que ce créateur passe la procédure de vérification à l’adresse [creators.brave.com](https://creators.brave.com). Si ce créateur complète la procédure de vérification sous 90 jours, votre pourboire sera transféré. Dans le cas contraire, le pourboire sera renvoyé vers votre porte-monnaie Brave Rewards.
+Lorsque vous laissez un pourboire à un créateur de contenu vérifié, votre pourboire est instantanément envoyé au compte Brave Rewards de ce créateur. Si vous laissez un pourboire à un créateur n’étant pas encore passé par la procédure de vérification, votre pourboire sera conservé localement au sein de votre navigateur jusqu’à ce que ce créateur passe la procédure de vérification à l’adresse [creators.brave.com](https://creators.brave.com/). Si ce créateur complète la procédure de vérification sous 90 jours, votre pourboire sera transféré. Dans le cas contraire, le pourboire sera renvoyé vers votre porte-monnaie Brave Rewards.
 {% endhint %}
 
 #### Récompensez directement les utilisateurs de Twitter pour les tweets que vous appréciez
 
-Lorsque vous consultez Twitter au sein du navigateur Brave pour ordinateur, vous pouvez voir un bouton spécial de pourboire pour chaque tweet. Appuyez sur un bouton de pourboire pour envoyer directement un pourboire à l’auteur du tweet. Pour ceux étant passés par la procédure de vérification à travers [creators.brave.com](https://creators.brave.com), les pourboires sont immédiatement envoyés et apparaîtront dans leur compte Brave Rewards sous quelques minutes.
+Lorsque vous consultez Twitter au sein du navigateur Brave pour ordinateur, vous pouvez voir un bouton spécial de pourboire pour chaque tweet. Appuyez sur un bouton de pourboire pour envoyer directement un pourboire à l’auteur du tweet. Pour ceux étant passés par la procédure de vérification à travers [creators.brave.com](https://creators.brave.com/), les pourboires sont immédiatement envoyés et apparaîtront dans leur compte Brave Rewards sous quelques minutes.
 
 #### Laissez des pourboires à vos créateurs favoris sur Youtube lorsque vous regardez leurs vidéos
 
