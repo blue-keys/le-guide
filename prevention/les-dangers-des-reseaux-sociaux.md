@@ -20,7 +20,7 @@ Un réseau social est une plateforme web (voir logiciel web) et/ou une applicati
 
 D’après, un sondage de [Satista ](https://fr.statista.com/statistiques/570930/reseaux-sociaux-mondiaux-classes-par-nombre-d-utilisateurs/)datant de 2022, les 5 réseaux sociaux les plus utilisées dans le monde sont :&#x20;
 
-![Classement des réseaux sociaux les plus populaires dans le monde en janvier 2022, selon le nombre d'utilisateurs actifs(en millions)](<../.gitbook/assets/image (10) (1).png>)
+![Classement des réseaux sociaux les plus populaires dans le monde en janvier 2022, selon le nombre d'utilisateurs actifs(en millions)](<../.gitbook/assets/image (10) (1) (1).png>)
 
 ### **3. Les dangers des réseaux sociaux**
 
