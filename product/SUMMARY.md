@@ -199,5 +199,4 @@
   * [💻 Beau de l'aire](../nos-soutiens/beau-de-laire.md)
   * [Toshi](../nos-soutiens/toshi.md)
   * [🛡️ FCC (French Communuty Cybersecurity)](../nos-soutiens/fcc-french-communuty-cybersecurity.md)
-  * [🛡️ TheBlackSide](../nos-soutiens/theblackside.md)
   * [🛡️Sharpforce](../nos-soutiens/sharpforce.md)
