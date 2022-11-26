@@ -18,7 +18,7 @@ Orienter et accompagner les usagers pour ne plus être seul derrière les écran
 {% endhint %}
 
 {% hint style="success" %}
-Chaque équipement donné par NumITe est inscrit dans notre pôle de recyclage numérique pour en faire une seconde vie et l'offrir :gift:
+Chaque équipement donné par NumITe s'inscrit dans notre pôle de recyclage numérique pour en faire une seconde vie et l'offrir :gift:
 {% endhint %}
 {% endtab %}
 
