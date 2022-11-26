@@ -13,13 +13,11 @@ layout: landing
 
 
 
-Pour une meilleure compréhension des informations et comportements à risques numériques, des solutions appropriées sont proposées. Elle dispose d'outils et de services numériques pour ses adhérents et partenaires.
+Pour une meilleure compréhension des informations et comportements à risques numériques, des solutions appropriées sont proposées.
 {% endtab %}
 
 {% tab title="💡Pourquoi un guide ?" %}
-Le présent guide est réalisé pour donner plusieurs orientations suivant un contexte avec certaines ressources, afin d'apporter une information sur des questions auxquelles nous répondons souvent depuis 6 mois en 2020 sur nos différents réseaux.Certains articles proviennent de nos membres, des communautés identifiées voir des ressources proposées par plusieurs personnes, même quelquefois par des plateformes connues telles que le blog de Netflix, infoQ, Digitalocean, Medium...
-
-Nous nous efforçons de respecter un maximum les licences de chaque article, projet, avant de mettre à jour le guide.
+Le présent guide est réalisé pour donner plusieurs orientations suivant un contexte avec certaines ressources, afin d'apporter une information sur des questions auxquelles nous répondons souvent depuis 6 mois en 2020 sur nos différents réseaux.
 
 
 
@@ -56,20 +54,8 @@ En 2022, vers une croissance pour définir ce qu'est l'artisanat numérique en g
 {% endtab %}
 {% endtabs %}
 
-### **Nous contacter**
+|                  📲                  |                          ✍🏻                          |                               📍                               |
+| :----------------------------------: | :---------------------------------------------------: | :------------------------------------------------------------: |
+| ​[06.22.68.54.68](tel:+33622685468)​ | [contact@bluekeys.org](mailto:contact@bluekeys.org/)​ | ​[Itinéraire à NumITe](https://goo.gl/maps/ryMQLRyaXSMdNDAz9)​ |
 
-{% embed url="https://invitation.olvid.io/#AwAAAHMAAAAAWmh0dHBzOi8vc2VydmVyLm9sdmlkLmlvAACCUiC6yd3yIXjFmDYScLOXD_mOxYywod8FIcwzQ8Yn0AF73KTLEjQKI9k6qQGr8niajg7x9qXp4lufLq8bSq_2KAAAAAAPTMOpbyAoQmx1ZWtleXMp" %}
-**Messagerie sécurisé qui remplace (Discord, Whatsapp, Signal, Telegram ...)**
-{% endembed %}
-
-{% embed url="https://suggestion.bluekeys.org/leguide" %}
-Vous pouvez laisser une suggestion
-{% endembed %}
-
-{% embed url="https://github.com/blue-keys" %}
-Dépôt des différents projets open source, d'autres arriverons en 2022
-{% endembed %}
-
-{% embed url="https://www.linkedin.com/company/bluekeys" %}
-Pour les demandes de stages et plus
-{% endembed %}
+\
