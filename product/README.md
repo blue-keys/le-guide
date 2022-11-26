@@ -64,10 +64,6 @@ En 2022, vers une croissance pour définir ce qu'est l'artisanat numérique en g
 {% endtab %}
 {% endtabs %}
 
-
-
-|                  📲                  |                          ✍🏻                          |                                📍                               |
-| :----------------------------------: | :---------------------------------------------------: | :-------------------------------------------------------------: |
-| ​[06.22.68.54.68](tel:+33622685468)​ | [contact@bluekeys.org](mailto:contact@bluekeys.org/)​ | [​Itinéraire à Bluekeys](https://goo.gl/maps/3H7ADWbLeALJK8jU7) |
-
-\
+|                  📲                  |                          ✍🏻                         |                                📍                               |
+| :----------------------------------: | :--------------------------------------------------: | :-------------------------------------------------------------: |
+| ​[06.22.68.54.68](tel:+33622685468)​ | [contact@bluekeys.org](mailto:contact@bluekeys.org)​ | [​Itinéraire à Bluekeys](https://goo.gl/maps/3H7ADWbLeALJK8jU7) |
