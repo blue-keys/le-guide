@@ -9,7 +9,7 @@ layout: landing
 
 {% tabs %}
 {% tab title="🔖 Notre histoire" %}
-**Bluekeys** est une **association** créée le 23 février 2021 en Gironde. Elle se propose d'être un pont entre les jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques, pour une meilleure compréhension des informations et comportements à risques numériques.
+**Bluekeys** est une **association** créée le 23 février 2021 en Gironde. Elle se propose d'être un pont entre les jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques, pour une meilleure compréhension des informations et comportements à risques numériques, dans la suite des solutions sont proposées.
 
 
 
