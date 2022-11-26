@@ -41,7 +41,11 @@ Tous les articles du présent guide écrits pas nos différents contributeurs (b
 {% tab title="✍🏻 Nos partenaires" %}
 <mark style="color:blue;">****</mark>[<mark style="color:blue;">**NumITe**</mark>](https://numite.fr/) à Saint-andre-de-cubzac en gironde 33, anciennement depuis 2004 Dom'Micro dans le dépannage et le service informatique aux particuliers et entreprises.\
 \
-En 2022, vers une croissance pour définir ce qu'est l'artisanat numérique en gironde correspond à de nombreux domaines, nous ne savons pas votre problématique à l'avance et nous irons ensemble vers une solution. Nous détaillerons prochainement nos pôle d'activités
+En 2022, vers une croissance pour définir ce qu'est l'artisanat numérique en gironde correspond à de nombreux domaines, nous ne savons pas votre problématique à l'avance et nous irons ensemble vers une solution. Nous détaillerons prochainement nos pôles d'activités.
+
+
+
+{% embed url="https://numite.fr" %}
 {% endtab %}
 
 {% tab title="🧡 Citations" %}
