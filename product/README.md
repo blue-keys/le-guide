@@ -14,7 +14,7 @@ layout: landing
 
 
 {% hint style="success" %}
-Orienter et accompagner les usagées pour ne plus être seul derrière les écrans soit en individuel à NumITe, à domicile et dans les établissements publics.
+Orienter et accompagner les usagers pour ne plus être seul derrière les écrans soit en individuel à NumITe, à domicile et dans les établissements publics.
 {% endhint %}
 
 {% hint style="success" %}
