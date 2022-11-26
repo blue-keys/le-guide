@@ -9,7 +9,11 @@ layout: landing
 
 {% tabs %}
 {% tab title="🔖 Notre histoire" %}
-**Bluekeys** est une **association** créée le 23 février 2021 en Gironde. Elle se propose d'être un pont entre les jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques (leurs professeurs, parents ...). Pour une meilleure compréhension des informations et comportements à risques numériques, des solutions appropriées sont proposées. Elle dispose d'outils et de services numériques pour ses adhérents et partenaires.
+**Bluekeys** est une **association** créée le 23 février 2021 en Gironde. Elle se propose d'être un pont entre les jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques (leurs professeurs, parents ...).&#x20;
+
+
+
+Pour une meilleure compréhension des informations et comportements à risques numériques, des solutions appropriées sont proposées. Elle dispose d'outils et de services numériques pour ses adhérents et partenaires.
 {% endtab %}
 
 {% tab title="💡Pourquoi un guide ?" %}
@@ -31,11 +35,9 @@ Tous les articles du présent guide écrits pas nos différents contributeurs (b
 {% endtab %}
 
 {% tab title="✍🏻 Nos partenaires" %}
-<mark style="color:blue;">****</mark>[<mark style="color:blue;">**Dom'Micro**</mark>](https://info.dommicro.fr/) **** situé à Villegouge en France depuis 2004, à l’origine dans le dépannage et le service informatique aux particuliers et entreprises. En 2022, vers une croissance B to B en infogérance à travers la gironde, l'entreprise composé de deux personnes passionnées par l’informatique, le numérique et la technologie. Mettant leurs savoir-faire au service des clients.
-
-
-
-**NovationTech** est une entreprise dans l'innovation technologique. Ils mesurent les contraintes d'un domaine X ou Y et amène une valeur ajoutée, ils offrent des solutions diminuant la pénibilité salariale. La devise est : _"L'effort qui rapporte"_.
+<mark style="color:blue;">****</mark>[<mark style="color:blue;">**NumITe**</mark>](https://numite.fr/) à Saint-andre-de-cubzac en gironde 33, anciennement depuis 2004 Dom'Micro dans le dépannage et le service informatique aux particuliers et entreprises.\
+\
+En 2022, vers une croissance pour définir ce qu'est l'artisanat numérique en gironde correspond à de nombreux domaines, nous ne savons pas votre problématique à l'avance et nous irons ensemble vers une solution. Nous détaillerons prochainement nos pôle d'activités
 {% endtab %}
 
 {% tab title="🧡 Citations" %}
