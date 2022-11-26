@@ -16,7 +16,7 @@ Pour une meilleure compréhension des informations et comportements à risques n
 
 
 {% hint style="success" %}
-Nous proposons d'orienter et accompagner les usagées peut importe le sujets.
+Nous proposons d'orienter et accompagner les usagées peut importe le sujet dans les locaux de NumITe en individuel et à distance.
 {% endhint %}
 
 {% hint style="success" %}
