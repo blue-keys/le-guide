@@ -16,7 +16,7 @@ Pour une meilleure compréhension des informations et comportements à risques n
 
 
 {% hint style="success" %}
-Nous proposons d'orienter et accompagner les usagées peut importe le sujet dans les locaux de NumITe en individuel et à distance.
+Orienter et accompagner les usagées pour ne plus être seul derrière les écrans soit en individuel à NumITe, à domicile et dans les établissements public.
 {% endhint %}
 
 {% hint style="success" %}
