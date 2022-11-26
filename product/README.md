@@ -11,9 +11,17 @@ layout: landing
 {% tab title="🔖 Notre histoire" %}
 **Bluekeys** est une **association** créée le 23 février 2021 en Gironde. Elle se propose d'être un pont entre les jeunes usagers du numérique (12-30 ans) et ceux moins familiers avec ces pratiques (leurs professeurs, parents ...).&#x20;
 
-
-
 Pour une meilleure compréhension des informations et comportements à risques numériques, des solutions appropriées sont proposées.
+
+
+
+{% hint style="success" %}
+Nous proposons d'orienter et accompagner les usagées peut importe le sujets.
+{% endhint %}
+
+{% hint style="success" %}
+Chaque équipement donné par NumITe est inscrit dans notre pôle de recyclage numérique pour en faire une seconde vie et l'offrir :gift:
+{% endhint %}
 {% endtab %}
 
 {% tab title="💡Pourquoi un guide ?" %}
@@ -53,6 +61,8 @@ En 2022, vers une croissance pour définir ce qu'est l'artisanat numérique en g
 > **Thomas Edison** 💕
 {% endtab %}
 {% endtabs %}
+
+
 
 |                  📲                  |                          ✍🏻                          |                               📍                               |
 | :----------------------------------: | :---------------------------------------------------: | :------------------------------------------------------------: |
